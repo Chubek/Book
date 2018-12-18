@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  19 DEC 2018 00:56
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  19 DEC 2018 01:41
 entering extended mode
 **./book.tex
 (book.tex
@@ -1330,33 +1330,42 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 [6]
 File: ./images/VectorSubtract.jpg Graphic file (type bmp)
 <./images/VectorSubtract.jpg>
+File: ./images/Product.png Graphic file (type bmp)
+<./images/Product.png>
+ [7]
+File: ./images/Polar.png Graphic file (type bmp)
+<./images/Polar.png>
 
 
 Class memoir Warning: The material used in the headers is too large
 (18.61644pt) for the given head height (17.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 221.
+(in both cases you will find help in the memoir manual). on input line 248.
 
-[7]
+
+Overfull \vbox (1.11644pt too high) has occurred while \output is active []
+
+
+[8]
 \tf@toc=\write5
 \openout5 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
  (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 248.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: 6A68056A5F6658B013FD561B88072934.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
  ) 
 Here is how much of TeX's memory you used:
- 26204 strings out of 427796
- 468808 string characters out of 3151768
+ 26224 strings out of 427796
+ 469128 string characters out of 3151768
  641484 words of memory out of 3000000
- 29943 multiletter control sequences out of 15000+200000
+ 29961 multiletter control sequences out of 15000+200000
  540078 words of font info for 91 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  51i,11n,69p,1231b,1021s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.pdf (13 pages).
+Output written on book.pdf (14 pages).
