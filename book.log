@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  18 DEC 2018 11:50
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  18 DEC 2018 21:12
 entering extended mode
 **./book.tex
 (book.tex
@@ -1112,6 +1112,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 46.
  [3] [4
 
 ]
@@ -1276,12 +1282,12 @@ Package rerunfilecheck Info: File `book.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
- 25504 strings out of 427796
- 460344 string characters out of 3151768
+ 25574 strings out of 427796
+ 461448 string characters out of 3151768
  630511 words of memory out of 3000000
- 29282 multiletter control sequences out of 15000+200000
- 535734 words of font info for 71 fonts, out of 3000000 for 9000
+ 29342 multiletter control sequences out of 15000+200000
+ 538505 words of font info for 84 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 51i,11n,69p,1231b,998s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,10n,69p,1231b,1008s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on book.pdf (11 pages).
