@@ -1,6 +1,7 @@
 \documentclass[14pt,a4paper]{memoir}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{amsmath}
 \usepackage{hyperref}
 \graphicspath{ {./images/} }
 \usepackage{xepersian}
@@ -155,7 +156,22 @@
 	 	\includegraphics*[scale = 1]{coordinate_system}
 	 \end{center}
 	 
-	 که به آن \textbf{دستگاه مختصات دکارتی}\footnote{\lr{Carthesian Coordinate System}} میگویند. 
+	 که به آن \textbf{دستگاه مختصات دکارتی}\footnote{\lr{Carthesian Coordinate System}} میگویند. در دستگاه مختصات دکارتی، دو محور $ X $ و $ Y $ به ترتیب محور افقی و عمودی ما را تشکیل می دهند. ما مختصات یک نقطه را در پرانتز به صورت $ (X, Y) $ نشان میدهیم. همانطور که گفته شد، خطی که دو نقطه را به هم وط کند، بردار نام دارد.
+	 
+	 در جبر خطی، بردار را به صورت:
+	 
+	 \[\vec{V} = \begin{pmatrix}
+	 X \\ Y
+	 \end{pmatrix}
+	 \] 
+	 
+	 نشان داده میشود و نقطه ی اول آن، مسقط الرأس دستگاه مختصات یعنی $ (0, 0) $ میباشد. 
+	 
+	 \begin{center}
+	 	 \includegraphics[scale=0.9]{LinAlgVec}
+	 \end{center}
+	
+	به برداری که مختصات افقی، یا عمودی آن، یک باشد بردار واحد میگویند. بردار واحد افقی را $ \vec{i} $ و بردار افقی عمودی را 
 	 
 	 \section{مثلثات}\label{trig}
 	 
