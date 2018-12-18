@@ -1,6 +1,8 @@
 \documentclass[14pt,a4paper]{memoir}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{gensymb}
 \usepackage{amsmath}
 \usepackage{hyperref}
 \graphicspath{ {./images/} }
@@ -236,12 +238,46 @@
 	 \end{center}
  
  در برنامه نویسی خلاقانه، دستگاه مختصات قطبی کاربردهای زیادی دارد. اما در کامپیوتر، \textbf{پیکسلها}\footnote{در مورد پیکسلها به وفور حرف خواهم زد.} در دستگاه مختصات دکارتی قرار دارند. حلال مشکلات ما، مثلثات است.
- یک دایره ی واحد را در دستگاه مختصات دکارتی فرص کنید که شعاعش 1 میباشد:
- 
+ یک دایره ی واحد را در دستگاه مختصات  قطبی کنید که شعاعش 1 میباشد:
+  \begin{center}
+ 	\includegraphics[scale=1]{UnitCIrcle}
+ \end{center}
+
+اگر زاویه ی $   30\degree   $ را انتخاب کرده و یک مثلث قائم الزاویه دور آن بکشیم:
+
+
+	   \begin{center}
+	 	\includegraphics[scale=1]{ThirtyDegrees}
+	 \end{center}
 	 
+	 سینوس و کسینوس زاویه 30 درجه که اینجا $ \alpha $ نامیده میشود، به صورت زیر تعریف میگردد:
+	 \[ \sin \alpha = \frac{B}{A} \]
 	 
+	 و:
 	 
+	 \[ \cos \alpha = \frac{C}{A} \]
 	 
+	 همچنین تانژانت و کتانژانت به صورت زیر تعریف میشوند:
+	 
+	  \[ \tan \alpha = \frac{\sin \alpha}{\cos \alpha} \]
+	  
+	  
+	  و 
+	  \[ \cot \alpha = \frac{\cos \alpha}{\sin \alpha} \]
+	  
+	  
+	  درجه، تنها واحد اندازه گیری زاویه نیست. واحد دیگر، \textbf{رادیان}\footnote{Radians} نام دارد. یک زاویه در رادیان، بین $ 0 $ و$   2\Pi $ قرار دارد. ارزش $ \Pi $ حدود $ 3.1415926535 $ است. ما برای کار با پیکسلها، ارقام اعشار بیشتر ازین نیز نیازمندیم. برای تبدیل درجه به رادیان:
+	  \[ n\degree \times 	  \frac{\pi}{180} \]
+	  
+	  , و بالعکس:
+	  
+	  \[ n \space rad \times 	  \frac{180}{\pi} \]
+	  
+	  
+	  
+	  
+	  
+	  
 	 
 	 
 	 
