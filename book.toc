@@ -5,3 +5,5 @@
 \contentsline {section}{\numberline {2.2}بردارها}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}مثلثات}{8}{section.2.3}
 \contentsline {section}{\numberline {2.4}ماتریسها}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}قائمیت در فضای سه بعدی}{12}{section.2.5}
+\contentsline {section}{\numberline {2.6}پایان فصل ریاضی}{15}{section.2.6}
