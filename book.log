@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  19 DEC 2018 11:56
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  19 DEC 2018 23:04
 entering extended mode
 **./book.tex
 (book.tex
@@ -1054,6 +1054,113 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
+("D:\Program Files\MiKTeX 2.9\tex\latex\menukeys\menukeys.sty"
+Package: menukeys 2016/08/08 v1.5 -- A package to format menus, paths and short
+cuts
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("D:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write5
+\integerpart=\count331
+\decimalpart=\count332
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+libraryshapes.symbols.code.tex"
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
+.symbols.code.tex"
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+libraryshadows.code.tex"
+File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+libraryfadings.code.tex"
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.
+tex"
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+))) ("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("D:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("D:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+)
+\XKV@depth=\count333
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box62
+)
+\tc@llx=\dimen292
+\tc@lly=\dimen293
+\tc@urx=\dimen294
+\tc@ury=\dimen295
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-xetex.def"
+File: tc-xetex.def 2018/04/08 v2.1 Clipping driver for xetex
+))
+\adjbox@Width=\dimen296
+\adjbox@Height=\dimen297
+\adjbox@Depth=\dimen298
+\adjbox@Totalheight=\dimen299
+\adjbox@pwidth=\dimen300
+\adjbox@pheight=\dimen301
+\adjbox@pdepth=\dimen302
+\adjbox@ptotalheight=\dimen303
+
+("D:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count334
+LaTeX Info: Redefining \checkoddpage on input line 45.
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box63
+\sift@deathcycles=\count335
+\@vwid@loff=\dimen304
+\@vwid@roff=\dimen305
+))
+("D:\Program Files\MiKTeX 2.9\tex\latex\relsize\relsize.sty"
+Package: relsize 2013/03/29 ver 4.1
+)
+("D:\Program Files\MiKTeX 2.9\tex\latex\catoptions\catoptions.sty"
+\m@one=\count336
+\z@pt=\dimen306
+Package: catoptions 2014/08/29 v0.2.7h Securing catcodes and parsing options (A
+M)
+\cpt@csvdepth=\count337
+\cpt@optdepth=\count338
+\cpt@cnta=\count339
+\indrisdepth=\count340
+\cpt@foreachdepth=\count341
+\cpt@exprcnt=\count342
+)
+\c@tw@hyphen@char@num=\count343
+)
 ("D:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
@@ -1067,51 +1174,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks36
-\ex@=\dimen292
+\@emptytoks=\toks38
+\ex@=\dimen307
 ))
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen293
+\pmbraise@=\dimen308
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count331
+\inf@bad=\count344
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count332
-\leftroot@=\count333
+\uproot@=\count345
+\leftroot@=\count346
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count334
-\DOTSCASE@=\count335
+\classnum@=\count347
+\DOTSCASE@=\count348
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box62
-\strutbox@=\box63
-\big@size=\dimen294
+\Mathstrutbox@=\box64
+\strutbox@=\box65
+\big@size=\dimen309
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count336
-\c@MaxMatrixCols=\count337
+\macc@depth=\count349
+\c@MaxMatrixCols=\count350
 \dotsspace@=\muskip16
-\c@parentequation=\count338
-\dspbrk@lvl=\count339
-\tag@help=\toks37
-\row@=\count340
-\column@=\count341
-\maxfields@=\count342
-\andhelp@=\toks38
-\eqnshift@=\dimen295
-\alignsep@=\dimen296
-\tagshift@=\dimen297
-\tagwidth@=\dimen298
-\totwidth@=\dimen299
-\lineht@=\dimen300
-\@envbody=\toks39
+\c@parentequation=\count351
+\dspbrk@lvl=\count352
+\tag@help=\toks39
+\row@=\count353
+\column@=\count354
+\maxfields@=\count355
+\andhelp@=\toks40
+\eqnshift@=\dimen310
+\alignsep@=\dimen311
+\tagshift@=\dimen312
+\tagwidth@=\dimen313
+\totwidth@=\dimen314
+\lineht@=\dimen315
+\@envbody=\toks41
 \multlinegap=\skip320
 \multlinetaggap=\skip321
-\mathdisplay@stack=\toks40
+\mathdisplay@stack=\toks42
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -1151,14 +1258,14 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-\@linkdim=\dimen301
-\Hy@linkcounter=\count343
-\Hy@pagecounter=\count344
+\@linkdim=\dimen316
+\Hy@linkcounter=\count356
+\Hy@pagecounter=\count357
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count345
+\Hy@SavedSpaceFactor=\count358
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1170,17 +1277,17 @@ Package hyperref Info: Plain pages OFF on input line 4550.
 Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count346
+\c@Hy@tempcnt=\count359
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5141.
-\XeTeXLinkMargin=\dimen302
-\Fld@menulength=\count347
-\Field@Width=\dimen303
-\Fld@charsize=\dimen304
+\XeTeXLinkMargin=\dimen317
+\Fld@menulength=\count360
+\Field@Width=\dimen318
+\Fld@charsize=\dimen319
 Package hyperref Info: Hyper figures OFF on input line 6396.
 Package hyperref Info: Link nesting OFF on input line 6401.
 Package hyperref Info: Hyper index ON on input line 6404.
@@ -1190,15 +1297,15 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6421.
 Package hyperref Info: PDF/A mode OFF on input line 6426.
 LaTeX Info: Redefining \ref on input line 6466.
 LaTeX Info: Redefining \pageref on input line 6470.
-\Hy@abspage=\count348
-\c@Item=\count349
-\c@Hfootnote=\count350
+\Hy@abspage=\count361
+\c@Item=\count362
+\c@Hfootnote=\count363
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty"
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count351
-\c@Hpagenote=\count352
+\c@memhycontfloat=\count364
+\c@Hpagenote=\count365
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -1212,11 +1319,11 @@ File: puenc.def 2018/09/30 v6.88a Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box64
-\c@Hy@AnnotLevel=\count353
-\HyField@AnnotCount=\count354
-\Fld@listcount=\count355
-\c@bookmark@seq@number=\count356
+\pdfm@box=\box66
+\c@Hy@AnnotLevel=\count366
+\HyField@AnnotCount=\count367
+\Fld@listcount=\count368
+\c@bookmark@seq@number=\count369
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1234,17 +1341,17 @@ Package: fontspec 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaTeX
 ("D:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec-xetex.sty"
 Package: fontspec-xetex 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count357
-\l__fontspec_language_int=\count358
-\l__fontspec_strnum_int=\count359
-\l__fontspec_tmp_int=\count360
-\l__fontspec_em_int=\count361
-\l__fontspec_emdef_int=\count362
-\l__fontspec_strong_int=\count363
-\l__fontspec_strongdef_int=\count364
-\l__fontspec_tmpa_dim=\dimen305
-\l__fontspec_tmpb_dim=\dimen306
-\l__fontspec_tmpc_dim=\dimen307
+\l__fontspec_script_int=\count370
+\l__fontspec_language_int=\count371
+\l__fontspec_strnum_int=\count372
+\l__fontspec_tmp_int=\count373
+\l__fontspec_em_int=\count374
+\l__fontspec_emdef_int=\count375
+\l__fontspec_strong_int=\count376
+\l__fontspec_strongdef_int=\count377
+\l__fontspec_tmpa_dim=\dimen320
+\l__fontspec_tmpb_dim=\dimen321
+\l__fontspec_tmpc_dim=\dimen322
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
@@ -1264,43 +1371,43 @@ LaTeX Info: Redefining \- on input line 4034.
 ))
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\xepersian-persiancal.sty"
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count365
-\XePersian@y=\count366
-\XePersian@m=\count367
-\XePersian@d=\count368
-\XePersian@latini=\count369
-\XePersian@persiani=\count370
-\XePersian@latinii=\count371
-\XePersian@persianii=\count372
-\XePersian@latiniii=\count373
-\XePersian@persianiii=\count374
-\XePersian@latiniv=\count375
-\XePersian@persianiv=\count376
-\XePersian@latinv=\count377
-\XePersian@persianv=\count378
-\XePersian@latinvi=\count379
-\XePersian@persianvi=\count380
-\XePersian@latinvii=\count381
-\XePersian@persianvii=\count382
-\XePersian@latinviii=\count383
-\XePersian@persianviii=\count384
-\XePersian@latinix=\count385
-\XePersian@persianix=\count386
-\XePersian@latinx=\count387
-\XePersian@persianx=\count388
-\XePersian@latinxi=\count389
-\XePersian@persianxi=\count390
-\XePersian@latinxii=\count391
-\XePersian@persianxii=\count392
-\XePersian@persianxiii=\count393
-\XePersian@temp=\count394
-\XePersian@temptwo=\count395
-\XePersian@tempthree=\count396
-\XePersian@yModHundred=\count397
-\XePersian@thirtytwo=\count398
-\XePersian@dn=\count399
-\XePersian@sn=\count400
-\XePersian@mminusone=\count401
+\XePersian@i=\count378
+\XePersian@y=\count379
+\XePersian@m=\count380
+\XePersian@d=\count381
+\XePersian@latini=\count382
+\XePersian@persiani=\count383
+\XePersian@latinii=\count384
+\XePersian@persianii=\count385
+\XePersian@latiniii=\count386
+\XePersian@persianiii=\count387
+\XePersian@latiniv=\count388
+\XePersian@persianiv=\count389
+\XePersian@latinv=\count390
+\XePersian@persianv=\count391
+\XePersian@latinvi=\count392
+\XePersian@persianvi=\count393
+\XePersian@latinvii=\count394
+\XePersian@persianvii=\count395
+\XePersian@latinviii=\count396
+\XePersian@persianviii=\count397
+\XePersian@latinix=\count398
+\XePersian@persianix=\count399
+\XePersian@latinx=\count400
+\XePersian@persianx=\count401
+\XePersian@latinxi=\count402
+\XePersian@persianxi=\count403
+\XePersian@latinxii=\count404
+\XePersian@persianxii=\count405
+\XePersian@persianxiii=\count406
+\XePersian@temp=\count407
+\XePersian@temptwo=\count408
+\XePersian@tempthree=\count409
+\XePersian@yModHundred=\count410
+\XePersian@thirtytwo=\count411
+\XePersian@dn=\count412
+\XePersian@sn=\count413
+\XePersian@mminusone=\count414
 )
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\xepersian-mathsdigitspec.st
 y"
@@ -1340,46 +1447,35 @@ and LuaTeX
 )
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\biditools.sty"
 Package: biditools 2018/02/22 v1.4 Programming tools for bidi package
-\@bidi@envbody=\toks41
-\@bidi@emptytoks=\toks42
-\bidi@tempcountb=\count402
-\bidi@temptoksa=\toks43
-\bidi@temptoksb=\toks44
-\bidi@dummies=\count403
-\bidi@are@these@correct=\toks45
-\bidi@toks@lista=\toks46
-\bidi@toks@listb=\toks47
-\bidi@stack@length=\count404
-\bidi@empty@stack=\toks48
-\bidi@looprepeat@depth=\count405
+\@bidi@envbody=\toks43
+\@bidi@emptytoks=\toks44
+\bidi@tempcountb=\count415
+\bidi@temptoksa=\toks45
+\bidi@temptoksb=\toks46
+\bidi@dummies=\count416
+\bidi@are@these@correct=\toks47
+\bidi@toks@lista=\toks48
+\bidi@toks@listb=\toks49
+\bidi@stack@length=\count417
+\bidi@empty@stack=\toks50
+\bidi@looprepeat@depth=\count418
 
 
 LaTeX Warning: Command \InputIfFileExists  has changed.
                Check if current package is valid.
 
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("D:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("D:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
 )
-\XKV@depth=\count406
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
 \@bidi@copyins@=\insert252
-
-("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\latex-xetex-bidi.def"
+ ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\latex-xetex-bidi.def"
 File: latex-xetex-bidi.def 2018/09/23 v1.3.5 bidi adaptations for `latex.ltx' f
 or XeTeX engine
 \bidi@n@everypar=\toks51
-\bidi@column@check@number=\count407
+\bidi@column@check@number=\count419
 
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\footnote-xetex-bidi.def"
 File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count408
+\c@footdir@label=\count420
 \footdir@toks=\toks52
 )
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\memoir-xetex-bidi.def"
@@ -1432,12 +1528,16 @@ or XeTeX engine
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\mdframed-xetex-bidi.def"
 File: mdframed-xetex-bidi.def 2013/09/22 v0.4 bidi adaptations for mdframed pac
 kage for XeTeX engine
+)
+("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\tc-xetex-bidi.def"
+File: tc-xetex-bidi.def 2014/07/08 v0.1 bidi adaptations for Clipping driver fo
+r XeTeX engine
 ))
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\loadingorder-xetex-bidi.def"
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count409
+\bidi@digits=\count421
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -1463,9 +1563,9 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * Support: http://tug.org/mailman/listinfo/persiantex
 * 
 ****************************************************
-\xepersian@tcl=\count410
-\xepersian@ilg=\dimen308
-\xepersian@strutilg=\dimen309
+\xepersian@tcl=\count422
+\xepersian@ilg=\dimen323
+\xepersian@strutilg=\dimen324
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\loadingorder-xepersian.def"
 File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
 the last package loaded
@@ -1599,7 +1699,7 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
 text;"
 
-LaTeX Info: Redefining \latinfont on input line 13.
+LaTeX Info: Redefining \latinfont on input line 14.
 
 Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
 (fontspec)             New' with options [Mapping=tex-text,Scale=.7].
@@ -1625,47 +1725,47 @@ Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
 (book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 31.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-\c@lstlisting=\count411
-\AtBeginShipoutBox=\box65
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+\c@lstlisting=\count423
+\AtBeginShipoutBox=\box67
 
 ABD: EveryShipout initializing macros
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/XBZar(0)/m/n --> TS1/XBZar(0)/bx/n on input line 30
+(Font)                  TS1/XBZar(0)/m/n --> TS1/XBZar(0)/bx/n on input line 31
 .
-Package gensymb Info: Math companion symbols declared on input line 30.
-LaTeX Info: Redefining \degree on input line 30.
-LaTeX Info: Redefining \celsius on input line 30.
+Package gensymb Info: Math companion symbols declared on input line 31.
+LaTeX Info: Redefining \degree on input line 31.
+LaTeX Info: Redefining \celsius on input line 31.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 30.
-LaTeX Info: Redefining \ohm on input line 30.
-Package gensymb Info: Using \textohm for \ohm on input line 30.
-Package gensymb Info: Using \textmu for \micro on input line 30.
-Package hyperref Info: Link coloring OFF on input line 30.
+erthousand on input line 31.
+LaTeX Info: Redefining \ohm on input line 31.
+Package gensymb Info: Using \textohm for \ohm on input line 31.
+Package gensymb Info: Using \textmu for \micro on input line 31.
+Package hyperref Info: Link coloring OFF on input line 31.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1673,23 +1773,23 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count412
+\c@section@level=\count424
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
 
 (book.out) (book.out)
-\@outlinefile=\write5
-\openout5 = `book.out'.
+\@outlinefile=\write6
+\openout6 = `book.out'.
 
 LaTeX Font Info:    Try loading font information for TS1+XBZar(0) on input line
- 40.
-LaTeX Font Info:    No file TS1XBZar(0).fd. on input line 40.
+ 41.
+LaTeX Font Info:    No file TS1XBZar(0).fd. on input line 41.
 
 
 LaTeX Font Warning: Font shape `TS1/XBZar(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 40.
+(Font)              using `TS1/cmr/m/n' instead on input line 41.
 
 File: ./images/Cover.png Graphic file (type bmp)
 <./images/Cover.png>
@@ -1708,28 +1808,17 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ]
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/sl' in size <14.4> not available
 (Font)              Font shape `TU/XBZar(0)/m/it' tried instead on input line 4
-2.
+3.
  [2]
-Package mdframed Info: mdframed works in twoside mode on input line 48.
-Package mdframed Info: Not enough space on this page on input line 59.
+Package mdframed Info: mdframed works in twoside mode on input line 49.
+Package mdframed Info: Not enough space on this page on input line 60.
  [3] [4
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 88.
+Package mdframed Info: mdframed works in twoside mode on input line 89.
 LaTeX Font Info:    Font shape `TU/CourierNew(0)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 98.
- (book.toc [5])
-
-Class memoir Warning: The material used in the headers is too large
-(18.4093pt) for the given head height (17.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 114.
-
-
-Overfull \vbox (0.9093pt too high) has occurred while \output is active []
-
-
-[6]
+(Font)              scaled to size 10.07994pt on input line 100.
+ [5] (book.toc) [6]
 Missing character: There is no ا in font cmmi12!
 Missing character: There is no ل in font cmmi12!
 Missing character: There is no ا in font cmmi12!
@@ -1846,7 +1935,7 @@ File: ./images/coordinate_system.png Graphic file (type bmp)
 Class memoir Warning: The material used in the headers is too large
 (18.61644pt) for the given head height (17.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 182.
+(in both cases you will find help in the memoir manual). on input line 184.
 
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
@@ -1938,7 +2027,7 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [19]
-Overfull \hbox (30.7955pt too wide) in paragraph at lines 483--484
+Overfull \hbox (30.7955pt too wide) in paragraph at lines 485--486
 [][]\TU/XBZar(0)/m/n/14.4 به این صفحه بروید و پایتان را دانلود کنید: [][][]$[][
 ][][][] [] [] [] [][][] [] [][][][][][] [] [][][] [] [][][][][][][][][][]$[][][
 ] []
@@ -1959,7 +2048,7 @@ File: ./images/InstallPython_3.png Graphic file (type bmp)
 File: ./images/InstallPython_4.png Graphic file (type bmp)
 <./images/InstallPython_4.png>
 
-Overfull \hbox (27.9989pt too wide) in paragraph at lines 499--500
+Overfull \hbox (27.9989pt too wide) in paragraph at lines 501--502
  [][][][][] 
  []
 
@@ -1974,12 +2063,12 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 File: ./images/InstallPython_5.png Graphic file (type bmp)
 <./images/InstallPython_5.png>
 
-Overfull \hbox (1.99896pt too wide) in paragraph at lines 503--504
+Overfull \hbox (1.99896pt too wide) in paragraph at lines 505--506
  [][][][][] 
  []
 
 
-Overfull \hbox (32.31204pt too wide) in paragraph at lines 507--509
+Overfull \hbox (32.31204pt too wide) in paragraph at lines 509--511
 [][]\TU/TimesNewRoman(0)/m/n/14.4 Community[] \TU/XBZar(0)/m/n/14.4 را پیشنهاد 
 میکنم که کاملا مجانیست. آنرا میتوانید از [][][]$[][][][][] [] [] [] [][][] [] [
 ][][][][][][][][] []$[][][]
@@ -1988,27 +2077,33 @@ Overfull \hbox (32.31204pt too wide) in paragraph at lines 507--509
 [23]
 File: ./images/CreateNewPythonFile.png Graphic file (type bmp)
 <./images/CreateNewPythonFile.png>
-Package mdframed Info: mdframed works in twoside mode on input line 526.
-
-
-Class memoir Warning: The material used in the headers is too large
-(18.61644pt) for the given head height (17.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 545.
-
+Package mdframed Info: mdframed works in twoside mode on input line 528.
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [24]
-\tf@toc=\write6
-\openout6 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 545.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 545.
- (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 545.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 545.
+Class memoir Warning: The material used in the headers is too large
+(18.61644pt) for the given head height (17.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 569.
+
+[25]
+
+Package catoptions Warning: Undefined options 
+(catoptions)                [Family, Option, Value]: 
+(catoptions)                fontenc.sty,TU,. 
+(catoptions)                Default action already taken in each case .
+
+\tf@toc=\write7
+\openout7 = `book.toc'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 569.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 569.
+(book.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 569.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 569.
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: 97688F913144511E7CF6497F4F7E383C.
 
@@ -2017,12 +2112,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37810 strings out of 427796
- 706908 string characters out of 3151768
- 870023 words of memory out of 3000000
- 41264 multiletter control sequences out of 15000+200000
- 545232 words of font info for 110 fonts, out of 3000000 for 9000
+ 41109 strings out of 427796
+ 765038 string characters out of 3151768
+ 975232 words of memory out of 3000000
+ 44502 multiletter control sequences out of 15000+200000
+ 545272 words of font info for 115 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 73i,12n,76p,1231b,1042s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,12n,84p,1231b,1040s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.pdf (30 pages).
+Output written on book.pdf (31 pages).

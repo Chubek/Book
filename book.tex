@@ -3,6 +3,7 @@
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{graphicx}
 \usepackage{textcomp}
+\usepackage{menukeys}
 \usepackage{gensymb}
 \usepackage{amsmath}
 \usepackage{hyperref}
@@ -90,7 +91,8 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{tip}
 	 
 	 \item استفاده از فایلها: اگر فایلی لازم باشد، نام و آدرس آن در فایل زیپ دانلود شده نوشته خواهد شد.
 	 \item یو آر الها به صورت \url{https://google.com} نوشته خواهند شد.
-	 \item متن پررنگ: وقتی لازم است روی کلمه ای تاکید کنم، یا کلمه جدید است و قبلا استفاده نشده، از \textbf{متن پررنگ} استفاده خواهد کرد.
+	 \item متن پررنگ: وقتی لازم است روی کلمه ای تاکید کنم، یا کلمه جدید است و قبلا استفاده نشده، از \textbf{متن پررنگ} استفاده خواهم کرد.
+	 \item  دکمه ها به صورت آیکون تعریف شده اند. یادتان باشد که دکمه ی \keys{\shift} نشانگر دکمه ی شیفت میباشد. دکمه ی بالا \keys{$\uparrow$} میباشد.
 	 \item کد: کدهایی لازمه به صورت زیر نوشته خواهند شد.
 	 
 	 
@@ -521,7 +523,7 @@ C && D
  		\end{lstlisting}}
  	
  \end{latin}
-و $ \text{Alt+Shift+F10} $ را بزنید. در پایین صفحه، کد شما اجرا میشود.
+و \lr{\keys{\ctrl + \shift + F10}}  را بزنید. در پایین صفحه، کد شما اجرا میشود.
 \begin{tip}
 	میتوانید از محیطهای گسترش دیگر نیز استفاده کنید. مانند \lr{Beans IDE}، PyDev، SpyDer، \lr{Cloud9 IDE}و درضمن، \lr{Microsoft Visual Studio} نیز یک پکیج پایتان دارد.
 \end{tip}
@@ -550,9 +552,13 @@ C && D
 	 
 	 \begin{itemize}
 	 	\item به تکه های متنی که از الفباء تشکیل شده، \textbf{رشته} یا String میگویند. به متنی که به یک استرینگ میدهیم، \textbf{لیترال}\footnote{Literal} میگویند.
-	 	\item  به اعداد صحیح بدون اعشار \textbf{اینجر}\footnote{Integer} یا به کوتاه int میگویند.
-	 	\item 
+	 	\item  به اعداد صحیح بدون اعشار \textbf{اینتجر}\footnote{Integer} یا به کوتاه int میگویند.
+	 	\item به اعداد حقیقی با اعشار که دقت کمتری دارند، \textbf{فلوت}\footnote{Floating}
+	 	\item به اعداد حقیقی با اعشار که دقت بالاتری دارند، \textbf{دابل}\footnote{Double} میگویند.
+	 	\item از هر کلاصی می توان یک متفیر ساخت. درین صورت، نام کلاس، نوع متغیر میشود.
 	 \end{itemize}
+ 
+ اینها فقط چند نوع از متغیرهای پایتان هستند. همانطور که گفته شد، لازم نیست نوع متفیر را مشخص کنید چون پایتان، تایپ امن نیست. 
 	 
 	 
 	 
