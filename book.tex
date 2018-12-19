@@ -3,7 +3,6 @@
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{graphicx}
 \usepackage{textcomp}
-\usepackage{lipsum}
 \usepackage{gensymb}
 \usepackage{amsmath}
 \usepackage{hyperref}
@@ -11,7 +10,7 @@
 \usepackage{xepersian}
 \settextfont{XB Zar}
 \setlatintextfont{Times New Roman}
-\deflatinfont\mono[Scale=.9]{Courier New}
+\deflatinfont\mono[Scale=.7]{Courier New}
 
 
 
@@ -474,7 +473,8 @@ C && D
 	 
 	 \section{پایتان}\label{py}
 	 
-	 زبان پایتان در سال 1999 برای بار اول عرضه شد و در هنگام نوشتن این کتاب، در ورژن 3.7.1 به سر میبرد.
+	 زبان پایتان در سال 1999 برای بار اول عرضه شد و در هنگام نوشتن این کتاب، در ورژن 3.7.1 به سر میبرد. درین فصل، فقط قطره ای از دریای این زبان را آموزش میدهیم. برای آموزش بهتر زبان، به کتاب مخصوص مراجعه کنید.
+	 
 	 پایتان زبانی کاملا مدرن، قابل انعطاف، یکدست، و جذاب و ساده میباشد که برای از اتوماسیون گرفته تا بازی سازی، کاربرد دارد. 
 	 اینستراکشن های پایتان \textbf{ترجمه}\footnote{Interpret} میشوند، یعنی لازم نیست که از قبل به زبان اسمبلی یا ماشین در بیایند، بلکه، در حین اجرا به زبانهایی مثل C یا Java ترجمه میشوند و بعد خط به خط اجرا میشوند. عرضه ی اصلی پایتان که ما از آن استفاده میکنیم، از \lr{C++} استفاده میکند.
 	 
@@ -504,14 +504,55 @@ C && D
 \end{center}
 \end{enumerate}
 	 
+	 برای نوشتن کد پایتان احتیاج به یک \textbf{محیط گسترش مجتمع]}\footnote{Integrated Development Environment} دارید. من \lr{PyCharm Community} را پیشنهاد میکنم که کاملا مجانیست. آنرا میتوانید از \url{https://www.jetbrains.com/pycharm/download/#section=windows} دانلود کنید. 
+	 بعد از باز کردن پای چارم و باز کردن یک پروژه ی جدید، از طریق زیر یک فایل پایتان بسازید:
+	 
+	 \begin{center}
+	 	\includegraphics[scale=0.6]{CreateNewPythonFile}
+	 	\end{center}
+ 	
+ 	حال وقت نوشتن اولین کد ماست. بنویسید:
+ 	
+ 	
+ 	\begin{latin}
+ 	\mono{	\begin{lstlisting}
+ 		new_variable = "A Portal to the World of Python"
+ 		print(new_variable)
+ 		\end{lstlisting}}
+ 	
+ \end{latin}
+و $ \text{Alt+Shift+F10} $ را بزنید. در پایین صفحه، کد شما اجرا میشود.
+\begin{tip}
+	میتوانید از محیطهای گسترش دیگر نیز استفاده کنید. مانند \lr{Beans IDE}، PyDev، SpyDer، \lr{Cloud9 IDE}و درضمن، \lr{Microsoft Visual Studio} نیز یک پکیج پایتان دارد.
+\end{tip}
+
+
 	 
 	 
 	 
+	 \subsection{متغیرها}\label{vars}
+	 در بخش قبل، \lr{\mono\lstinline|new_variable|} یک \textbf{متغیر}\footnote{Variable} است. ممتغیرها مانند ظروفی هستند که میتوان در آنها هر چیزی ریخت. چون پایتان زبان \textbf{تایپ امن}\footnote{\lr{Type Safe}} \textit{نیست}، میتوان هر نوع دیتایی را داخل یک متغیر جا داد.
 	 
 	 
+	 	\begin{latin}
+	 		
+	 	\mono{	\begin{lstlisting}
+	 		var = "String" #string
+	 		var = 1 #integer
+	 		var = 1.0 #float
+	 		var = 1.00 #double
+	 		var = Class() #Class
+	 		
+	 		
+	 		\end{lstlisting}} \end{latin}
 	 
+	 همانطور که میبینید، متغیرهای پایتان هر نوع دیتایی را قبول میکنند، استرینگ، عدد صحیح، فلوت، دابل، و کِلس. بگذارید تمام این انواع دیتا را توضیح دهم.
 	 
-	 
+	 \begin{itemize}
+	 	\item به تکه های متنی که از الفباء تشکیل شده، \textbf{رشته} یا String میگویند. به متنی که به یک استرینگ میدهیم، \textbf{لیترال}\footnote{Literal} میگویند.
+	 	\item  به اعداد صحیح بدون اعشار \textbf{اینجر}\footnote{Integer} یا به کوتاه int میگویند.
+	 	\item 
+	 \end{itemize}
 	 
 	 
 	 

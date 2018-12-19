@@ -13,3 +13,4 @@
 \contentsline {section}{\numberline {3.3}کتابخانه ها}{20}{section.3.3}
 \contentsline {section}{\numberline {3.4}پایتان}{20}{section.3.4}
 \contentsline {subsection}{نصب پایتان}{20}{section*.3}
+\contentsline {subsection}{متغیرها}{24}{section*.4}
