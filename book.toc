@@ -10,3 +10,6 @@
 \contentsline {chapter}{\chapternumberline {3}نگاهی کوتاه به برنامه نویسی}{17}{chapter.3}
 \contentsline {section}{\numberline {3.1}برنامه نویسی فانکشنال}{17}{section.3.1}
 \contentsline {section}{\numberline {3.2}برنامه نویسی شیء گرا}{19}{section.3.2}
+\contentsline {section}{\numberline {3.3}کتابخانه ها}{20}{section.3.3}
+\contentsline {section}{\numberline {3.4}پایتان}{20}{section.3.4}
+\contentsline {subsection}{نصب پایتان}{20}{section*.3}
