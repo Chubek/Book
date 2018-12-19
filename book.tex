@@ -276,9 +276,9 @@
 	  
 	  
 	  
-	  توابع مثلثاتی توسط \textbf{هویتهای مثلثاتی}\footnote{Trigonometric Identities} به هم ربط داده میشوند. بعضی ازین هویتها عبارتند از:
+	  توابع مثلثاتی توسط \textbf{هویتهای مثلثاتی}\footnote{\lr{Trigonometric Identities}} به هم ربط داده میشوند. بعضی ازین هویتها عبارتند از:
 	  
-	  \[ {\sin \alpha}^2 + {\cos \alpha}^2 = 1 \]
+	  \[ \sin^2 \alpha + \cos^2 \alpha = 1 \]
 	  \[ \sin(-\alpha) = -\sin\alpha \]
 	  \[ \cos(-\alpha) = \cos(\alpha) \]
 	  \[ \sin(\alpha\pm\beta) = \sin\alpha\cos\beta \pm\cos\alpha sin\beta \]
@@ -289,7 +289,53 @@
 	 
 	 \section{ماتریسها}\label{matrix}
 	 
-	 به آرایه هایی از اعداد که به صورت n سطر و m ستون به نمایش در می آیند.، \textbf{ماتریس}\footnote{Matrix} میگویند. 
+	 به آرایه هایی از اعداد که به صورت n سطر و m ستون به نمایش در می آیند.، \textbf{ماتریس}\footnote{Matrix} میگویند. یک ماتریس را به این صورت نشان میدهند:
+	 \[ M_{m, n} = \begin{bmatrix}
+	  a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+	 a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+	 \vdots  & \vdots  & \ddots & \vdots  \\
+	 a_{m,1} & a_{m,2} & \cdots & a_{m,n}
+	 \end{bmatrix} \]
+	 
+	 
+	 در ساخت بازیهای کامپیوتری و برنامه نویسی خلاقانه ما بیشتر نیاز به ماتریسهای $ 2\times2 $، $ 3\times3 $  و $ 4\times 4$ داریم.
+	 
+	 جمع و تفریق ماتریسها به این صورت انجام میشود:
+	 
+	 \[ M_{m, n}\pm N_{m, n} = \begin{bmatrix}
+	 m_{1, 1} \pm n_{1, 1} && m_{1, 2} \pm n_{1, 2} && \cdots &&  m_{1, n} \pm n_{1, n} \\
+	 m_{2, 1} \pm n_{2, 1} && m_{2, 2} \pm n_{2, 2} && \cdots &&  m_{2, n} \pm n_{2, n} \\
+	 \vdots  && \vdots  && \ddots && \vdots \\
+	 m_{n, 1} \pm n_{n, 1} && m_{n, 2} \pm n_{n, 2} && \cdots &&  m_{n, n} \pm n_{n, n}
+	 	
+	 \end{bmatrix} \]
+	 
+	 ضرب ماتریسها به این روش صورت میپذیرد که، هر سطر با یک ستون. پس تا سطرها و ستونهای دو ماتریس با هم مساوی نباشند، ضرب صورت نمیپذیرد. 
+	 
+	
+	 	{\fontsize{8}{10}\selectfont  \[ M_{1, n} \times N_{m, 1} = \begin{bmatrix}
+	 		m_{1, 1} && m_{1, 2} && \cdots && m_{1, m}
+	 		\end{bmatrix} \times \begin{bmatrix}
+	 		n_{1, 1} \\
+	 		n_{2, 1} \\
+	 		\vdots \\
+	 		n_{n, 1}
+	 		\end{bmatrix} = (m_{1, 1} \times n_{1, 1}) + (m_{1, 2} \times n_{2, 1}) + \cdots + (m_{1, n} + n_{m, 1}) \]
+	 	}
+	 
+	
+
+یکی دیگر از عملیتهای ماتریسی، \textbf{دترمینان}\footnote{Determinant} است. برای احتساب دترمینان ماتریسهای بزرگتر از  $ 3\times3 $الگوریتمهای زیادی مانند \textbf{دیکامپوزیشن}\footnote{Decomposition} وجود دارد که خود آن توسط افراد مختلفی در طول سالها بهسازی گشته اند، اما راه ساده ای برای به دست آوردن دترمینان $ 2\times2 $ وجود دارد که به شرح زیر است:
+
+\[ A = \begin{bmatrix}
+A && B\\ 
+C && D
+\end{bmatrix} \]
+\[ |A| = AD - BC \]
+	 
+	 fi
+	 
+	 
 	 
 	 
 \end{document}

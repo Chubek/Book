@@ -4,3 +4,4 @@
 \contentsline {section}{\numberline {2.1}توابع}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}بردارها}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}مثلثات}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}ماتریسها}{11}{section.2.4}
