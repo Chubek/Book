@@ -99,12 +99,12 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt, backgroundcolor=y
 	 
 	\begin{latin}
 	\mono{	\begin{lstlisting}
-		for i:=maxint to 0 do
-		begin
-		{ do nothing }
-		end;
-		Write('Case insensitive ');
-		Write('Pascal keywords.');
+for i:=maxint to 0 do
+begin
+{ do nothing }
+end;
+Write('Case insensitive ');
+Write('Pascal keywords.');
 		\end{lstlisting}}
 	
 	\end{latin}
@@ -247,7 +247,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt, backgroundcolor=y
 	 \[ \vec{A} \times \vec{B} = |A||B|\sin \alpha \vec{n} \]
 	 
 	 
-	 که  $\vec{n} $ برداری واحد عمود بر دو بردار است. برای به دست آوردن $\vec{n}$ کافیست از انگستان وسط، اشاره، و شصت خود استفاده کنید. انگشت شصت شما، همواره بردار واحد عمود است، که مضربی از ضرب صلیبی دو بردار می باشد.
+	 که  $\vec{n} $ برداری \textbf{پایه}\footnote{\lr{Basis Vector}}  عمود بر دو بردار است. برای به دست آوردن $\vec{n}$ کافیست از انگستان وسط، اشاره، و شصت خود استفاده کنید. انگشت شصت شما، همواره بردار واحد عمود است، که مضربی از ضرب صلیبی دو بردار می باشد.
 	 
 	 
 	 \section{مثلثات}\label{trig}
@@ -329,15 +329,15 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt, backgroundcolor=y
 	 a_{1, 1} \pm b_{1, 1} && a_{1, 2} \pm b_{1, 2} && \cdots &&  a_{1, n} \pm b_{1, n} \\
 	 a_{2, 1} \pm b_{2, 1} && a_{2, 2} \pm b_{2, 2} && \cdots &&  a_{2, n} \pm b_{2, n} \\
 	 \vdots  && \vdots  && \ddots && \vdots \\
-	 a_{m, 1} \pm b_{n, 1} && a_{n, 2} \pm b_{n, 2} && \cdots &&  a_{m, n} \pm b_{m, n}
+	 a_{m, 1} \pm b_{n, 1} && a_{n, {\tiny }2} \pm b_{n, 2} && \cdots &&  a_{m, n} \pm b_{m, n}
 	 	
 	 \end{bmatrix} \]
 	 
 	 ضرب ماتریسها به این روش صورت میپذیرد که، هر سطر با یک ستون. پس تا سطرها و ستونهای دو ماتریس با هم مساوی نباشند، ضرب صورت نمیپذیرد. مثلا ضرب دو ماتریس $ 2\times2 $ به صورت زیر است:
 	 
 	 \[ A_{2, 2}B_{2, 2} = \begin{bmatrix}
-	 a_{1, 1}\times b_{1, 1} + a_{1, 2} \times b_{2, 1} \\
-	 	a_{2, 1} \times b_{1, 2} + a_{2, 2} \times b_{2, 2}
+	 a_{1, 1} b_{1, 1} + a_{1, 2}  b_{2, 1} && a_{1, 1} b_{2, 1} + a_{1, 2}  b_{2, 2} \\
+	 	a_{2, 1}  b_{1, 1} + a_{2, 2}  b_{2, 1} && a_{2, 1}  b_{2, 1} + a_{2, 2}  b_{2, 2}
 	 \end{bmatrix} \]
 	 
 	
@@ -377,12 +377,11 @@ C && D
 	 توجه کنید که در بعضی از نرم افزارها جای $  Y $ با $ Z $ عوض میشود.
 	 
 	یک بردار را در فضای $ R^3 $ به صورت زیر نشان میدهیم:
-	
-	\[ \vec{V} = \begin{pmatrix}
-	X\\Y\\Z
-	\end{pmatrix} \]
-	 
-	 
+\[  \vec{V} = \begin{pmatrix}
+X \\
+Y \\
+Z
+\end{pmatrix}  \]
 	 همه ی قوانین $ R^2 $ برای  $ R^3 $ برقرار است. مثلا به بردار واحد محور $ Z $، $ \vec{k} $ میگویند. غرض از این بخش، اینست که \textbf{قائمیت}\footnote{ Orthogonality} در فضای سه بعدی را معرفی کنم. زیرا برای بازیهای دو و نیم بعدی، دوربین باید قائم بر فضای $ R^3 $ باشد.
 	 
 	 
@@ -390,9 +389,7 @@ C && D
 	 	\includegraphics[scale=1]{Orthogonal}
 	 \end{center}
 	 در کل، دو بردار وقتی بر هم قائمند که حاصلضرب نقطه ای آندو، صفر باشد:
-	 \[ \vec{A} \text{قائم است بر } \vec{B} \text{اکر و تنها اگر} \vec{A}.\vec{B} = 0 \]
-	 
-	 
+	 \[ \vec{A} \text{قائم است بر } \vec{B} \text{اکر و تنها اگر} \vec{A}.\vec{B} = 0 \]  
 	 
 	 اگر فرمول ضرب نقطه ای یادتان باشد، و در اینترنت کسینوس 90 را خوانده باشید، میدانید که:
 	 
@@ -513,8 +510,8 @@ C && D
  	
  	\begin{latin}
  	\mono{	\begin{lstlisting}
- 		new_variable = "A Portal to the World of Python"
- 		print(new_variable)
+new_variable = "A Portal to the World of Python"
+print(new_variable)
  		\end{lstlisting}}
  	
  \end{latin}
@@ -534,24 +531,22 @@ C && D
 	 	\begin{latin}
 	 		
 	 	\mono{	\begin{lstlisting}
-	 		var = True #boolean
-	 		var = "String" #string
-	 		var = 1 #integer
-	 		var = 1.0 #float
-	 		var = 1.00 #double
-	 		var = Class() #Class
+var = True #boolean
+var = "String" #string
+var = 1 #integer
+var = 1.0 #float	
+var = Class() #Class
 	 		
 	 		
 	 		\end{lstlisting}} \end{latin}
 	 
-	 همانطور که میبینید، متغیرهای پایتان هر \textbf{نوع دیتایی }\footnote{دیتا تایپ} را قبول میکنند، استرینگ، عدد صحیح، فلوت، دابل، و کِلس. بگذارید تمام این انواع دیتا را توضیح دهم.
+	 همانطور که میبینید، متغیرهای پایتان هر \textbf{نوع دیتایی }\footnote{دیتا تایپ} را قبول میکنند، استرینگ، عدد صحیح، فلوت و کِلس. بگذارید تمام این انواع دیتا را توضیح دهم.
 	 
 	 \begin{itemize}
 	 	\item به متغیرهایی که دو حالت \textbf{راست}\footnote{True} و \textbf{غلط}\footnote{False} دارند، متغیر \textbf{بولی}\footnote{Boolean} میگویند.
 	 	\item به تکه های متنی که از الفباء تشکیل شده، \textbf{رشته} یا String میگویند. به متنی که به یک استرینگ میدهیم، \textbf{لیترال}\footnote{Literal} میگویند.
 	 	\item  به اعداد صحیح بدون اعشار \textbf{اینتجر}\footnote{Integer} یا به کوتاه int میگویند.
-	 	\item به اعداد حقیقی با اعشار که دقت کمتری دارند، \textbf{فلوت}\footnote{Floating}
-	 	\item به اعداد حقیقی با اعشار که دقت بالاتری دارند، \textbf{دابل}\footnote{Double} میگویند.
+	 	\item به عدد حقیق با اعشار \textbf{float}\footnote{Float} میگویند
 	 	\item از هر کلاصی می توان یک متفیر ساخت. درین صورت، نام کلاس، نوع متغیر میشود.
 	 \end{itemize}
  
@@ -566,10 +561,10 @@ C && D
 	 
 	  	\begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 		a_list = []
-	 		a_list = [1, 2, 3, 4]
-	 		a_list = ["Hello World", "Goodbye World"]
-	 		a_list = [1, 2, 3, 4, "Hello", "World"]
+a_list = []
+a_list = [1, 2, 3, 4]
+a_list = ["Hello World", "Goodbye World"]
+a_list = [1, 2, 3, 4, "Hello", "World"]
 	 		\end{lstlisting}}
 	 	
 	 	\end{latin}
@@ -577,10 +572,10 @@ C && D
 	 		یک لیست وقتی مقداردهی اولیه شد، نباید با علامت مساوی، به آن مقدار اضافه کرد. بلکه، باید از \lr{\mono\lstinline|list.append|} استفاده کرد:
 	 	\begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 		a_list = [1]
-			print(a_list)
-			a_list.append(2)
-			print(a_list)
+a_list = [1]
+print(a_list)
+a_list.append(2)
+print(a_list)
 	 		\end{lstlisting}}
 	 			
 	 	\end{latin}
@@ -588,7 +583,7 @@ C && D
  \lr{\keys{\ctrl + \shift + F10}} را بزنید تا نتیجه را ببینید.
  		در زیر چند اسلوب لیست را میخوانید.
  		\begin{itemize}
- 			\item \lr{\mono\lstinline|list.reverse|}: لیست را برعکس یا به بعارت دیگر، معکوس میکند.
+ 			\item \lr{\mono\lstinline|list.reverse|}: لیست را برعکس یا به بعیارت دیگر، معکوس میکند.
  			\item  \lr{\mono\lstinline|list.copy|} لیست را در لیست دیگر کپی میکند.
  			\item  \lr{\mono\lstinline|list.pop|} در \textbf{ایندکس}\footnote{Index - به شماره ی عضو ایندکس میگویند.} داده شده، عضو را پاک میکند.
  			\item \lr{\mono\lstinline|list.sort|} لیست را بر اساس الگوریتم \textbf{\lr{Merge Sort}} مرتب میکند.
@@ -601,8 +596,8 @@ C && D
 	 
 	 	\begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 		multi_dimensional_list = [[], [], []]
-	 		multi_dimensional_list.append([])
+multi_dimensional_list = [[], [], []]
+multi_dimensional_list.append([])
 	 		\end{lstlisting}}
 	 	
 	 \end{latin}
@@ -611,8 +606,8 @@ C && D
  
  	 	\begin{latin}
  	\mono{	\begin{lstlisting}
- 		my_list = [2, 4, 6, 8, 10]
- 		print(my_list[0])
+ my_list = [2, 4, 6, 8, 10]
+ print(my_list[0])
  		\end{lstlisting}}
  	
  \end{latin}
@@ -620,8 +615,8 @@ C && D
 
  	 	\begin{latin}
 	\mono{	\begin{lstlisting}
-		my_list = [2, 4, 6, 8, 10]
-		print(my_list[0:3])
+my_list = [2, 4, 6, 8, 10]
+print(my_list[0:3])
 		\end{lstlisting}}
 	
 \end{latin}
@@ -632,8 +627,8 @@ C && D
 	 
  	 	\begin{latin}
 	\mono{	\begin{lstlisting}
-			my_tuple = (R, G, B)
-			print(my_tupe[0:1])
+my_tuple = (R, G, B)
+print(my_tupe[0:1])
 		\end{lstlisting}}
 	
 \end{latin}
@@ -643,9 +638,9 @@ C && D
 	 
 	 \begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 	my_dict = {"Name" : "Chubak",
-	 	 "Last Name" : "Bidpaa"}
-	 	print(my_dict["Name"])
+my_dict = {"Name" : "Chubak",
+	"Last Name" : "Bidpaa"}
+print(my_dict["Name"])
 	 	\end{lstlisting}}
 	 	
 	 \end{latin}
@@ -667,14 +662,14 @@ C && D
 	 
 	 \begin{latin}
 	\mono{	\begin{lstlisting}
-		pi = 3.14
-		r = 10
-		area= pi*r*r
+pi = 3.14
+r = 10
+area= pi*r*r
 		
-		if area > 20:
-			print("The area is greater than 20.")
-		else:
-			print("The area is not greater than 20.")
+if area > 20:
+	print("The area is greater than 20.")
+else:
+	print("The area is not greater than 20.")
 		
 		\end{lstlisting}}
 	
@@ -725,14 +720,14 @@ C && D
 	 
 	 \begin{latin}
 	\mono{	\begin{lstlisting}
-	if area > 20:
-	    print("The area is bigger than 20.")
-	elif (area < 15):
-	    print("The area is less than 15")
-	elif area < 10:
-	    print("The area is less than 10")
-	else:
-	    print("The area is not bigger than 20.")
+if area > 20:
+	 print("The area is bigger than 20.")
+elif (area < 15):
+	 print("The area is less than 15")
+elif area < 10:
+	 print("The area is less than 10")
+else:
+	 print("The area is not bigger than 20.")
 	
 		
 		\end{lstlisting}}	 
@@ -761,9 +756,9 @@ C && D
 	\mono{	\begin{lstlisting}
 		i = 0
 		
-		while i < 50:
-		    print(str(i))
-		    i += 1
+while i < 50:
+	print(str(i))
+	i += 1
 		
 		\end{lstlisting}}	 
 	
@@ -783,11 +778,11 @@ C && D
 	 
 	 \begin{latin}
 	\mono{	\begin{lstlisting}
-		i = 0
+i = 0
 		
-		while i < 50 and i < 25:
-		print(str(i))
-		i += 1
+while i < 50 and i < 25:
+	print(str(i))
+	i += 1
 		
 		\end{lstlisting}}	 
 	
@@ -804,8 +799,8 @@ C && D
 	 	 
 \begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 	for i in range(n):
-	 	    print(str(i))
+for i in range(n):
+	print(str(i))
 	 		
 	 		\end{lstlisting}}	 
 	 	
@@ -822,16 +817,16 @@ C && D
 	 
 	 \begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 		one_dim_list = [1, 2, 3]
-	 		two_dim_list = [[1, 2, 3], [4, 5, 6]]
+one_dim_list = [1, 2, 3]
+two_dim_list = [[1, 2, 3], [4, 5, 6]]
 	 		
-	 		for i in one_dim_list:
-	 		     print(i)
+for i in one_dim_list:
+	  print(i)
 	 		
 	 		
-	 		for list in two_dim_list:
-	 		    for i in list:
-	 		        print(i)
+for list in two_dim_list:
+	 for i in list:
+	 print(i)
 	 		\end{lstlisting}}	 
 	 	
 	 \end{latin}
@@ -852,12 +847,12 @@ C && D
 
 		 	 \begin{latin}
 			\mono{	\begin{lstlisting}
-				n = 0
-				while True:
-				    n += 1
+n = 0
+while True:
+	n += 1
 				
-				if (n > 20):
-				    break
+	if (n > 20):
+		break;
 				\end{lstlisting}}	 
 			
 		\end{latin}
@@ -874,17 +869,17 @@ C && D
 	 
 	 \begin{latin}
 	\mono{	\begin{lstlisting}
-		def first_functions():
-	        pi = 3.14
-		    r = 10
-		    area = pi * r * r
+def first_functions():
+	pi = 3.14
+	r = 10
+	area = pi * r * r
 		
-		    print(area)
+	print(area)
 		
 		
-		def second_function(r):
-		    pi = 3.14		    
-		    area = pi * r * r
+	def second_function(r):
+	   pi = 3.14		    
+	   area = pi * r * r
 		
 		    return area
 		\end{lstlisting}}	 
@@ -905,11 +900,11 @@ C && D
 	 
 	 \begin{latin}
 	\mono{	\begin{lstlisting}
-		def factorial(n):
-		    if n == 1:
-		       return n
-		    else:
-		       return n*factorial(n - 1)
+def factorial(n):
+	if n == 1:
+		return n
+		else:
+		return n*factorial(n - 1)
 		\end{lstlisting}}	 
 	
 \end{latin}
@@ -929,7 +924,7 @@ C && D
 	 
 	 	 \begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 		f = open(filename,mode)
+f = open(filename,mode)
 	 		\end{lstlisting}}	 
 	 	
 	 \end{latin}
@@ -955,10 +950,10 @@ C && D
 	 
 	 	 	 \begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 		with open("test.txt",'w',encoding = 'utf-8') as f:
-	 		f.write("my first file\n")
-	 		f.write("This file\n\n")
-	 		f.write("contains three lines\n")
+with open("test.txt",'w',encoding = 'utf-8') as f:
+	f.write("my first file\n")
+	f.write("This file\n\n")
+	 f.write("contains three lines\n")
 	 		\end{lstlisting}}	 
 	 	
 	 \end{latin}
@@ -972,27 +967,27 @@ C && D
 
 	 	 	 	 \begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 			 class Rectangle:
-	 		        def __int__(self, color, filled, width, length):
-	 		              self.__color = color
-	 		              self.__filled = filled
-	 		              self.__width = width
-	 	                  self.__length = length
+class Rectangle:
+ 	def __int__(self, color, filled, width, length):
+		self.__color = color
+		self.__filled = filled
+		self.__width = width
+		self.__length = length
 	 		
-           	 	   def get_color(self):
-	 		             return self.__color
+	def get_color(self):
+		return self.__color
 	 		
-	 		       def set_color(self, color):
-	 		            return self.__color = color
+	def set_color(self, color):
+		return self.__color = color
 	 		 
-	 		       def is_filled(self):
-	 		            self.__filled
+	def is_filled(self):
+		self.__filled
 	 		
-	 		       def set_filled(self, filled):
-	 		           return self.__filled
+	def set_filled(self, filled):
+		return self.__filled
 	 		
-	 		      def get_area():
-	 		          return self.__width * self.__length
+	def get_area():
+		return self.__width * self.__length
 	 		\end{lstlisting}}	 
 	 	
 	 \end{latin}
@@ -1026,9 +1021,9 @@ C && D
 	 
 	 	 	 \begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 			import numpy
-	 			from numpy import class
-	 			import numpy as math
+import numpy
+from numpy import class
+import numpy as math
 	 		\end{lstlisting}}	 
 	 	
 	 \end{latin}
@@ -1050,7 +1045,10 @@ C && D
 	 
 	 کامپایرهای زیادی برای \lr{C++} وجود دارند. دو تا از بزرگترین کامپایلرها، GCC روی لینکس و \lr{Microsoft Visual C++} روی ویندوز است. البته روی ویندوز میتوان از MinGW یا Cygwin هم استفاده کرد.
 	  
-	 محیط گسترش مچتمع روی ویندوز، برای \lr{C++} زیاد است. اما ما از \lr{Microsoft Visual Studio} استفاده میکنیم. پیشنهاد نمیکنم این نرم افزار را به صورت پایریت شده از بازار بخرید، بلکه، پیشنهاد میکنم نسخه ی مجانی Community آنرا از سایت مایکروسافت دانلود کرده و آنرا نصب کنید. یادتان باشد هنگام نصب، \lr{Visual C++ Tools} را نصب کنید. وگرنه از منوی Tools میتوانید پکیج را نصب کنید. یکی از نیکوییهای ویژوال استودیو، \lr{NuGet Package Manager} است که به شما اجازه میدهد فایلهای \lr{سَری}\footnote{Headers} کتابخانه ها را دانلود کنید. اما ما خودمان فایلهای سَری را دانلود کرده و \textbf{اضافه}\footnote{Include} میکنیم. به معرفی \lr{C++} بپردازیم. چون خیلی از چیزها تکرار از بخش پایتان میباشد، این بخش بسیار کوتاه خواهد بود.
+	 محیط گسترش مچتمع روی ویندوز، برای \lr{C++} زیاد است. اما ما از \lr{Microsoft Visual Studio} استفاده میکنیم. پیشنهاد نمیکنم این نرم افزار را به صورت پایریت شده از بازار بخرید، بلکه، پیشنهاد میکنم نسخه ی مجانی Community آنرا از سایت مایکروسافت دانلود کرده و آنرا نصب کنید.
+	 
+	 \url{https://visualstudio.microsoft.com/vs/community/}
+	  یادتان باشد هنگام نصب، \lr{Visual C++ Tools} را نصب کنید. وگرنه از منوی Tools میتوانید پکیج را نصب کنید. یکی از نیکوییهای ویژوال استودیو، \lr{NuGet Package Manager} است که به شما اجازه میدهد فایلهای \lr{سَری}\footnote{Headers} کتابخانه ها را دانلود کنید. اما ما خودمان فایلهای سَری را دانلود کرده و \textbf{اضافه}\footnote{Include} میکنیم. به معرفی \lr{C++} بپردازیم. چون خیلی از چیزها تکرار از بخش پایتان میباشد، این بخش بسیار کوتاه خواهد بود.
 	  
 	 برای شروع یک پروژه ی جدید از بخش \lr{File - > New Project} یک پروژه ی \lr{Windows Console Application} بسازید. 
 	 
@@ -1064,13 +1062,13 @@ C && D
 	 
 	 	 	 	 \begin{latin}
 	 	\mono{	\begin{lstlisting}
-	 	#include "pch.h"
-	 	#include <iostream>
+#include "pch.h"
+#include <iostream>
 	 	
-	 	int main()
-	 	{
-	    	std::cout << "Hello World!\n"; 
-	 	}
+int main()
+{
+s	std::cout << "Hello World!\n"; 
+}
 	 		\end{lstlisting}}	 
 	 	
 	 \end{latin}
@@ -1088,6 +1086,99 @@ C && D
 	 \end{center}
 	 
 	 
-	 تابع معکوس 
+	 تابع معکوسِ سی-اوت، \lr{\mono\lstinline|std::cin|} $ \text{(سی-این)} $ میباشد. سی-این یک متغیر را گرفته، و به از کیبورد ارزش گرفته و به آن مقداردهی میکند.
+	 
+	 	 	 	 	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+int main()
+{
+	int variable = 0;
+	std::cin >> variable;
+	std::cout << variable << std::endl;
+}
+	 		\end{lstlisting}}
+ 	
+	 	
+	 \end{latin}
+	 
+	 
+	 کدِ بالا، توسط سی-این، یک عدد به متغیر میدهد و بعد آنرا به نمایش میگذارد.
+	 همانطور که توجه کرده اید، متغیرها در \lr{C++}، نوع دارند چون \lr{C++} زبان تایپ امن است. زیر زیر چند گونه از انواع دیتا در این زبان را مشاهده میکنید.
+	 	 	 	 \begin{latin}
+	\mono{	\begin{lstlisting}
+//integer
+unsigned int;
+signed int;
+
+unsigned short;
+signed short;
+
+unsigned long long;
+signed long long;
+
+unsigned long;
+signed long;
+
+		\end{lstlisting}}	 
+	
+\end{latin}
+	 
+	 
+	 
+	 تمام اعداد صحیح دو حالت دارند، signed و unsigned. همانطور که بر می آید، اگر یک عدد صحیح signed باشد، میتواند اعداد منقی نیست دریافت کند. اما اگر عدد صحیح unsigned باشد، بین 0 و مکسیمم اعداد صحیح پذیرفته شده توسط پراسسور کامپیوتر است. مکسیمم short، یک عدد بسیار کوچکتر از مکسیمم int بوده، و مکسیمم long و long long بسیار از مکسیمم int بیشترند. اما long و long long، با استفاده از \textbf{حقه های اتاق نشیمن}\footnote{Parlor Tricks} مکسیمم بیشتری دارند. مکسیمم واقعی اعدادی که یک کامپیوتر دریافت میکند، توسط \textbf{واحد پراسسور مرکزی}\footnote{\lr{Central Processing Unit or CPU}} تعیین میشود. مثلا یک پراسسور 32 بیتی میتواند بین -2,147,483,647 و 2,147,483,647 عدد صحیح نگه دارد که مساوی $ 2^31 $ میباشد. یک پراسسور 64 بیتی $ 2^63 $ مکسیمم عدد نگه میدارد. اما معنی 32 بیت و 64 بیت چیست؟ در بخش \ref{refpointer} خواهد خواند. در \lr{C++}، متفیر int، 32 بیتی است. اما در کتابخانه ی استاندارد، int 32 بیتی نیز یافت میشود.
+	 
+	 متغیرهایی که عدد اعشار میپذیرند، 
+	 
+	 
+	 
+	 
+	 \subsection{متغیرهای اشاره ای و مرجعی}\label{refpointer}
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 	 
 \end{document}
