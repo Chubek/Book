@@ -19,3 +19,5 @@
 \contentsline {subsection}{بیانیه های چرخشی شرطی}{30}{section*.7}
 \contentsline {subsection}{دسترسی به لیست، دیکشنری و تاپل}{31}{section*.8}
 \contentsline {subsection}{تابع در پایتان}{33}{section*.9}
+\contentsline {subsection}{فایل در پایتان}{34}{section*.10}
+\contentsline {subsection}{ماژولها و پکیجهای پایتان}{35}{section*.11}

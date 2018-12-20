@@ -909,10 +909,10 @@ C && D
 	 \begin{latin}
 	\mono{	\begin{lstlisting}
 		def factorial(n):
-		if n == 1:
-		return n
-		else:
-		return n*factorial(n - 1)
+		    if n == 1:
+		       return n
+		    else:
+		       return n*factorial(n - 1)
 		\end{lstlisting}}	 
 	
 \end{latin}
@@ -939,17 +939,66 @@ C && D
  
  فایل حتما باید در فولدر اسکریپتی که داریم مینویسم باشد. نام فایل یک استرینگ لیترال است پس باید داخل علامت نقل قول باشد. حالت باز کردن فایل بستگی به عملیاتی که میخواهیم روی فایل انجام دهیم دارد. در جدول زیر، حالات باز کردن فایلها را میبینید:
  
- \begin{table}[]
- 	\begin{tabular}{H}
- 		\hline
- 		'r' & باز کردن یک فایل متنی برای خواندن                       \\ \hline
- 		'w' & باز کردن فایل متنی برای نوشتن                           \\ \hline
- 		'x' & حالت ساخت فایل. اگر فایل وجود دارد، عملیات شکست میخورد. \\ \hline
- 		'a' & باز کردن فایل برای اضافه کردن متن به فایل.              \\ \hline
- 		't' & باز کردن در حالت متنی.                                  \\ \hline
- 		'b' & باز کردن در حالت باینری. برای هر فایلی جز فایل متنی.    \\ \hline
- 	\end{tabular}
- \end{table}
+\begin{table}[H]
+	\begin{tabular}{|l|l|}
+		\hline
+		'r' & باز کردن یک فایل متنی برای خواندن                       \\ \hline
+		'w' & باز کردن فایل متنی برای نوشتن                           \\ \hline
+		'x' & حالت ساخت فایل. اگر فایل وجود دارد، عملیات شکست میخورد. \\ \hline
+		'a' & باز کردن فایل برای اضافه کردن متن به فایل.              \\ \hline
+		't' & باز کردن در حالت متنی.                                  \\ \hline
+		'b' & باز کردن در حالت باینری. برای هر فایلی جز فایل متنی.    \\ \hline
+	\end{tabular}
+\caption{حالتهای باز کردن فایل در پایتان}
+\end{table}
+	 
+	 میتوانید با علامت بعلاوه، حالتها را با هم ترکیب کنید مثلا \lr{\mono\lstinline|open("scene.jpg", 'w+b')|}.
+	 
+	 برای بستن فایل از اسلوب \lr{\mono\lstinline|file.close()|} استفاده کنید. نوشتن روی فایلها به صورت زیر انجام میپذیرد:
+	 
+	 	 	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+	 		with open("test.txt",'w',encoding = 'utf-8') as f:
+	 		f.write("my first file\n")
+	 		f.write("This file\n\n")
+	 		f.write("contains three lines\n")
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+	 
+	 
+	 
+	 
+	 \subsection{ماژولها و پکیجهای پایتان}\label{pip}
+	 
+	 پایتان، به خاطر پکیجهایی که برایش عرضه میشود، نامدار است.
+	 پایتان بدون پکیج، یک زبان متوسط است، مانند Perl، Lua، Ada، Ruby و... اما در به خاطر پکیجهایی که برای این زبان در طول سالها عرضه شده، و سادگی نصب این پکیجها، همه برای کارهای کوجک و بزرگ  به پایتان روی می اورند.
+	 
+	 فلسفه ی نرم افزار مدیریت پکیج پایتان، یعنی pip --- «خود را تکرار نکنید»\footnote{DRY} است. برای نصب یک پکیج روی پایتان، کافیست:
+	 
+	 \begin{enumerate}
+	 	\item CMD را باز کنید.
+	 	\item بنویسید \lr{\mono\lstinline|pip install package-name|}.
+	 	\item \keys{\return} را بزنید.
+	 	\item پکیج روی سیستم شما نصب خواهد شد.
+	 	\begin{center}
+	 		\includegraphics[scale=0.8]{pip_1}
+	 	\end{center}
+	 \end{enumerate}  
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 	 
 	 
 	 
