@@ -14,3 +14,8 @@
 \contentsline {section}{\numberline {3.4}پایتان}{20}{section.3.4}
 \contentsline {subsection}{نصب پایتان}{20}{section*.3}
 \contentsline {subsection}{متغیرها}{24}{section*.4}
+\contentsline {subsection}{لیست، تاپل، دیکشنری}{26}{section*.5}
+\contentsline {subsection}{بیانیه های شرطی}{28}{section*.6}
+\contentsline {subsection}{بیانیه های چرخشی شرطی}{30}{section*.7}
+\contentsline {subsection}{دسترسی به لیست، دیکشنری و تاپل}{31}{section*.8}
+\contentsline {subsection}{تابع در پایتان}{33}{section*.9}

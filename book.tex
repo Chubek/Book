@@ -2,6 +2,7 @@
 \usepackage{listings}
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{graphicx}
+\usepackage{float}
 \usepackage{textcomp}
 \usepackage{menukeys}
 \usepackage{gensymb}
@@ -23,7 +24,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{mybox}
 
 
 \newmdenv[innerlinewidth=0.5pt, roundcorner=4pt,linecolor=mycolor,innerleftmargin=6pt,
-innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{tip}
+innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt, backgroundcolor=yellow]{tip}
 
 
 
@@ -135,10 +136,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{tip}
 	
 	قبل از هرچیزی دو چیز باید یادآوری شود: برنامه نویسی، و ریاضی. من زیاد در مورد این دو کانسپت حرف نمیزنم، چون وظیفه ی خود خواننده است که این دو را از قبل یاد داشته باشد، اما فقط در حد یادآوری، در مورد این دو حرف خواهم زد.
 	 
-	 من تازه نوشتن این کتاب را شروع کرده بودم و همین الان برای من موهبتی بوده است، چون باعث شد لِیتِک را یاد بگیرم و مطمئنم در طول کتاب، من بیشتر از شما خواهم آموخت! و آیا اینچنین نیست که همه، برای یادگیری، درس میدهند؟ هر کلمه ای که یاد میدهی، دو کلمه می آموزی. و این یک موهبت است.
-	 
-	 
-	 در آخر، در این دنیای پر هیر و گیر، اگر پَشِنی دارید که به شما آرامش میدهد، نیکوست. و اگر این کتاب برای پیدا کردن این پَشِن کمک میکند، خوشحالم.
+		 در آخر، در این دنیای پر هیر و گیر، اگر پَشِنی دارید که به شما آرامش میدهد، نیکوست. و اگر این کتاب برای پیدا کردن این پَشِن کمک میکند، خوشحالم.
 	 
 	 \begin{flushleft}
 	 	چوبک بیدپا
@@ -155,14 +153,14 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{tip}
 
 وظیفه ی یک تابع، تغییر عدد داده شده بر اساس قوانین داده شده است. به این قانون، تابع میگویید. مثلا تابع \(f(x) = x^2\) که به آن تابع مربع می گویند، وظیفه اش بردن عدد به توان دو است. به عکس تابع، تابع \textbf{معکوس}\footnote{Inverse} میگویند و به صورت زیر نشان داده میشود:
 
-\[y = f(x)^{-1}\]
+\[y = f(x)^{-1(y)}\]
 
 مثلا معکوس تابع مربع، تابع ریشه دو یعنی $ f(x) = \sqrt{x} $ میباشد. میتوان دو تابع را با هم به صورت $ f(g(x)) $ ترکیب کرد که به آن تابع مرکب میگویند. از دیگر عملیاتها عبارت است از:
 
-\[ (f + g)(x) = f(x) + g(x) \]
-\[ (f - g)(x) = f(x) - g(x) \]
-\[ (f * g)(x) = f(x) * g(x) \]
-\[ (\frac{f}{g})(x) = \frac{f(x)}{g(x)} \]
+\[  (f + g)(x) = f(x) + g(x) \]
+\[ (f - g)(x) = t f(x) - g(x) \]
+\[  (f * g)(x) =  f(x) * g(x) \]
+\[  \left(\frac{f}{g}\right)(x) =  \frac{f(x)}{g(x)} \]
 
 به تمام اعدادی که تابع میپذیرد، \textbf{دامنه}\footnote{Domain}، و تمام اعدادی که تابع خارج میکند، \textbf{برد}\footnote{Range} خوانده میشود. دامنه ی یک تابع را ما تعیین میکنیم، اما برد آن را خود تابع تعیین میکند.
 
@@ -185,7 +183,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{tip}
 	 
 	 که به آن \textbf{دستگاه مختصات دکارتی}\footnote{\lr{Carthesian Coordinate System}} میگویند. در دستگاه مختصات دکارتی، دو محور $ X $ و $ Y $ به ترتیب محور افقی و عمودی ما را تشکیل می دهند. ما مختصات یک نقطه را در پرانتز به صورت $ (X, Y) $ نشان میدهیم. همانطور که گفته شد، خطی که دو نقطه را به هم وط کند، بردار نام دارد.
 	 
-	 در جبر خطی، بردار را به صورت:
+	 در جبر خطی، بردار  به صورت:
 	 
 	 \[\vec{V} = \begin{pmatrix}
 	 X \\ Y
@@ -296,7 +294,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{tip}
 	  
 	  , و بالعکس:
 	  
-	  \[ n \space rad \times 	  \frac{180}{\pi} \]
+	  \[ n \space \textrm{rad} \times 	  \frac{180}{\pi} \]
 	  
 	  
 	  
@@ -325,7 +323,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{tip}
 	 
 	 در ساخت بازیهای کامپیوتری و برنامه نویسی خلاقانه ما بیشتر نیاز به ماتریسهای $ 2\times2 $، $ 3\times3 $  و $ 4\times 4$ داریم.
 	 
-	 جمع و تفریق ماتریسها به این صورت انجام میشود:
+	 جمع و تفریق ماتریسها به صورت همسان انجام میشود:
 	 
 	 \[ M_{m, n}\pm N_{m, n} = \begin{bmatrix}
 	 m_{1, 1} \pm n_{1, 1} && m_{1, 2} \pm n_{1, 2} && \cdots &&  m_{1, n} \pm n_{1, n} \\
@@ -539,6 +537,7 @@ C && D
 	 	\begin{latin}
 	 		
 	 	\mono{	\begin{lstlisting}
+	 		var = True #boolean
 	 		var = "String" #string
 	 		var = 1 #integer
 	 		var = 1.0 #float
@@ -548,9 +547,10 @@ C && D
 	 		
 	 		\end{lstlisting}} \end{latin}
 	 
-	 همانطور که میبینید، متغیرهای پایتان هر نوع دیتایی را قبول میکنند، استرینگ، عدد صحیح، فلوت، دابل، و کِلس. بگذارید تمام این انواع دیتا را توضیح دهم.
+	 همانطور که میبینید، متغیرهای پایتان هر \textbf{نوع دیتایی }\footnote{دیتا تایپ} را قبول میکنند، استرینگ، عدد صحیح، فلوت، دابل، و کِلس. بگذارید تمام این انواع دیتا را توضیح دهم.
 	 
 	 \begin{itemize}
+	 	\item به متغیرهایی که دو حالت \textbf{راست}\footnote{True} و \textbf{غلط}\footnote{False} دارند، متغیر \textbf{بولی}\footnote{Boolean} میگویند.
 	 	\item به تکه های متنی که از الفباء تشکیل شده، \textbf{رشته} یا String میگویند. به متنی که به یک استرینگ میدهیم، \textbf{لیترال}\footnote{Literal} میگویند.
 	 	\item  به اعداد صحیح بدون اعشار \textbf{اینتجر}\footnote{Integer} یا به کوتاه int میگویند.
 	 	\item به اعداد حقیقی با اعشار که دقت کمتری دارند، \textbf{فلوت}\footnote{Floating}
@@ -558,10 +558,398 @@ C && D
 	 	\item از هر کلاصی می توان یک متفیر ساخت. درین صورت، نام کلاس، نوع متغیر میشود.
 	 \end{itemize}
  
- اینها فقط چند نوع از متغیرهای پایتان هستند. همانطور که گفته شد، لازم نیست نوع متفیر را مشخص کنید چون پایتان، تایپ امن نیست. 
+ اینها فقط چند نوع از متغیرهای پایتان هستند. همانطور که گفته شد، لازم نیست نوع متفیر را مشخص کنید چون پایتان، تایپ امن نیست. اما لازم است برای تعیین نوع آن، آنرا \textbf{مقداردهی اولیه}\footnote{Initialize} نمایید.
+	 
+	 
+	اما اگر بخواهیم چندین نوع دیتا، یا متغیر، را در یک متغیر نگاه داریم چه؟ بخش \ref{list} درین مورد صحبت خواهد کرد.
+	
+	\subsection{لیست، تاپل، دیکشنری}\label{list}
+	 
+	 برای نگاه داشتن چندین نوع دیتا، یا چندین متغیر، در یک مکان، از \textbf{لیست}\footnote{Lists} استفاده میکنیم.لیستها به صورت زیر مقداردهی اولیه میشوند:
+	 
+	  	\begin{latin}
+	 	\mono{	\begin{lstlisting}
+	 		a_list = []
+	 		a_list = [1, 2, 3, 4]
+	 		a_list = ["Hello World", "Goodbye World"]
+	 		a_list = [1, 2, 3, 4, "Hello", "World"]
+	 		\end{lstlisting}}
+	 	
+	 	\end{latin}
+	 		
+	 		یک لیست وقتی مقداردهی اولیه شد، نباید با علامت مساوی، به آن مقدار اضافه کرد. بلکه، باید از \lr{\mono\lstinline|list.append|} استفاده کرد:
+	 	\begin{latin}
+	 	\mono{	\begin{lstlisting}
+	 		a_list = [1]
+			print(a_list)
+			a_list.append(2)
+			print(a_list)
+	 		\end{lstlisting}}
+	 			
+	 	\end{latin}
+ 		
+ \lr{\keys{\ctrl + \shift + F10}} را بزنید تا نتیجه را ببینید.
+ 		در زیر چند اسلوب لیست را میخوانید.
+ 		\begin{itemize}
+ 			\item \lr{\mono\lstinline|list.reverse|}: لیست را برعکس یا به بعارت دیگر، معکوس میکند.
+ 			\item  \lr{\mono\lstinline|list.copy|} لیست را در لیست دیگر کپی میکند.
+ 			\item  \lr{\mono\lstinline|list.pop|} در \textbf{ایندکس}\footnote{Index - به شماره ی عضو ایندکس میگویند.} داده شده، عضو را پاک میکند.
+ 			\item \lr{\mono\lstinline|list.sort|} لیست را بر اساس الگوریتم \textbf{\lr{Merge Sort}} مرتب میکند.
+ 			\item  \lr{\mono\lstinline|len(list)|} سایز لیست را به دست می اورد.
+ 		\end{itemize}
+ 		
+	 		
+	 یک لیست، میتواند لیستهای دیگری نیز در بر بگیرد:
+	 
+	 
+	 	\begin{latin}
+	 	\mono{	\begin{lstlisting}
+	 		multi_dimensional_list = [[], [], []]
+	 		multi_dimensional_list.append([])
+	 		\end{lstlisting}}
+	 	
+	 \end{latin}
+ 
+ برای به دست آوردن عضو خاصی از لیست، از ایندکس آن استفاده میکنیم.
+ 
+ 	 	\begin{latin}
+ 	\mono{	\begin{lstlisting}
+ 		my_list = [2, 4, 6, 8, 10]
+ 		print(my_list[0])
+ 		\end{lstlisting}}
+ 	
+ \end{latin}
+\textbf{ایندکسها از 0 شروع میشوند} تا سایز لیست منهای یک ادامه دارند. برای بدست آوردن چندین عضو از لیست، از علامت دو نقطه استفاده میکنیم:
+
+ 	 	\begin{latin}
+	\mono{	\begin{lstlisting}
+		my_list = [2, 4, 6, 8, 10]
+		print(my_list[0:3])
+		\end{lstlisting}}
+	
+\end{latin}
+
+ 	 
+	 در کل، لیستها بهترین روش برای نگه داشتن دیتاهای زیاد هستند. اما برای دیتای کم و \textbf{غیر جهشی}\footnote{Immutable}، از \textbf{تاپل}\footnote{Tuple} استفاده میکنیم.  تاپلها میتوانند به اندازه ی لیست دیتا نگه دارند، اما نمیتوان از آنها دیتا کم و زیاد کرد. تاپلها بدین صورت تعریف مقداردهی اولیه میشوند:
+	 
+	 
+ 	 	\begin{latin}
+	\mono{	\begin{lstlisting}
+			my_tuple = (R, G, B)
+			print(my_tupe[0:1])
+		\end{lstlisting}}
+	
+\end{latin}
+	 مقلا برای رنگ یا موقیت یک فرگمنت در یک تصویر رَستر \(در مورد اینها مفصل صحبت خواهیم کرد\) از تاپل استفاده میشود. مانند لیستها، میتوان از \lr{\mono\lstinline|len()|} برای بدست آوردن سایز تاپل استفاده کرد.
+	 
+	 دیکشنریها نیز مانند لیستها، برای نگه داشتن مقدار زیادی دیتا استفاده میشود. اما در دیکشنری، ایندکسها، عوض شماره، دارای نام هستند \(میتوان از شماره نیز استفاده کرد\). دیکشنریها \textbf{همتا به همتا}\footnote{Peer to Peer} هستند. برای مقداردهی اولیه ی یک دیکشنری، از سینتکس زیر استفاده میکنیم:
+	 
+	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+	 	my_dict = {"Name" : "Chubak",
+	 	 "Last Name" : "Bidpaa"}
+	 	print(my_dict["Name"])
+	 	\end{lstlisting}}
+	 	
+	 \end{latin}
+	 
+	 \begin{tip}
+	 	در تمام زبانهای برنامه نویسی، زدن \keys{\return}  وسط خط کد اشکالی ندارد.
+	 \end{tip}
+	 
+	 
+	 مهمترین اسلوب دیکشنری \lr{\mono\lstinline|dictionary.items()|} میباشد که آیتم های دیکشنری را برمیگرداند. در بخش لوپ در موردش صحبت خواهیم کرد صحبت از لوپ شد، وقت آن است که در مورد \textbf{بیانیه های}\footnote{Statements} پایتان صحبت کنیم.
+	 
+	 \subsection{بیانیه های شرطی}\label{pyif}
+	 
+	 
+	 \textbf{بیانیه های شرطی}\footnote{Conditional Statements}، بخشهایی از پایتان هستند که به کد اجازه ی اجرا، یا در صورت عدم اجازه، اجازه ی اجرای کد دیگری را میدهند.
+	 
+	 \textbf{کلمات کلیدی}\footnote{Keywords} که ما برای شرط گذاشتن روی جریان اجرای برنامه استفاده میکنیم، \textbf{if} و \textbf{else} و \textbf{elif} هستند. همیشه لازم نیست از دوتای دوم استفاده کرد، اما پیشنهاد میشود اگر مستلزم است، حتما از آنها استفاده کنید. کد زیر را ببینید:
+	 
+	 
+	 \begin{latin}
+	\mono{	\begin{lstlisting}
+		pi = 3.14
+		r = 10
+		area= pi*r*r
+		
+		if area > 20:
+			print("The area is greater than 20.")
+		else:
+			print("The area is not greater than 20.")
+		
+		\end{lstlisting}}
+	
+\end{latin} 
+	 
+	این کد، مساحت یک دایره با شعاع 10 را حساب میکند و  اگر این مساحت، بیشتر از 20 است، میگوید مساحت بیشتر از 20 است، وگرنه میگوید مساحت بیشتر از 20 نیست. به همین سادگی، ما \textbf{جریان}\footnote{Execution Flow} اجرای کد را تغییر دادیم. 
+	
+	\begin{tip}
+		پای چارم خودش اینکار را میکند، اما بین اول خط کلمه ی if و else و \textbf{اصطلاح}\footnote{Expression} شرط، باید چهار \keys{\space} فاصله باشد.
+	\end{tip}
+
+
+برای شرط کذاشتن، از \textbf{آپریتور}\footnote{Operator} هایی مانند $ < $ استفاده میکنیم. به اعدادی که آپریتور روی آنها تاثیر میگذارد، \textbf{آپرَند}\footnote{Operand} میگویند.
+
+آپریتور های شرطی پایتان به شرح زیرند:
+	 
+	 
+	
+	\begin{table}[H]\label{pyop}
+		\centering
+		\begin{tabular}{|l|l|}
+			\hline
+			+               & بعلاوه       \\ \hline
+			-               & منها         \\ \hline
+			*               & ضرب          \\ \hline
+			/               & تقسیم        \\ \hline
+			\%              & باقیمانده    \\ \hline
+			\textgreater{}  & بزرگتر       \\ \hline
+			\textless{}     & کوچکتر       \\ \hline
+			\textgreater{}= & بزرگتر مساوی \\ \hline
+			\textless{}=    & کوچکتر مساوی \\ \hline
+			==              & مساوی        \\ \hline
+			!=              & نا مساوی     \\ \hline
+			and             & وَ           \\ \hline
+			or              & یا           \\ \hline
+		\end{tabular}
+		\caption{آپریتورهای پایتان}
+	\end{table}
+			
+
+
+	 
+	 
+	 آپریتورهای دیگری نیز داریم مانند آپریتورهای \textbf{Bit-wise} ولی الان به کار ما نمی آیند.
+	 
+	 میتوانید از کلمه ی کلیدی elif که مخفف Else If است برای افزایش شروط استفاده کنید:
+	 
+	 
+	 \begin{latin}
+	\mono{	\begin{lstlisting}
+	if area > 20:
+	    print("The area is bigger than 20.")
+	elif (area < 15):
+	    print("The area is less than 15")
+	elif area < 10:
+	    print("The area is less than 10")
+	else:
+	    print("The area is not bigger than 20.")
+	
+		
+		\end{lstlisting}}	 
+	 
+\end{latin}
+
+اما این فقط تنها بیانه ی شرطی پایتان نیست. دو بیانیه ی شرطی دیگر داریم، که با if فرق زیادی دارند.
+
+
+
+\begin{tip}
+	شرط، میتواند یک متغیر بولی باشد. مثلا \lr{\mono\lstinline| bool = 1 < 10|}. این متغیر، راست $\text{(True)}\ $ میباشد چون 1 کوچکتر از 10 است.
+\end{tip}
+
+
+\subsection{بیانیه های چرخشی شرطی}\label{pyloops}
+	 
+	 بیانیه های \textbf{چرخشی شرطی}\footnote{\lr{Conditional Loops}} بیانیه هایی هستند که تا شرط برقرار است، یک اصطلاح یا بیانیه را به صورت \textbf{نا محدود}\footnote{Indefinitely} اجرا میکنند. گاهی این چرخش، بینهایت است. اما اکثر اوقات، شرط تمام شده و \textit{غلط} $\text{(False))}  $میشود. وقتی شرط، غلط میشود، چرخش تمام شده و بیانیه ی بعدی اجرا میشود. همچنین میتوانیم خودمان جریان چرخش را کنترل کرده، و به میل خود چرخش را تکرار کرده و یا بشکنیم.
+	 
+	 دو کلمه ی کلیدی برای اینکار استفاده میشود، for و while. اولی مصارف دیگری هم دارد که به آن میپردازیم. اما بگذارید اول به while بپردازیم. سینتکس آن اینگونه است:
 	 
 	 
 	 
+	 
+	 \begin{latin}
+	\mono{	\begin{lstlisting}
+		i = 0
+		
+		while i < 50:
+		    print(str(i))
+		    i += 1
+		
+		\end{lstlisting}}	 
+	
+\end{latin}
+	 
+	 
+	ابتدا ما به متغیر  \lr{\mono\lstinline|i|} عدد 0 را میدهیم. بعد میگوییم تا این متغیر، از 50 کوچکتر از، ارزش متغیر را روی صفحه نمایش بده و در هر \textbf{بازتکرار}\footnote{Iteration}، ارزش 1 را به متغیر اضافه میکنیم. وقتی متغیر به 50 رسید، چرخش تمام میشود و به بیانیه ی بعدی میرسد. 
+	
+	\begin{tip}
+	تابع \lr{\mono\lstinline|print()|} نمیتواند جز استرینگ لیترال و استرینگ، چیز دیگری را در صفحه به نمایش بگذارد. با استفاده از تابع  \lr{ \mono\lstinline|str()| } متغیرهای عددی را به استرینگ لیترال تبدیل میکنیم.
+	\end{tip}
+	 
+	 
+	 
+	 
+	 میتوانید با استفاده از کلمه ی کلیدی \lr{\mono\lstinline|and| } یک شرط دیگر اضافه کنید:
+	 
+	 \begin{latin}
+	\mono{	\begin{lstlisting}
+		i = 0
+		
+		while i < 50 and i < 25:
+		print(str(i))
+		i += 1
+		
+		\end{lstlisting}}	 
+	
+\end{latin}
+	 
+	 
+	 اینگونه، فقط در صورتی متغیر روی صفحه پرینت میشود که بین 25 و 50 باشد. \lr{\mono\lstinline|or|} هم دو یا چند شرط را در صورتی اجرا میکند که یکی از آنها، راست باشد. 
+	 
+	 کلمه ی کلیدی بعدی که داریم، for میباشد. این کلمه بیشتر برای دسترسی به لیست، دیکشنری و تاپل به کار میرود \(\ref{iterter}\) اما برای چرخش برای n بار از سینتکس زیر استفاده میکنیم:
+	 
+	 
+	 
+	 
+	 	 
+\begin{latin}
+	 	\mono{	\begin{lstlisting}
+	 	for i in range(n):
+	 	    print(str(i))
+	 		
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+	 
+	 
+	 
+	 تابع  \lr{\mono\lstinline|range(m, n)|} یک لیست قابل بازتکرار بین m و n ایجاد میکند. اگر پارامتر اول را به آن ندهیم، یک لیست قابل بازتکرار بین 0 و n ایجاد میکند. و متغیر ارزش i را در هر بازتکرار، بر اساس لیست ساخته شده مشخص میکند. این بیانیه ی چرخشی شرطی نیست، بلکه بیانیه ی چرخشی بازتکراریست. در بخش بعد، از کلمه ی کلیدی for برای دسترسی به اعضای لیست، تاپل، و دیکشنری استفاده میکنیم.
+	 
+	 
+\subsection{دسترسی به لیست، دیکشنری و تاپل}\label{iter}
+	 
+	 برای دسترسی به اعضای یک لیست، تاپل، دیکشنری، یا هر شیء \textbf{قابل بازتکرار}\footnote{Iterable} دیگری، از for استفاده میکنیم. مثال برای لیست اینگونه است:
+	 
+	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+	 		one_dim_list = [1, 2, 3]
+	 		two_dim_list = [[1, 2, 3], [4, 5, 6]]
+	 		
+	 		for i in one_dim_list:
+	 		     print(i)
+	 		
+	 		
+	 		for list in two_dim_list:
+	 		    for i in list:
+	 		        print(i)
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+	 
+	 
+	 
+	 
+	 همانطور که مشاهده میکنید، ما با استفاده از کلمه ی کلیدی in توانستیم به اعضای لیست یک بعدی \lr{\mono\lstinline|one_dim_list|} دسترسی پیدا کنیم و آنها را روی صفحه پرینت کنیم. سپس، ما با استفاده از یک بیانیه ی \textbf{لانه ای}\footnote{\lr{Nested Statement}} توانستیم یک لیست دو بعدی را روی صفحه پرینت بگیریم.
+	 
+	 \begin{tip}
+	 	تمام بیانیه های شرطی را میتوان لانه کرد، اما اگر که اشتباهی صورت بگیرد، \textbf{سرریزی پشته}\footnote{\lr{Stack Overflo}} صورت میپذیرد.
+	 \end{tip}
+	 
+	 
+	 ما میتوانیم با استفاده از دو کلمه ی کلیدی break و continue بر جریان چرخشمان تاثیر بگذاریم.
+	 
+	 
+
+		 	 \begin{latin}
+			\mono{	\begin{lstlisting}
+				n = 0
+				while True:
+				    n += 1
+				
+				if (n > 20):
+				    break
+				\end{lstlisting}}	 
+			
+		\end{latin}
+
+	 
+	 
+	 این کد، همیشه صحیح است، پس همواره اجرا میشود. اما اگر متغیر ما، بیشتر از 20 شود، زنجیر میشکند و چرخش پایان میابد. continue نیز مانند break است، فقط حلقه را نمیشکند، بلکه کاری میکند که حلقه دوباره بازتکرار شود.
+	 
+	 
+	 
+	\subsection{تابع در پایتان}\label{pyfunc}
+	در بخش پَرَدایم فانکشنال، در مورد توابع در برنامه نویسی صحبت کردیم. در پایتان، تابع بلوکه ای از کد است که با خواندن آن، یک یا یک امر صورت میپذیرد، یا یک ارزش باز گردانده میشود، یا هردو. پایتان دارای 68 تابع از پیش ساخته شده است، و ما خودمان میتوانیم تا هرچقدر لازم داریم، تابع بسازیم. برای اینکار، از کلمه ی کلیدی def استفاده میکنیم:
+	 
+	 
+	 \begin{latin}
+	\mono{	\begin{lstlisting}
+		def first_functions():
+	        pi = 3.14
+		    r = 10
+		    area = pi * r * r
+		
+		    print(area)
+		
+		
+		def second_function(r):
+		    pi = 3.14		    
+		    area = pi * r * r
+		
+		    return area
+		\end{lstlisting}}	 
+	
+\end{latin}
+
+
+	 
+همانطور که مشاهده میکنید، تابع اولی، نه پارامتر قبول میکند، نه ارزشی را باز میکرداند. اما یک عملیات پرینت انجام میدهد. به این نوع توابع، همانطور که گفتیم، ووید میگویند.
+
+تابع دوم یک تابع فلوت است، چون یک ارزش فلوت باز میکرداند. و ابتدا شعاع دایره را به عنوان پارامتر میپذیرد.
+
+یک تابع را میتوان در خودش بخواند. به این امر \textbf{تابع بازگشتی}\footnote{\lr{Recursive Function}} میگویند. مثلا برای بدست آوردن فاکتوریل یک عدد:
+
+
+
+	 
+	 
+	 \begin{latin}
+	\mono{	\begin{lstlisting}
+		def factorial(n):
+		if n == 1:
+		return n
+		else:
+		return n*factorial(n - 1)
+		\end{lstlisting}}	 
+	
+\end{latin}
+	 
+	 
+	 اگر شرایط بازگشت در تابع محیا نباشد همانطور که در بخش قبل گفتیم، سرریزی پشته صورت میگیرد. در مورد پشته و هرم در بخش \lr{C++} صحبت خواهیم کرد. تا این حد بدانید که پایتان، \textbf{مدیریت حافظه}\footnote{\lr{Memory Management}} را خودش انجام میدهد و نیازی به این کار توسط شما نیست. در \lr{C++} ما متغیرهایی داریم که به آدرس یک متغیر دیگر در RAM اشاره دارند، اما در پایتان، ما همچین چیزی نداریم.
+	 
+	 \begin{tip}
+	 	توجه داشته باشید که \textbf{اسکوپ}\footnote{Scope} متغیرها در تابع، مخصوص خودشان است. اگر متغیری را در یک تابع تعیین کردید، نمیتوانید آنرا بیرون از تابع استفاده کنید. و همچنین اگر متغیری را داخل یک بلاک بیانیه ی شرطی یا چرخش شرطی تعیین کردید، آن متغیر، بیرون از آن بلاک، ارزشی ندارد.
+	 \end{tip}	 
+	 
+	 
+	 \subsection{فایل در پایتان}\label{pyfile}
+	 برای باز کردن یک فایل در پایتان، از روش زیر استفاده میکنیم:
+	 
+	 
+	 
+	 	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+	 		f = open(filename,mode)
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+ 
+ فایل حتما باید در فولدر اسکریپتی که داریم مینویسم باشد. نام فایل یک استرینگ لیترال است پس باید داخل علامت نقل قول باشد. حالت باز کردن فایل بستگی به عملیاتی که میخواهیم روی فایل انجام دهیم دارد. در جدول زیر، حالات باز کردن فایلها را میبینید:
+ 
+ \begin{table}[]
+ 	\begin{tabular}{H}
+ 		\hline
+ 		'r' & باز کردن یک فایل متنی برای خواندن                       \\ \hline
+ 		'w' & باز کردن فایل متنی برای نوشتن                           \\ \hline
+ 		'x' & حالت ساخت فایل. اگر فایل وجود دارد، عملیات شکست میخورد. \\ \hline
+ 		'a' & باز کردن فایل برای اضافه کردن متن به فایل.              \\ \hline
+ 		't' & باز کردن در حالت متنی.                                  \\ \hline
+ 		'b' & باز کردن در حالت باینری. برای هر فایلی جز فایل متنی.    \\ \hline
+ 	\end{tabular}
+ \end{table}
 	 
 	 
 	 
