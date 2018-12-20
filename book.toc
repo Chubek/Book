@@ -20,4 +20,8 @@
 \contentsline {subsection}{دسترسی به لیست، دیکشنری و تاپل}{31}{section*.8}
 \contentsline {subsection}{تابع در پایتان}{33}{section*.9}
 \contentsline {subsection}{فایل در پایتان}{34}{section*.10}
-\contentsline {subsection}{ماژولها و پکیجهای پایتان}{35}{section*.11}
+\contentsline {subsection}{کلاسهای پایتان}{35}{section*.11}
+\contentsline {subsection}{ماژولها و پکیجهای پایتان}{36}{section*.12}
+\contentsline {subsection}{پایان بخش پایتان}{38}{section*.13}
+\contentsline {section}{\numberline {3.5}\lr {C++}}{38}{section.3.5}
+\contentsline {subsection}{سینتکس}{39}{section*.14}
