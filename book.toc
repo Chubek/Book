@@ -37,3 +37,5 @@
 \contentsline {chapter}{\chapternumberline {4}برنامه نویسی گرافیکی، مفهومات، الگوریتمها}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}مانیتورهای کامپیوتر}{57}{section.4.1}
 \contentsline {subsection}{مانیتورهای اشعه ی کاتدی}{57}{section*.21}
+\contentsline {subsection}{مانیتورهای کریستال مایع}{60}{section*.22}
+\contentsline {section}{\numberline {4.2}صفحه شطرنجی}{60}{section.4.2}
