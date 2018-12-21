@@ -6,23 +6,24 @@
 \contentsline {section}{\numberline {2.3}مثلثات}{8}{section.2.3}
 \contentsline {section}{\numberline {2.4}ماتریسها}{11}{section.2.4}
 \contentsline {section}{\numberline {2.5}قائمیت در فضای سه بعدی}{12}{section.2.5}
-\contentsline {section}{\numberline {2.6}پایان فصل ریاضی}{15}{section.2.6}
-\contentsline {chapter}{\chapternumberline {3}نگاهی کوتاه به برنامه نویسی}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}برنامه نویسی فانکشنال}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}برنامه نویسی شیء گرا}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}کتابخانه ها}{20}{section.3.3}
-\contentsline {section}{\numberline {3.4}پایتان}{20}{section.3.4}
-\contentsline {subsection}{نصب پایتان}{20}{section*.3}
-\contentsline {subsection}{متغیرها}{24}{section*.4}
-\contentsline {subsection}{لیست، تاپل، دیکشنری}{26}{section*.5}
-\contentsline {subsection}{بیانیه های شرطی}{28}{section*.6}
-\contentsline {subsection}{بیانیه های چرخشی شرطی}{30}{section*.7}
-\contentsline {subsection}{دسترسی به لیست، دیکشنری و تاپل}{31}{section*.8}
-\contentsline {subsection}{تابع در پایتان}{33}{section*.9}
-\contentsline {subsection}{فایل در پایتان}{34}{section*.10}
-\contentsline {subsection}{کلاسهای پایتان}{35}{section*.11}
-\contentsline {subsection}{ماژولها و پکیجهای پایتان}{36}{section*.12}
-\contentsline {subsection}{پایان بخش پایتان}{38}{section*.13}
-\contentsline {section}{\numberline {3.5}\lr {C++}}{38}{section.3.5}
-\contentsline {subsection}{سینتکس}{39}{section*.14}
-\contentsline {subsection}{متغیرهای اشاره ای و مرجعی}{42}{section*.15}
+\contentsline {section}{\numberline {2.6}پایان فصل ریاضی}{14}{section.2.6}
+\contentsline {chapter}{\chapternumberline {3}نگاهی کوتاه به برنامه نویسی}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}برنامه نویسی فانکشنال}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}برنامه نویسی شیء گرا}{17}{section.3.2}
+\contentsline {section}{\numberline {3.3}کتابخانه ها}{18}{section.3.3}
+\contentsline {section}{\numberline {3.4}پایتان}{18}{section.3.4}
+\contentsline {subsection}{نصب پایتان}{18}{section*.3}
+\contentsline {subsection}{متغیرها}{22}{section*.4}
+\contentsline {subsection}{لیست، تاپل، دیکشنری}{24}{section*.5}
+\contentsline {subsection}{بیانیه های شرطی}{26}{section*.6}
+\contentsline {subsection}{بیانیه های چرخشی شرطی}{28}{section*.7}
+\contentsline {subsection}{دسترسی به لیست، دیکشنری و تاپل}{29}{section*.8}
+\contentsline {subsection}{تابع در پایتان}{31}{section*.9}
+\contentsline {subsection}{فایل در پایتان}{32}{section*.10}
+\contentsline {subsection}{کلاسهای پایتان}{33}{section*.11}
+\contentsline {subsection}{ماژولها و پکیجهای پایتان}{34}{section*.12}
+\contentsline {subsection}{پایان بخش پایتان}{36}{section*.13}
+\contentsline {section}{\numberline {3.5}\lr {C++}}{36}{section.3.5}
+\contentsline {subsection}{سینتکس}{37}{section*.14}
+\contentsline {subsection}{متغیرهای اشاره ای و مرجعی}{41}{section*.15}
+\contentsline {subsection}{title}{44}{section*.16}
