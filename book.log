@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  21 DEC 2018 10:40
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  21 DEC 2018 11:26
 entering extended mode
 **./book.tex
 (book.tex
@@ -1711,7 +1711,7 @@ ext;"
 (fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
 text;"
 
-LaTeX Info: Redefining \latinfont on input line 16.
+LaTeX Info: Redefining \latinfont on input line 21.
 
 Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
 (fontspec)             New' with options [Mapping=tex-text,Scale=.7].
@@ -1737,47 +1737,47 @@ Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
 (book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 \c@lstlisting=\count424
 \AtBeginShipoutBox=\box69
 
 ABD: EveryShipout initializing macros
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/XBZar(0)/m/n --> TS1/XBZar(0)/bx/n on input line 33
+(Font)                  TS1/XBZar(0)/m/n --> TS1/XBZar(0)/bx/n on input line 38
 .
-Package gensymb Info: Math companion symbols declared on input line 33.
-LaTeX Info: Redefining \degree on input line 33.
-LaTeX Info: Redefining \celsius on input line 33.
+Package gensymb Info: Math companion symbols declared on input line 38.
+LaTeX Info: Redefining \degree on input line 38.
+LaTeX Info: Redefining \celsius on input line 38.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 33.
-LaTeX Info: Redefining \ohm on input line 33.
-Package gensymb Info: Using \textohm for \ohm on input line 33.
-Package gensymb Info: Using \textmu for \micro on input line 33.
-Package hyperref Info: Link coloring OFF on input line 33.
+erthousand on input line 38.
+LaTeX Info: Redefining \ohm on input line 38.
+Package gensymb Info: Using \textohm for \ohm on input line 38.
+Package gensymb Info: Using \textmu for \micro on input line 38.
+Package hyperref Info: Link coloring OFF on input line 38.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1787,21 +1787,21 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count425
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (book.out) (book.out)
 \@outlinefile=\write6
 \openout6 = `book.out'.
 
 LaTeX Font Info:    Try loading font information for TS1+XBZar(0) on input line
- 43.
-LaTeX Font Info:    No file TS1XBZar(0).fd. on input line 43.
+ 48.
+LaTeX Font Info:    No file TS1XBZar(0).fd. on input line 48.
 
 
 LaTeX Font Warning: Font shape `TS1/XBZar(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 43.
+(Font)              using `TS1/cmr/m/n' instead on input line 48.
 
 File: ./images/Cover.png Graphic file (type bmp)
 <./images/Cover.png>
@@ -1819,23 +1819,23 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 ]
 LaTeX Font Info:    Font shape `TU/XBZar(0)/m/sl' in size <14.4> not available
-(Font)              Font shape `TU/XBZar(0)/m/it' tried instead on input line 4
-5.
+(Font)              Font shape `TU/XBZar(0)/m/it' tried instead on input line 5
+0.
  [2]
-Package mdframed Info: mdframed works in twoside mode on input line 51.
-Package mdframed Info: Not enough space on this page on input line 62.
+Package mdframed Info: mdframed works in twoside mode on input line 56.
+Package mdframed Info: Not enough space on this page on input line 67.
  [3] [4
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 91.
+Package mdframed Info: mdframed works in twoside mode on input line 96.
 LaTeX Font Info:    Font shape `TU/CourierNew(0)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 102.
+(Font)              scaled to size 10.07994pt on input line 107.
  (book.toc [5])
 
 Class memoir Warning: The material used in the headers is too large
 (18.4093pt) for the given head height (17.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 118.
+(in both cases you will find help in the memoir manual). on input line 123.
 
 
 Overfull \vbox (0.9093pt too high) has occurred while \output is active []
@@ -1856,7 +1856,7 @@ File: ./images/coordinate_system.png Graphic file (type bmp)
 Class memoir Warning: The material used in the headers is too large
 (18.61644pt) for the given head height (17.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 183.
+(in both cases you will find help in the memoir manual). on input line 188.
 
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
@@ -1886,7 +1886,7 @@ File: ./images/Product.png Graphic file (type bmp)
 File: ./images/Polar.png Graphic file (type bmp)
 <./images/Polar.png>
 
-Overfull \hbox (0.69124pt too wide) in paragraph at lines 262--264
+Overfull \hbox (0.69124pt too wide) in paragraph at lines 267--269
 [][]\TU/XBZar(0)/m/n/14.4 در برنامه نویسی گرافیکی، دستگاه مختصات قطبی کاربردهای
  زیادی دارد. اما در کامپیوتر،[]
  []
@@ -1906,7 +1906,7 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 [10]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 331.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 336.
 
 [11]
 File: ./images/R3.png Graphic file (type bmp)
@@ -1952,7 +1952,7 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [17]
-Overfull \hbox (30.7955pt too wide) in paragraph at lines 485--486
+Overfull \hbox (30.7955pt too wide) in paragraph at lines 490--491
 [][]\TU/XBZar(0)/m/n/14.4 به این صفحه بروید و پایتان را دانلود کنید: [][][]$[][
 ][][][] [] [] [] [][][] [] [][][][][][] [] [][][] [] [][][][][][][][][][]$[][][
 ] []
@@ -1976,7 +1976,7 @@ File: ./images/InstallPython_3.png Graphic file (type bmp)
 File: ./images/InstallPython_4.png Graphic file (type bmp)
 <./images/InstallPython_4.png>
 
-Overfull \hbox (27.9989pt too wide) in paragraph at lines 501--502
+Overfull \hbox (27.9989pt too wide) in paragraph at lines 506--507
  [][][][][] 
  []
 
@@ -1991,12 +1991,12 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 File: ./images/InstallPython_5.png Graphic file (type bmp)
 <./images/InstallPython_5.png>
 
-Overfull \hbox (1.99896pt too wide) in paragraph at lines 505--506
+Overfull \hbox (1.99896pt too wide) in paragraph at lines 510--511
  [][][][][] 
  []
 
 
-Overfull \hbox (32.31204pt too wide) in paragraph at lines 509--511
+Overfull \hbox (32.31204pt too wide) in paragraph at lines 514--516
 [][]\TU/TimesNewRoman(0)/m/n/14.4 Community[] \TU/XBZar(0)/m/n/14.4 را پیشنهاد 
 میکنم که کاملا مجانیست. آنرا میتوانید از [][][]$[][][][][] [] [] [] [][][] [] [
 ][][][][][][][][] []$[][][]
@@ -2005,13 +2005,13 @@ Overfull \hbox (32.31204pt too wide) in paragraph at lines 509--511
 [21]
 File: ./images/CreateNewPythonFile.png Graphic file (type bmp)
 <./images/CreateNewPythonFile.png>
-Package mdframed Info: mdframed works in twoside mode on input line 528.
+Package mdframed Info: mdframed works in twoside mode on input line 533.
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [22]
-Overfull \hbox (15.22482pt too wide) in paragraph at lines 568--569
+Overfull \hbox (15.22482pt too wide) in paragraph at lines 573--574
 []\TU/XBZar(0)/m/n/14.4 برای نگاه داشتن چندین نوع دیتا، یا چندین متغیر، در یک م
 کان، از \TU/XBZar(0)/bx/n/14.4 لیست[][][][][][] \TU/XBZar(0)/m/n/14.4 استفاده م
 یکنیم.لیستها[]
@@ -2076,38 +2076,38 @@ Missing character: There is no ه in font cmmi12!
 Missing character: There is no ک in font cmmi12!
 Missing character: There is no ر in font cmmi12!
 Missing character: There is no د in font cmmi12!
-Package mdframed Info: mdframed works in twoside mode on input line 657.
+Package mdframed Info: mdframed works in twoside mode on input line 662.
 
-Overfull \hbox (17.19969pt too wide) in paragraph at lines 661--662
+Overfull \hbox (17.19969pt too wide) in paragraph at lines 666--667
 [][]\TU/XBZar(0)/m/n/14.4 مهمترین اسلوب دیکشنری [][][][][][][][] میباشد که آیتم
  های دیکشنری را برمیگرداند.[]
  []
 
 [25]
 LaTeX Font Info:    Font shape `TU/CourierNew(0)/m/n' will be
-(Font)              scaled to size 12.0959pt on input line 675.
-Package mdframed Info: mdframed works in twoside mode on input line 689.
+(Font)              scaled to size 12.0959pt on input line 680.
+Package mdframed Info: mdframed works in twoside mode on input line 694.
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [26] [27]
-Package mdframed Info: mdframed works in twoside mode on input line 751.
-Package mdframed Info: mdframed works in twoside mode on input line 780.
+Package mdframed Info: mdframed works in twoside mode on input line 756.
+Package mdframed Info: mdframed works in twoside mode on input line 785.
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [28]
-Package mdframed Info: Not enough space on this page on input line 781.
+Package mdframed Info: Not enough space on this page on input line 786.
  [29]
-Package mdframed Info: mdframed works in twoside mode on input line 849.
+Package mdframed Info: mdframed works in twoside mode on input line 854.
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [30] [31]
-Package mdframed Info: mdframed works in twoside mode on input line 925.
+Package mdframed Info: mdframed works in twoside mode on input line 930.
 
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
@@ -2116,7 +2116,7 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [32] [33]
-Overfull \hbox (28.53276pt too wide) in paragraph at lines 1007--1008
+Overfull \hbox (28.53276pt too wide) in paragraph at lines 1012--1013
 [][]\TU/XBZar(0)/m/n/14.4 برای درست کردن یک فرزند از کلاس مستطیل، کافیست به صور
 ت [][][][][][][][][][][]
  []
@@ -2138,7 +2138,7 @@ File: ./images/VSNewProject.png Graphic file (type bmp)
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <14.4> not av
 ailable
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 1092.
+t line 1097.
  [37]
 File: ./images/HelloWorld.png Graphic file (type bmp)
 <./images/HelloWorld.png>
@@ -2147,7 +2147,7 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [38] [39]
-Package mdframed Info: mdframed works in twoside mode on input line 1159.
+Package mdframed Info: mdframed works in twoside mode on input line 1164.
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
@@ -2157,9 +2157,9 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [42]
-Overfull \hbox (0.66623pt too wide) in paragraph at lines 1265--1266
+Overfull \hbox (0.66623pt too wide) in paragraph at lines 1270--1271
 []\TU/XBZar(0)/m/n/14.4 پرینت کن، که آدرس متغیر اصلی در حافظه است. سپس، متغیر ا
-شاره ای را \TU/XBZar(0)/bx/n/14.4 ذیریفرنس[][][][][][][]
+شاره ای را \TU/XBZar(0)/bx/n/14.4 دیریفرنس[][][][][][][]
  []
 
 File: ./images/MemoryAddress.png Graphic file (type bmp)
@@ -2172,13 +2172,13 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [44]
-Package mdframed Info: mdframed works in twoside mode on input line 1329.
+Package mdframed Info: mdframed works in twoside mode on input line 1334.
  [45]
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [46] [47]
-Overfull \hbox (11.24454pt too wide) in paragraph at lines 1420--1421
+Overfull \hbox (11.24454pt too wide) in paragraph at lines 1425--1426
 [][]\TU/XBZar(0)/m/n/14.4 بعد از آن، بردارمان را برای ۲۰ بار یک عدد تصادفی وارد
 ش میکنیم. اسلوب [][][][][][][]
  []
@@ -2188,14 +2188,17 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [48]
-Package mdframed Info: mdframed works in twoside mode on input line 1463.
+Package mdframed Info: mdframed works in twoside mode on input line 1468.
  [49]
-Package mdframed Info: mdframed works in twoside mode on input line 1493.
+Package mdframed Info: mdframed works in twoside mode on input line 1498.
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
 [50] [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
@@ -2206,7 +2209,7 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 Class memoir Warning: The material used in the headers is too large
 (18.61644pt) for the given head height (17.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 1620.
+(in both cases you will find help in the memoir manual). on input line 1625.
 
 [55]
 
@@ -2218,11 +2221,11 @@ Package catoptions Warning: Undefined options
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1620.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1620.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1625.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1625.
 (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1620.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1620.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1625.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1625.
 
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: BDF93A328F3BD5CD9244FF9471DD7897.
@@ -2234,7 +2237,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  41452 strings out of 427796
  770714 string characters out of 3151768
- 980733 words of memory out of 3000000
+ 980739 words of memory out of 3000000
  44828 multiletter control sequences out of 15000+200000
  544762 words of font info for 120 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
