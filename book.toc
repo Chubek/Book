@@ -26,4 +26,6 @@
 \contentsline {section}{\numberline {3.5}\lr {C++}}{36}{section.3.5}
 \contentsline {subsection}{سینتکس}{37}{section*.14}
 \contentsline {subsection}{متغیرهای اشاره ای و مرجعی}{41}{section*.15}
-\contentsline {subsection}{title}{44}{section*.16}
+\contentsline {subsection}{بیانیه های شرطی و چرخشی}{44}{section*.16}
+\contentsline {subsection}{آرایه ها، بردارها، نقشه ها}{46}{section*.17}
+\contentsline {subsection}{توابع در \lr {C++}}{49}{section*.18}

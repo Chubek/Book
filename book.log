@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  21 DEC 2018 03:58
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  21 DEC 2018 06:06
 entering extended mode
 **./book.tex
 (book.tex
@@ -2164,17 +2164,35 @@ Overfull \hbox (0.66623pt too wide) in paragraph at lines 1254--1255
 File: ./images/MemoryAddress.png Graphic file (type bmp)
 <./images/MemoryAddress.png>
 [43]
+Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
-Class memoir Warning: The material used in the headers is too large
-(18.61644pt) for the given head height (17.5pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 1287.
+
+[44]
+Package mdframed Info: mdframed works in twoside mode on input line 1318.
+ [45]
+Overfull \vbox (1.11644pt too high) has occurred while \output is active []
+
+
+[46] [47]
+Overfull \hbox (11.24454pt too wide) in paragraph at lines 1409--1410
+[][]\TU/XBZar(0)/m/n/14.4 بعد از آن، بردارمان را برای ۲۰ بار یک عدد تصادفی وارد
+ش میکنیم. اسلوب [][][][][][][]
+ []
 
 
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
-[44]
+[48]
+Package mdframed Info: mdframed works in twoside mode on input line 1452.
+
+
+Class memoir Warning: The material used in the headers is too large
+(18.61644pt) for the given head height (17.5pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 1462.
+
+[49]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -2184,11 +2202,11 @@ Package catoptions Warning: Undefined options
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1287.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1287.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1462.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1462.
 (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1287.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1462.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1462.
 
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: 02462B9DAFECEFBAA2CEDE30AA518A06.
@@ -2201,12 +2219,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 41413 strings out of 427796
- 770231 string characters out of 3151768
+ 41448 strings out of 427796
+ 770822 string characters out of 3151768
  982732 words of memory out of 3000000
- 44788 multiletter control sequences out of 15000+200000
- 544770 words of font info for 121 fonts, out of 3000000 for 9000
+ 44822 multiletter control sequences out of 15000+200000
+ 544778 words of font info for 122 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,13n,84p,1231b,1716s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.pdf (50 pages).
+Output written on book.pdf (55 pages).

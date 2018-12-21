@@ -1267,22 +1267,195 @@ And by adding * to ip we 'dereference' it like so: 41
 	 
 	 به \lr{\mono\lstinline|&i|} \textbf{اشاره ی مرجعی}\footnote{Reference} به i میگوییم. کلا برای اشاره مرجعی به هر متغیری، از علامت امپرسند استفاده میکنیم. ذر بخشهای بعد، مصرف آنرا خواهید دید.
 	 
+	 
+	 
+	 
+	 
+	 
+	 \subsection{بیانیه های شرطی و چرخشی}\label{cppifcond}
+	 
+	 بیانیه های شرطی و چرخشی، در \lr{C++} مانند همتایانشان در پایتان هستند. در زیر تنها به سینتکسشان بسنده میکنیم:
+	 
+	 
+	 
+	 
+	 
+	 
+	 	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+int i = rand();
+if (i > 20)
+{
+	std::cout << "i is greater than 20.";
+}
+	else if (i > 30)
+{
+	std::cout << "i is greater than 30.";
+}
+else
+{
+	std::cout << "i is smaller than 20 and 30.";
+}
+
+while (i > 0)
+{
+	std::cout << i << std::endl;
+i -= 0;
+}
+
+for (int h = i; h > 0; h--)
+{
+	std::cout << h << std::endl;
+}
+	 		
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+	 
+while و for یک کار را انجام میدهند، فقط، اینگونه است که ابتدا \textbf{بازتکرارکننده}\footnote{Iterator} یک مقدار میگیرد، بعد شرط میگذاریم، و بعد میگوییم چقدر از مقدار کم، اضافه، ضرب یا تقسیم کن. به هرکدام ازین بیانیه هایی که در چرخش for داریم، \textbf{اصطلاح}\footnote{Expression} میگوییم. هر اصطلاح، یک بیانیه است، اما هر بیانیه ای، یک اصطلاح نیست.
+
+\begin{tip}
+	درینجا، i در \textit{اسکوپ} خارجی تابعی که کد را در آن اجرا میکنیم، قرار دارد. به اینگونه متغیرها، \textbf{جهانی}\footnote{Global} میگوییم.
+\end{tip}
+	 اما \lr{C++} دارای یک بیانیه ی چرخشی دیگر به نام  \textbf{do...while} هستیم:
+	 
+	 	 
+	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+do
+{
+	i %= 10;
+	i - 1;
+}
+while (i > 0)
+
+	 		
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+	 
+	 
+فرق do...while با while اینست که while فقط در صورتی که شرط درست باشد، یک بیانیه را اجرا میکند. اما در do...while، بیانیه ای که در برکت do قرار دارد، \textbf{یک بار} اجرا میشود تا شاید اگر لازم بود، شرط برقرار شود.
+
+
+\subsection{آرایه ها، بردارها، نقشه ها}\label{cpparr}
+	 
+	 در \lr{C++} برای نگه داشتن چندین متغیر معمولی یا اشاره ای، چندین نوع لیست محیا شده که پایه ی همه ی آنها \textbf{آرایه}\footnote{Array} است. آرایه، یک \textit{گروه} از دیتای \textbf{هم نوع} است. اندازه ی یک آرایه، از قبل تعیین شده است و نمیتواند کاهش یا افزایش یابد. اما آرایه، جهشی بوده و میتوان اعضای آنرا توسط ایندکس داده شده، تعیین کرد.
+	 
+	 
+	 
+	 
+	 	 	 
+	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+int integerArray[3];
+int integerArray[] = { 1, 2, 3 };
+int integerArray[3] = { 0 };
+
+std::cout << integerArray[0];
+
+int myArray[20];
+for (int i = 0; i < 20; i++)
+{
+	myArray[i] = rand();
+}
+	 		
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+	 
+	 
+	 
+	 \begin{enumerate}
+	 	\item ابتدا ما یک آرایه  با 3 عضو میسازیم. این آرایه، خالی است.
+	 	\item سپس ما یک آرایه با 3 عضو ساخته به و به آن اعضای 1، 2 و 3 را میدهیم.
+	 	\item  سپس یک آرایه ی 3 عضوی میسازیم که همه ی اعضای آن 0 است.
+	 	
+	 	\item  در مرحله ی بعد، یک آرایه ی 20 عضوه ساخته، و توسط بیانیه ی چرخشی for، به هر عضو آن یک عدد تصادفی میدهیم. یادتان باشد که ایندکس اعضا از 0 شروع میشود و تا سایز منهای یک ادامه دارد.
+	 \end{enumerate}
+ 
+ اما نمیتوان به آرایه عضوی اضافه و کم کرد. پس برای اینکار از چه استفاده کنیم؟ جواب، استفاده از یک \textbf{لیست زنجیره ای}\footnote{\lr{Linked List}} به نام \textbf{بردار}\footnote{Vector} میباشد. بردار، یکی از بخشهای کتابخانه ی استاندارد است. برای استفاده از بردار به صورت زیر عمل میکنیم:
+ 
+ 
+	 	 \begin{latin}
+	 	\mono{	\begin{lstlisting}
+#include "pch.h"
+#include <iostream>
+#include <vector>
+
+int main()
+{
+	std::vector<int> myVector;
+
+	for (int i = 0; i < 20; i++)
+	{
+		myVector.push_back(rand());
+	}
+
+	for (auto &i : myVector)
+	{
+		std::cout << i << std::endl;
+	}
+	return 0;
+}
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+	 
+	 
+	 \begin{enumerate}
+	 	\item  ابتدا با فرمان \lr{\mono\lstinline|#include|}، فایلهای کتابخانه را وارد کدمان میکنیم.
+	 	\item  سپس، یک بردار با نوع int میسازیم. 
+	 	\item  بعد از آن، بردارمان را برای 20 بار یک عدد تصادفی واردش میکنیم. اسلوب \lr{\mono\lstinline|push_back()|} برای اینکار است.
+	 	\item سپس با استفاده از یک چرخش forِ \textbf{برداری}\footnote{Ranged} تمام اعداد را روی صفحه پرینت میکنیم.
+	 \end{enumerate}
+ 
+ در پایتان دیدیم که اگر بخواهیم یک لیست داشته باشیم که همتا به همتاست، باید از دیکشنری استفاده کنیم. اما در \lr{C++} از یک \textbf{[نقشه ی آمیزشی]}\footnote{Hashmap} به نام \textbf{نقشه}\footnote{Map} استفاده میکنیم. دو نوع نقشه داریم، \textbf{ترتیبی} و \textbf{غیرترتیبی}. ما از نقشه ی غیرترتیبی استفاده میکنیم.
+ 	 	 \begin{latin}
+ 	\mono{	\begin{lstlisting}
+#include "pch.h"
+#include <iostream>
+#include <map>
+
+int main()
+{
+	std::map<int, char> myCharMap;
+	char string[] = "Hello World!";
+
+	for (int i = 0; i < 12; i++)
+	{
+		myCharMap[i] = string[i];
+	}
+
+	for (auto &i : myCharMap)
+	{
+		std::cout << i.first << " : " << i.second << std::endl;
+	}
+	
+	return 0;
+}
+ 		\end{lstlisting}}	 
+ 	
+ \end{latin}
+ 
+	 \begin{enumerate}
+	 	\item ابتدا، فایل سری نقشه را وارد میکنیم.
+	 	\item  سپس، یک نقشه میسازیم که ایندکسش int و ارزشش char باشد.
+	 	\item  سپس یک آرایه ی کاراکتری میسازیم و به آن یک متن میدهیم.
+	 	\item سپس یک چرخش به اندازی ی سایز آرایه کاراکتری میسازیم و به هر ایندکس نقشه، یک کاراکتر از آرایه را میدهیم.
+	 	\item  در آخر، با استفاده از خواصهای first و second در یک for برداری، ایندکسها و ارزشها را پرینت میکنیم.
+	 \end{enumerate}
+	 
+	 
+	 
+	\begin{tip}
+		\lr{C++}، تاپل نیز دارد. و همچنین چندین نوع دیتای دیگر. برای اطلاعات بیشتر در مورد هر چیزی از این زبان، میتوانید از اینترنت کمک بگیرید.
+	\end{tip}
+	 
+	 
 	 \subsection{توابع در \lr{C++}}\label{cppfunc}
 	 
 	 توابع در \lr{C++} یک نوع برگشت دارند، و چندین پارامتر با انواع مختلف میپزیرند. تابع main یک تابع int است چون یک عدد صحیح باز میگرداند. توابع در دو مرحله ساخته میشوند، اعلامیه و تعیینیه. اکثر اوقات، اعلامیه در فایلهای سَری انجام میپذیرد و تعیینیه در فایلهای سورس. اما اعلامیه همواره لازم نیست، و میتوان بدون اعلام کردن یک تابع، آن را تعیین کرد.
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
 	 
 	 
 	 
