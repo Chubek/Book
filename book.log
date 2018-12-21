@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  22 DEC 2018 00:36
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  22 DEC 2018 01:11
 entering extended mode
 **./book.tex
 (book.tex
@@ -2267,14 +2267,16 @@ Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 [54] [55] [56
 
-]
+] [57]
+Package mdframed Info: mdframed works in twoside mode on input line 1655.
+
 
 Class memoir Warning: The material used in the headers is too large
 (18.61644pt) for the given head height (17.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 1660.
+(in both cases you will find help in the memoir manual). on input line 1665.
 
-[57]
+
 Overfull \vbox (1.11644pt too high) has occurred while \output is active []
 
 
@@ -2288,11 +2290,11 @@ Package catoptions Warning: Undefined options
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1660.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1660.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1665.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1665.
 (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1660.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1660.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1665.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1665.
 
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: 99B0C08D5D94385A08C7A6BA9F539D80.
@@ -2302,10 +2304,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 42621 strings out of 427796
- 792907 string characters out of 3151768
- 1019014 words of memory out of 3000000
- 45969 multiletter control sequences out of 15000+200000
+ 42646 strings out of 427796
+ 793317 string characters out of 3151768
+ 1019015 words of memory out of 3000000
+ 45994 multiletter control sequences out of 15000+200000
  548048 words of font info for 136 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,13n,84p,1231b,1716s stack positions out of 5000i,500n,10000p,200000b,50000s
