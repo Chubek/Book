@@ -5,13 +5,13 @@
 \contentsline {section}{\numberline {2.2}بردارها}{4}{section.2.2}
 \contentsline {section}{\numberline {2.3}مثلثات}{8}{section.2.3}
 \contentsline {section}{\numberline {2.4}ماتریسها}{11}{section.2.4}
-\contentsline {section}{\numberline {2.5}قائمیت در فضای سه بعدی}{12}{section.2.5}
+\contentsline {section}{\numberline {2.5}قائمیت در فضای سه بعدی}{13}{section.2.5}
 \contentsline {section}{\numberline {2.6}دنباله ها و سری ها}{14}{section.2.6}
 \contentsline {section}{\numberline {2.7}پایان فصل ریاضی}{15}{section.2.7}
 \contentsline {chapter}{\chapternumberline {3}نگاهی کوتاه به برنامه نویسی}{17}{chapter.3}
 \contentsline {section}{\numberline {3.1}برنامه نویسی فانکشنال}{17}{section.3.1}
 \contentsline {section}{\numberline {3.2}برنامه نویسی شیء گرا}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}کتابخانه ها}{19}{section.3.3}
+\contentsline {section}{\numberline {3.3}کتابخانه ها}{20}{section.3.3}
 \contentsline {section}{\numberline {3.4}پایتان}{20}{section.3.4}
 \contentsline {subsection}{نصب پایتان}{20}{section*.3}
 \contentsline {subsection}{متغیرها}{24}{section*.4}
@@ -28,11 +28,11 @@
 \contentsline {subsection}{سینتکس}{39}{section*.14}
 \contentsline {subsection}{متغیرهای اشاره ای و مرجعی}{43}{section*.15}
 \contentsline {subsection}{بیانیه های شرطی و چرخشی}{46}{section*.16}
-\contentsline {subsection}{آرایه ها، بردارها، نقشه ها}{48}{section*.17}
+\contentsline {subsection}{آرایه ها، بردارها، نقشه ها}{47}{section*.17}
 \contentsline {subsection}{توابع در \lr {C++}}{51}{section*.18}
 \contentsline {subsection}{کلاسهای \lr {C++}}{53}{section*.19}
-\contentsline {subsection}{پایان بخش \lr {C++}}{55}{section*.20}
-\contentsline {section}{\numberline {3.6}سیستمهای کنترل نسخه}{55}{section.3.6}
+\contentsline {subsection}{پایان بخش \lr {C++}}{54}{section*.20}
+\contentsline {section}{\numberline {3.6}سیستمهای کنترل نسخه}{54}{section.3.6}
 \contentsline {section}{\numberline {3.7}پایان فصل برنامه نویسی}{55}{section.3.7}
 \contentsline {chapter}{\chapternumberline {4}برنامه نویسی گرافیکی، مفهومات، الگوریتمها}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}مانیتورهای کامپیوتر}{57}{section.4.1}
