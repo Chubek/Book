@@ -1,4 +1,4 @@
-\contentsline {chapter}{فهرست مطالب}{ج}{section*.2}
+\contentsline {chapter}{فهرست مطالب}{ح}{section*.3}
 \contentsline {chapter}{\chapternumberline {1}چند کلمه با خواننده}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}نگاهی کوتاه به ریاضی لازمه}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}توابع}{3}{section.2.1}
@@ -13,30 +13,30 @@
 \contentsline {section}{\numberline {3.2}برنامه نویسی شیء گرا}{19}{section.3.2}
 \contentsline {section}{\numberline {3.3}کتابخانه ها}{20}{section.3.3}
 \contentsline {section}{\numberline {3.4}پایتان}{20}{section.3.4}
-\contentsline {subsection}{نصب پایتان}{20}{section*.3}
-\contentsline {subsection}{متغیرها}{24}{section*.4}
-\contentsline {subsection}{لیست، تاپل، دیکشنری}{26}{section*.5}
-\contentsline {subsection}{بیانیه های شرطی}{28}{section*.6}
-\contentsline {subsection}{بیانیه های چرخشی شرطی}{30}{section*.7}
-\contentsline {subsection}{دسترسی به لیست، دیکشنری و تاپل}{31}{section*.8}
-\contentsline {subsection}{تابع در پایتان}{33}{section*.9}
-\contentsline {subsection}{فایل در پایتان}{34}{section*.10}
-\contentsline {subsection}{کلاسهای پایتان}{35}{section*.11}
-\contentsline {subsection}{ماژولها و پکیجهای پایتان}{36}{section*.12}
-\contentsline {subsection}{پایان بخش پایتان}{38}{section*.13}
+\contentsline {subsection}{نصب پایتان}{20}{section*.4}
+\contentsline {subsection}{متغیرها}{24}{section*.5}
+\contentsline {subsection}{لیست، تاپل، دیکشنری}{26}{section*.6}
+\contentsline {subsection}{بیانیه های شرطی}{28}{section*.7}
+\contentsline {subsection}{بیانیه های چرخشی شرطی}{30}{section*.8}
+\contentsline {subsection}{دسترسی به لیست، دیکشنری و تاپل}{31}{section*.9}
+\contentsline {subsection}{تابع در پایتان}{33}{section*.10}
+\contentsline {subsection}{فایل در پایتان}{34}{section*.11}
+\contentsline {subsection}{کلاسهای پایتان}{35}{section*.12}
+\contentsline {subsection}{ماژولها و پکیجهای پایتان}{36}{section*.13}
+\contentsline {subsection}{پایان بخش پایتان}{38}{section*.14}
 \contentsline {section}{\numberline {3.5}\lr {C++}}{38}{section.3.5}
-\contentsline {subsection}{سینتکس}{39}{section*.14}
-\contentsline {subsection}{متغیرهای اشاره ای و مرجعی}{43}{section*.15}
-\contentsline {subsection}{بیانیه های شرطی و چرخشی}{46}{section*.16}
-\contentsline {subsection}{آرایه ها، بردارها، نقشه ها}{47}{section*.17}
-\contentsline {subsection}{توابع در \lr {C++}}{51}{section*.18}
-\contentsline {subsection}{کلاسهای \lr {C++}}{53}{section*.19}
-\contentsline {subsection}{پایان بخش \lr {C++}}{54}{section*.20}
+\contentsline {subsection}{سینتکس}{39}{section*.15}
+\contentsline {subsection}{متغیرهای اشاره ای و مرجعی}{43}{section*.16}
+\contentsline {subsection}{بیانیه های شرطی و چرخشی}{46}{section*.17}
+\contentsline {subsection}{آرایه ها، بردارها، نقشه ها}{47}{section*.18}
+\contentsline {subsection}{توابع در \lr {C++}}{51}{section*.19}
+\contentsline {subsection}{کلاسهای \lr {C++}}{53}{section*.20}
+\contentsline {subsection}{پایان بخش \lr {C++}}{54}{section*.21}
 \contentsline {section}{\numberline {3.6}سیستمهای کنترل نسخه}{54}{section.3.6}
 \contentsline {section}{\numberline {3.7}پایان فصل برنامه نویسی}{55}{section.3.7}
 \contentsline {chapter}{\chapternumberline {4}برنامه نویسی گرافیکی، مفهومات، الگوریتمها}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}مانیتورهای کامپیوتر}{57}{section.4.1}
-\contentsline {subsection}{مانیتورهای اشعه ی کاتدی}{57}{section*.21}
-\contentsline {subsection}{مانیتورهای کریستال مایع}{60}{section*.22}
+\contentsline {subsection}{مانیتورهای اشعه ی کاتدی}{57}{section*.22}
+\contentsline {subsection}{مانیتورهای کریستال مایع}{60}{section*.23}
 \contentsline {section}{\numberline {4.2} صفحه ی شطرنجی و المان تصویری (پیکسل)}{62}{section.4.2}
 \contentsline {section}{\numberline {4.3}رسترسازی}{64}{section.4.3}

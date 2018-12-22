@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  22 DEC 2018 09:05
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  23 DEC 2018 00:04
 entering extended mode
 **./book.tex
 (book.tex
@@ -1732,38 +1732,30 @@ ndigits;"
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
 
-Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
-(fontspec)             New Roman' with options [Mapping=tex-text].
+Package fontspec Info: Font "Garamond" does not contain any OpenType `Script'
+(fontspec)             information.
+
+
+Package fontspec Info: Font family 'Garamond(0)' created for font 'Garamond'
+(fontspec)             with options [Mapping=tex-text].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-tex
-t;"
-(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times
-(fontspec)             New
-(fontspec)             Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
-ext;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"Times New
-(fontspec)             Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
-ext;"
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Garamond/OT:mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->"Garamond/B/OT:mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Garamond/I/OT:mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->"Garamond/BI/OT:mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-(fontspec)             <->"Times New
-(fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
-text;"
-
-LaTeX Info: Redefining \latinfont on input line 23.
+LaTeX Info: Redefining \latinfont on input line 24.
 
 Package fontspec Info: Could not resolve font "Inconsolata Regular/BI" (it
 (fontspec)             probably doesn't exist).
@@ -1820,50 +1812,50 @@ Package fontspec Info: Font family 'Digital-7(0)' created for font 'Digital-7'
 (book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 \c@lstlisting=\count431
 \AtBeginShipoutBox=\box69
 
 ABD: EveryShipout initializing macros
 
-Package chemgreek Info: Activating mapping `fontspec' on line 40.
+Package chemgreek Info: Activating mapping `fontspec' on line 43.
 
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/Sahel(0)/m/n --> TS1/Sahel(0)/bx/n on input line 40
+(Font)                  TS1/Sahel(0)/m/n --> TS1/Sahel(0)/bx/n on input line 43
 .
-Package gensymb Info: Math companion symbols declared on input line 40.
-LaTeX Info: Redefining \degree on input line 40.
-LaTeX Info: Redefining \celsius on input line 40.
+Package gensymb Info: Math companion symbols declared on input line 43.
+LaTeX Info: Redefining \degree on input line 43.
+LaTeX Info: Redefining \celsius on input line 43.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 40.
-LaTeX Info: Redefining \ohm on input line 40.
-Package gensymb Info: Using \textohm for \ohm on input line 40.
-Package gensymb Info: Using \textmu for \micro on input line 40.
-Package hyperref Info: Link coloring OFF on input line 40.
+erthousand on input line 43.
+LaTeX Info: Redefining \ohm on input line 43.
+Package gensymb Info: Using \textohm for \ohm on input line 43.
+Package gensymb Info: Using \textmu for \micro on input line 43.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1873,29 +1865,29 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count432
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (book.out) (book.out)
 \@outlinefile=\write6
 \openout6 = `book.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for TS1+Sahel(0) on input line
- 50.
-LaTeX Font Info:    No file TS1Sahel(0).fd. on input line 50.
+ 53.
+LaTeX Font Info:    No file TS1Sahel(0).fd. on input line 53.
 
 
 LaTeX Font Warning: Font shape `TS1/Sahel(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 50.
+(Font)              using `TS1/cmr/m/n' instead on input line 53.
 
 File: ./images/Cover.png Graphic file (type bmp)
 <./images/Cover.png>
@@ -1914,54 +1906,59 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ]
 
 LaTeX Font Warning: Font shape `TU/Sahel(0)/m/sl' undefined
-(Font)              using `TU/Sahel(0)/m/n' instead on input line 52.
+(Font)              using `TU/Sahel(0)/m/n' instead on input line 55.
 
 [2]
-Package mdframed Info: mdframed works in twoside mode on input line 58.
-Package mdframed Info: Not enough space on this page on input line 69.
+Package mdframed Info: mdframed works in twoside mode on input line 61.
+Package mdframed Info: Not enough space on this page on input line 72.
  [3] [4
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 98.
+Package mdframed Info: mdframed works in twoside mode on input line 99.
 LaTeX Font Info:    Font shape `TU/InconsolataRegular(0)/m/n' will be
-(Font)              scaled to size 11.52003pt on input line 109.
- (book.toc [5]
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
-ping=persiandigits;!
-) [6] [1
+(Font)              scaled to size 11.52003pt on input line 110.
+ [5] [6
 
+]
+Package mdframed Info: mdframed works in twoside mode on input line 129.
+ [7] (book.toc
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+) [8] [9] [10
+
+] [1
 
 ] [2]
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
@@ -2019,13 +2016,13 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (1.59279pt too wide) in paragraph at lines 330--331
+Overfull \hbox (1.59279pt too wide) in paragraph at lines 346--347
 [][]\TU/Sahel(0)/m/sl/14.4 در ساخت بازیهای کامپیوتری و برنامه نویسی گرافیکی ما 
 بیشتر نیاز به ماتریسهای[]
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 338.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 354.
 
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
@@ -2055,7 +2052,7 @@ T;mapping=persiandigits;!
 
 
 LaTeX Font Warning: Font shape `TU/Sahel(0)/m/it' undefined
-(Font)              using `TU/Sahel(0)/m/n' instead on input line 450.
+(Font)              using `TU/Sahel(0)/m/n' instead on input line 466.
 
 [17]
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
@@ -2087,7 +2084,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [19]
-Overfull \hbox (0.51938pt too wide) in paragraph at lines 502--503
+Overfull \hbox (0.51938pt too wide) in paragraph at lines 518--519
 [][]\TU/Sahel(0)/m/it/14.4 کتابخانه ها میتوانند به صورت فایل متنی، یا فایل \TU/
 Sahel(0)/bx/n/14.4 باینری[][][][][][] \TU/Sahel(0)/m/it/14.4 عرضه شوند. کتابخان
 ه[]
@@ -2112,7 +2109,7 @@ File: ./images/InstallPython_3.png Graphic file (type bmp)
 File: ./images/InstallPython_4.png Graphic file (type bmp)
 <./images/InstallPython_4.png>
 
-Overfull \hbox (27.9989pt too wide) in paragraph at lines 530--531
+Overfull \hbox (27.9989pt too wide) in paragraph at lines 546--547
  [][][][][] 
  []
 
@@ -2123,12 +2120,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./images/InstallPython_5.png Graphic file (type bmp)
 <./images/InstallPython_5.png>
 
-Overfull \hbox (1.99896pt too wide) in paragraph at lines 534--535
+Overfull \hbox (1.99896pt too wide) in paragraph at lines 550--551
  [][][][][] 
  []
 
 
-Overfull \hbox (9.43628pt too wide) in paragraph at lines 538--540
+Overfull \hbox (9.43628pt too wide) in paragraph at lines 554--556
 [][][]$[] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][]
 [][][][][] [] [][][][][][][][] [] [][][][][][][]$[][][] \TU/Sahel(0)/m/it/14.4 
 دانلود کنید.[]
@@ -2139,9 +2136,9 @@ ping=persiandigits;!
 [23]
 File: ./images/CreateNewPythonFile.png Graphic file (type bmp)
 <./images/CreateNewPythonFile.png>
-Package mdframed Info: mdframed works in twoside mode on input line 557.
+Package mdframed Info: mdframed works in twoside mode on input line 573.
  [24]
-Overfull \hbox (7.37798pt too wide) in paragraph at lines 580--581
+Overfull \hbox (7.37798pt too wide) in paragraph at lines 596--597
 [][]\TU/Sahel(0)/m/it/14.4 همانطور که میبینید، متغیرهای پایتان هر \TU/Sahel(0)/
 bx/n/14.4 نوع دیتایی [][][][][][] \TU/Sahel(0)/m/it/14.4 را قبول میکنند، استرین
 گ،[]
@@ -2206,13 +2203,13 @@ Missing character: There is no ه in font cmmi12!
 Missing character: There is no ک in font cmmi12!
 Missing character: There is no ر in font cmmi12!
 Missing character: There is no د in font cmmi12!
-Package mdframed Info: mdframed works in twoside mode on input line 686.
-Package mdframed Info: Not enough space on this page on input line 687.
+Package mdframed Info: mdframed works in twoside mode on input line 702.
+Package mdframed Info: Not enough space on this page on input line 703.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [27]
-Package mdframed Info: Not enough space on this page on input line 687.
-Package mdframed Info: mdframed works in twoside mode on input line 718.
+Package mdframed Info: Not enough space on this page on input line 703.
+Package mdframed Info: mdframed works in twoside mode on input line 734.
  [28]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
@@ -2221,31 +2218,31 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [29]
-Package mdframed Info: mdframed works in twoside mode on input line 780.
+Package mdframed Info: mdframed works in twoside mode on input line 796.
  [30]
-Package mdframed Info: mdframed works in twoside mode on input line 809.
+Package mdframed Info: mdframed works in twoside mode on input line 825.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [31]
-Package mdframed Info: mdframed works in twoside mode on input line 878.
+Package mdframed Info: mdframed works in twoside mode on input line 894.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [32]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [33]
-Overfull \hbox (0.65532pt too wide) in paragraph at lines 951--952
+Overfull \hbox (0.65532pt too wide) in paragraph at lines 967--968
 [][]\TU/Sahel(0)/m/it/14.4 اگر شرایط بازگشت در تابع محیا نباشد همانطور که در بخ
 ش قبل گفتیم، سرریزی[]
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 954.
+Package mdframed Info: mdframed works in twoside mode on input line 970.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 [34]
-Overfull \hbox (18.84193pt too wide) in paragraph at lines 985--986
+Overfull \hbox (18.84193pt too wide) in paragraph at lines 1001--1002
 [][]\TU/Sahel(0)/m/it/14.4 میتوانید با علامت بعلاوه، حالتها را با هم ترکیب کنید
  مثلا [][][][][][][][][][][][][][][][]. []
  []
@@ -2253,7 +2250,7 @@ Overfull \hbox (18.84193pt too wide) in paragraph at lines 985--986
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 [35]
-Overfull \hbox (59.37563pt too wide) in paragraph at lines 1036--1037
+Overfull \hbox (59.37563pt too wide) in paragraph at lines 1052--1053
 [][]\TU/Sahel(0)/m/it/14.4 برای درست کردن یک فرزند از کلاس مستطیل، کافیست به صو
 رت [][][][][][][][][][][]
  []
@@ -2266,13 +2263,6 @@ ping=persiandigits;!
  [37]
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
-
-Overfull \hbox (10.91393pt too wide) in paragraph at lines 1083--1084
-[]\TU/Sahel(0)/m/it/14.4 زبان []\TU/TimesNewRoman(0)/m/n/14.4 C++[] \TU/Sahel(0
-)/m/it/14.4 در اوایل دهه ی هشتاد توسط دکتر بی ‌یارنه استراستروپ، مهندس دانمارکی
-،[]
- []
-
 File: ./images/VSNewProject.png Graphic file (type bmp)
 <./images/VSNewProject.png>
 
@@ -2281,10 +2271,10 @@ Underfull \vbox (badness 1953) has occurred while \output is active []
  [38]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <14.4> not av
-ailable
-(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 1123.
+LaTeX Font Info:    Font shape `TU/Garamond(0)/m/sl' in size <14.4> not availab
+le
+(Font)              Font shape `TU/Garamond(0)/m/it' tried instead on input lin
+e 1139.
 
 [39]
 File: ./images/HelloWorld.png Graphic file (type bmp)
@@ -2297,24 +2287,23 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [41]
-Package mdframed Info: mdframed works in twoside mode on input line 1188.
+Package mdframed Info: mdframed works in twoside mode on input line 1204.
 
-Overfull \hbox (4.17303pt too wide) in paragraph at lines 1195--1196
+Overfull \hbox (4.17303pt too wide) in paragraph at lines 1211--1212
 [][][][][] []
  []
 
 
-Overfull \hbox (1.13968pt too wide) in paragraph at lines 1205--1206
-[][]\TU/Sahel(0)/m/it/14.4 در []\TU/TimesNewRoman(0)/m/n/14.4 C++[] \TU/Sahel(0
-)/m/it/14.4 مانند پایتان، نوع استرینگ نداریم. اما در کتابخانه ی استاندارد استری
-نگ[]
+Overfull \hbox (3.63577pt too wide) in paragraph at lines 1221--1222
+[][]\TU/Sahel(0)/m/it/14.4 در []\TU/Garamond(0)/m/n/14.4 C++[] \TU/Sahel(0)/m/i
+t/14.4 مانند پایتان، نوع استرینگ نداریم. اما در کتابخانه ی استاندارد استرینگ[]
  []
 
 [42]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [43]
-Overfull \hbox (24.93344pt too wide) in paragraph at lines 1271--1272
+Overfull \hbox (24.93344pt too wide) in paragraph at lines 1287--1288
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
 
  []
@@ -2329,27 +2318,27 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [45]
-Overfull \hbox (2.31818pt too wide) in paragraph at lines 1355--1356
+Overfull \hbox (2.31818pt too wide) in paragraph at lines 1371--1372
 [][]\TU/Sahel(0)/m/it/14.4 while و for یک کار را انجام میدهند، فقط، اینگونه است
  که ابتدا \TU/Sahel(0)/bx/n/14.4 بازتکرارکننده[][][][][][][]
  []
 
 [46]
-Package mdframed Info: mdframed works in twoside mode on input line 1358.
+Package mdframed Info: mdframed works in twoside mode on input line 1374.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [47] [48]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [49]
-Overfull \hbox (38.7576pt too wide) in paragraph at lines 1472--1473
+Overfull \hbox (38.7576pt too wide) in paragraph at lines 1488--1489
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 1492.
+Package mdframed Info: mdframed works in twoside mode on input line 1508.
 [50]
-Package mdframed Info: Not enough space on this page on input line 1493.
-Package mdframed Info: mdframed works in twoside mode on input line 1522.
+Package mdframed Info: Not enough space on this page on input line 1509.
+Package mdframed Info: mdframed works in twoside mode on input line 1538.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [51] [52]
@@ -2359,7 +2348,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (1.79749pt too wide) in paragraph at lines 1625--1626
+Overfull \hbox (1.79749pt too wide) in paragraph at lines 1641--1642
 []\TU/Sahel(0)/bx/n/14.4 سیستمهای کنترل نسخه[][][][][][] \TU/Sahel(0)/m/it/14.4
  سیستمهایی هستند که با استفاده از آنها میتوانید کدهای[]
  []
@@ -2375,7 +2364,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (7.22914pt too wide) in paragraph at lines 1646--1647
+Overfull \hbox (7.22914pt too wide) in paragraph at lines 1662--1663
 []\TU/Sahel(0)/m/it/14.4 درینست که، \TU/Sahel(0)/bx/n/14.4 آسیلیتور[][][][][][]
  \TU/Sahel(0)/m/it/14.4 مانیتور، از \TU/Sahel(0)/bx/n/14.4 آرایه ی ویدئوگرافیکی
 [][][][][][] \TU/Sahel(0)/m/it/14.4 دستور میگیرد، اما آسیلیتور[]
@@ -2392,8 +2381,8 @@ ping=persiandigits;!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-Package mdframed Info: mdframed works in twoside mode on input line 1664.
-Package mdframed Info: mdframed works in twoside mode on input line 1668.
+Package mdframed Info: mdframed works in twoside mode on input line 1680.
+Package mdframed Info: mdframed works in twoside mode on input line 1684.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
@@ -2407,7 +2396,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 LaTeX Font Info:    Font shape `TU/Digital-7(0)/m/n' will be
-(Font)              scaled to size 21.59999pt on input line 1684.
+(Font)              scaled to size 21.59999pt on input line 1700.
  [60]
 File: ./images/Polar_Without.png Graphic file (type bmp)
 <./images/Polar_Without.png>
@@ -2450,26 +2439,26 @@ Package catoptions Warning: Undefined options
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1805.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1805.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1821.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1821.
 (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1805.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1805.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1821.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1821.
 
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: ACCAAC1EF35374D5D090167E0CA9C510.
+(rerunfilecheck)             Checksum: D945287550FE0BEE16F9E17AC506FBAA.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 42710 strings out of 427796
- 794080 string characters out of 3151768
- 1018940 words of memory out of 3000000
- 46055 multiletter control sequences out of 15000+200000
- 548912 words of font info for 130 fonts, out of 3000000 for 9000
+ 42705 strings out of 427796
+ 793188 string characters out of 3151768
+ 1019064 words of memory out of 3000000
+ 46053 multiletter control sequences out of 15000+200000
+ 548904 words of font info for 129 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,13n,84p,1231b,1716s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.pdf (70 pages).
+Output written on book.pdf (74 pages).

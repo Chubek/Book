@@ -11,6 +11,7 @@
 \usepackage[version=4]{mhchem}
 \usepackage{amssymb}
 \usepackage{xcolor}
+\definecolor{amber}{rgb}{1.0, 0.75, 0.0}
 \usepackage{textcomp}
 \usepackage{menukeys}
 \usepackage{gensymb}
@@ -19,7 +20,7 @@
 \graphicspath{ {./images/} }
 \usepackage{xepersian}
 \settextfont{Sahel}
-\setlatintextfont{Times New Roman}
+\setlatintextfont{Garamond}
 \deflatinfont\mono[Scale=0.8]{Inconsolata Regular}
 \deflatinfont\lcd[Scale=1.5]{Digital-7}
 
@@ -34,6 +35,8 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt]{mybox}
 \newmdenv[innerlinewidth=0.5pt, roundcorner=4pt,linecolor=mycolor,innerleftmargin=6pt,
 innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt, backgroundcolor=yellow]{tip}
 
+\newmdenv[innerlinewidth=0.5pt, roundcorner=4pt,linecolor=mycolor,innerleftmargin=6pt,
+innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt, backgroundcolor=amber]{files}
 
 
 
@@ -82,9 +85,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt, backgroundcolor=y
 	 لطفا فایلهایی که همراه کتاب خریده اید نیز جایی کپی نکنید. قیمت فایلها با توجه به استطاعت خوانندگان، با الگوریتمی پیچیده\footnote{و درضمن، در صورت بیشتر شدن تعداد خریدها، قیمت کاهش میابد.} تعیین شده است. برای همین همه میتوانند آن را بخرند. آپلود فایلهای کتاب در جای دیگر، پایرسی حساب میشود و از لحاظ اخلاقی، کاریست نپسندیده.
 	 
 	 اما تکثیر خود کتاب با ذکر منبع آزاد است.
-	  
-	 \textbf{نکته:} کدهای کتاب در فایل خریداری شده حی و حاظر آماده ی کپی میباشد.
-	 
+	  	 
 	 
 	 
 	 \chapter*{قراردادهای کتاب}
@@ -120,6 +121,21 @@ Write('Case insensitive ');
 	\end{enumerate}
 	 
 	 
+	 
+	 \chapter*{خلاصه ی کتاب}
+	 
+	 
+	 \begin{files}
+	 	سه فایل همراه این کتاب به فروش گذاشته شده است:
+	 	\begin{itemize}
+	 		\item \textbf{codes.zip}: این فایل، حاوی کدهایی میباشد که از فصل 3 ببعد شماره گذاری شده، و نوشته میشوند.
+	 		\item \textbf{assets.zip} این فایل حاوی فایلهای لازمه برای ساخت بازی میباشد.
+	 		\item  \textbf{tutorials.zip}: این فایل حاوی آموزشهای ویدئویی همراه کتاب میباشند.
+	 	\end{itemize}
+	 \end{files}
+	 
+	 
+	 \newpage
 	 \tableofcontents
 	 \mainmatter
 	 
@@ -1742,9 +1758,9 @@ class Descendent : Ancestor
 	 \section{رسترسازی}\label{rasterize}
 	 
 	 
+	 گفتیم که، 
 	 
-	 
-	 
+	 '
 	 
 	 
 	 
