@@ -34,9 +34,10 @@
 \contentsline {subsection}{پایان بخش \lr {C++}}{54}{section*.21}
 \contentsline {section}{\numberline {3.6}سیستمهای کنترل نسخه}{54}{section.3.6}
 \contentsline {section}{\numberline {3.7}پایان فصل برنامه نویسی}{55}{section.3.7}
-\contentsline {chapter}{\chapternumberline {4}برنامه نویسی گرافیکی، مفهومات، الگوریتمها}{57}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}مفهومات پایه ی گرافیک}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}مانیتورهای کامپیوتر}{57}{section.4.1}
 \contentsline {subsection}{مانیتورهای اشعه ی کاتدی}{57}{section*.22}
 \contentsline {subsection}{مانیتورهای کریستال مایع}{60}{section*.23}
 \contentsline {section}{\numberline {4.2} صفحه ی شطرنجی و المان تصویری (پیکسل)}{62}{section.4.2}
 \contentsline {section}{\numberline {4.3}رسترسازی}{64}{section.4.3}
+\contentsline {section}{\numberline {4.4}سایه زنهای ترکشی}{67}{section.4.4}
