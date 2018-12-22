@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  22 DEC 2018 08:06
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  22 DEC 2018 09:05
 entering extended mode
 **./book.tex
 (book.tex
@@ -1765,25 +1765,29 @@ text;"
 
 LaTeX Info: Redefining \latinfont on input line 23.
 
-Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
-(fontspec)             New' with options [Mapping=tex-text,Scale=.7].
+Package fontspec Info: Could not resolve font "Inconsolata Regular/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Inconsolata Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Inconsolata Regular/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'InconsolataRegular(0)' created for font
+(fontspec)             'Inconsolata Regular' with options
+(fontspec)             [Mapping=tex-text,Scale=0.8].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.7]"Courier
-(fontspec)             New/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.8]"Inconsolata
+(fontspec)             Regular/OT:script=latn;language=DFLT;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->s*[.7]"Courier
-(fontspec)             New/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[.7]"Courier
-(fontspec)             New/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
-(fontspec)             <->s*[.7]"Courier
-(fontspec)             New/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
 
 Package fontspec Info: Font "Digital-7" does not contain any OpenType `Script'
@@ -1919,9 +1923,11 @@ Package mdframed Info: Not enough space on this page on input line 69.
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 98.
-LaTeX Font Info:    Font shape `TU/CourierNew(0)/m/n' will be
-(Font)              scaled to size 10.07994pt on input line 109.
+LaTeX Font Info:    Font shape `TU/InconsolataRegular(0)/m/n' will be
+(Font)              scaled to size 11.52003pt on input line 109.
  (book.toc [5]
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
@@ -2206,8 +2212,6 @@ Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;ma
 ping=persiandigits;!
  [27]
 Package mdframed Info: Not enough space on this page on input line 687.
-LaTeX Font Info:    Font shape `TU/CourierNew(0)/m/n' will be
-(Font)              scaled to size 12.0959pt on input line 704.
 Package mdframed Info: mdframed works in twoside mode on input line 718.
  [28]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
@@ -2241,7 +2245,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 [34]
-Overfull \hbox (25.77625pt too wide) in paragraph at lines 985--986
+Overfull \hbox (18.84193pt too wide) in paragraph at lines 985--986
 [][]\TU/Sahel(0)/m/it/14.4 میتوانید با علامت بعلاوه، حالتها را با هم ترکیب کنید
  مثلا [][][][][][][][][][][][][][][][]. []
  []
@@ -2249,7 +2253,7 @@ Overfull \hbox (25.77625pt too wide) in paragraph at lines 985--986
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 [35]
-Overfull \hbox (66.02103pt too wide) in paragraph at lines 1036--1037
+Overfull \hbox (59.37563pt too wide) in paragraph at lines 1036--1037
 [][]\TU/Sahel(0)/m/it/14.4 برای درست کردن یک فرزند از کلاس مستطیل، کافیست به صو
 رت [][][][][][][][][][][]
  []
@@ -2262,6 +2266,13 @@ ping=persiandigits;!
  [37]
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
+
+Overfull \hbox (10.91393pt too wide) in paragraph at lines 1083--1084
+[]\TU/Sahel(0)/m/it/14.4 زبان []\TU/TimesNewRoman(0)/m/n/14.4 C++[] \TU/Sahel(0
+)/m/it/14.4 در اوایل دهه ی هشتاد توسط دکتر بی ‌یارنه استراستروپ، مهندس دانمارکی
+،[]
+ []
+
 File: ./images/VSNewProject.png Graphic file (type bmp)
 <./images/VSNewProject.png>
 
@@ -2288,6 +2299,11 @@ ping=persiandigits;!
  [41]
 Package mdframed Info: mdframed works in twoside mode on input line 1188.
 
+Overfull \hbox (4.17303pt too wide) in paragraph at lines 1195--1196
+[][][][][] []
+ []
+
+
 Overfull \hbox (1.13968pt too wide) in paragraph at lines 1205--1206
 [][]\TU/Sahel(0)/m/it/14.4 در []\TU/TimesNewRoman(0)/m/n/14.4 C++[] \TU/Sahel(0
 )/m/it/14.4 مانند پایتان، نوع استرینگ نداریم. اما در کتابخانه ی استاندارد استری
@@ -2297,7 +2313,13 @@ Overfull \hbox (1.13968pt too wide) in paragraph at lines 1205--1206
 [42]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
- [43] [44]
+ [43]
+Overfull \hbox (24.93344pt too wide) in paragraph at lines 1271--1272
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+
+ []
+
+[44]
 File: ./images/MemoryAddress.png Graphic file (type bmp)
 <./images/MemoryAddress.png>
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
@@ -2320,8 +2342,12 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [49]
+Overfull \hbox (38.7576pt too wide) in paragraph at lines 1472--1473
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
 Package mdframed Info: mdframed works in twoside mode on input line 1492.
- [50]
+[50]
 Package mdframed Info: Not enough space on this page on input line 1493.
 Package mdframed Info: mdframed works in twoside mode on input line 1522.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
@@ -2412,6 +2438,8 @@ ping=persiandigits;!
  [63]
 File: ./images/RasterScan.png Graphic file (type bmp)
 <./images/RasterScan.png>
+Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
+T;mapping=persiandigits;!
  [64]
 
 Package catoptions Warning: Undefined options 
@@ -2422,25 +2450,25 @@ Package catoptions Warning: Undefined options
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1801.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1801.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1805.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1805.
 (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1801.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1801.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1805.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1805.
 
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: 29D4B99B654376C4D9AF83EEB06D04C2.
+(rerunfilecheck)             Checksum: ACCAAC1EF35374D5D090167E0CA9C510.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 42721 strings out of 427796
- 794434 string characters out of 3151768
- 1018896 words of memory out of 3000000
- 46061 multiletter control sequences out of 15000+200000
- 548944 words of font info for 134 fonts, out of 3000000 for 9000
+ 42710 strings out of 427796
+ 794080 string characters out of 3151768
+ 1018940 words of memory out of 3000000
+ 46055 multiletter control sequences out of 15000+200000
+ 548912 words of font info for 130 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,13n,84p,1231b,1716s stack positions out of 5000i,500n,10000p,200000b,50000s
 
