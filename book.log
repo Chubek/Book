@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  23 DEC 2018 08:38
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  23 DEC 2018 09:09
 entering extended mode
 **./book.tex
 (book.tex
@@ -1925,7 +1925,12 @@ Package mdframed Info: Not enough space on this page on input line 72.
 Package mdframed Info: mdframed works in twoside mode on input line 99.
 LaTeX Font Info:    Font shape `TU/InconsolataRegular(0)/m/n' will be
 (Font)              scaled to size 11.52003pt on input line 110.
- [5] [6
+
+
+Package Listings Warning: Text dropped after begin of listing on input line 110
+.
+
+[5] [6
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 129.
@@ -2311,12 +2316,7 @@ Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;ma
 ping=persiandigits;!
  [41]
 Package mdframed Info: mdframed works in twoside mode on input line 1204.
-
-Overfull \hbox (4.17303pt too wide) in paragraph at lines 1211--1212
-[][][][][] []
- []
-
-[42]
+ [42]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [43]
@@ -2587,12 +2587,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 42818 strings out of 427796
- 795503 string characters out of 3151768
+ 42819 strings out of 427796
+ 795510 string characters out of 3151768
  1019116 words of memory out of 3000000
- 46159 multiletter control sequences out of 15000+200000
+ 46160 multiletter control sequences out of 15000+200000
  548912 words of font info for 130 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 73i,13n,84p,1231b,1716s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,13n,84p,1231b,1765s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on book.pdf (81 pages).

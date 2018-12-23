@@ -107,7 +107,7 @@ innerrightmargin=6pt,innertopmargin=6pt,innerbottommargin=6pt, backgroundcolor=a
 	 
 	 
 	\begin{latin}
-	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}][backgroundcolor = \color{lightgray}]
 for i:=maxint to 0 do
 begin
 { do nothing }
@@ -562,7 +562,7 @@ Z
  	
  	
  	\begin{latin}
- 	\mono{	\begin{lstlisting}
+ 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 new_variable = "A Portal to the World of Python"
 print(new_variable)
  		\end{lstlisting}}
@@ -583,7 +583,7 @@ print(new_variable)
 	 
 	 	\begin{latin}
 	 		
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 var = True #boolean
 var = "String" #string
 var = 1 #integer
@@ -613,7 +613,7 @@ var = Class() #Class
 	 برای نگاه داشتن چندین نوع دیتا، یا چندین متغیر، در یک مکان، از \textbf{لیست}\footnote{Lists} استفاده میکنیم.لیستها به صورت زیر مقداردهی اولیه میشوند:
 	 
 	  	\begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 a_list = []
 a_list = [1, 2, 3, 4]
 a_list = ["Hello World", "Goodbye World"]
@@ -624,7 +624,7 @@ a_list = [1, 2, 3, 4, "Hello", "World"]
 	 		
 	 		یک لیست وقتی مقداردهی اولیه شد، نباید با علامت مساوی، به آن مقدار اضافه کرد. بلکه، باید از \lr{\mono\lstinline|list.append|} استفاده کرد:
 	 	\begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 a_list = [1]
 print(a_list)
 a_list.append(2)
@@ -648,7 +648,7 @@ print(a_list)
 	 
 	 
 	 	\begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 multi_dimensional_list = [[], [], []]
 multi_dimensional_list.append([])
 	 		\end{lstlisting}}
@@ -658,7 +658,7 @@ multi_dimensional_list.append([])
  برای به دست آوردن عضو خاصی از لیست، از ایندکس آن استفاده میکنیم.
  
  	 	\begin{latin}
- 	\mono{	\begin{lstlisting}
+ 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
  my_list = [2, 4, 6, 8, 10]
  print(my_list[0])
  		\end{lstlisting}}
@@ -667,7 +667,7 @@ multi_dimensional_list.append([])
 \textbf{ایندکسها از 0 شروع میشوند} تا سایز لیست منهای یک ادامه دارند. برای بدست آوردن چندین عضو از لیست، از علامت دو نقطه استفاده میکنیم:
 
  	 	\begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 my_list = [2, 4, 6, 8, 10]
 print(my_list[0:3])
 		\end{lstlisting}}
@@ -679,7 +679,7 @@ print(my_list[0:3])
 	 
 	 
  	 	\begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 my_tuple = (R, G, B)
 print(my_tupe[0:1])
 		\end{lstlisting}}
@@ -690,7 +690,7 @@ print(my_tupe[0:1])
 	 دیکشنریها نیز مانند لیستها، برای نگه داشتن مقدار زیادی دیتا استفاده میشود. اما در دیکشنری، ایندکسها، عوض شماره، دارای نام هستند \(میتوان از شماره نیز استفاده کرد\). دیکشنریها \textbf{همتا به همتا}\footnote{Peer to Peer} هستند. برای مقداردهی اولیه ی یک دیکشنری، از تفریق زیر استفاده میکنیم:
 	 
 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 my_dict = {"Name" : "Chubak",
 	"Last Name" : "Bidpaa"}
 print(my_dict["Name"])
@@ -714,7 +714,7 @@ print(my_dict["Name"])
 	 
 	 
 	 \begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 pi = 3.14
 r = 10
 area= pi*r*r
@@ -773,7 +773,7 @@ else:
 	 
 	 
 	 \begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 if area > 20:
 	 print("The area is bigger than 20.")
 elif area < 15:
@@ -807,7 +807,7 @@ else:
 	 
 	 
 	 \begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 i = 0
 		
 while i < 50:
@@ -831,7 +831,7 @@ while i < 50:
 	 میتوانید با استفاده از کلمه ی کلیدی \lr{\mono\lstinline|and| } یک شرط دیگر اضافه کنید:
 	 
 	 \begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 i = 0
 		
 while i < 50 and i < 25:
@@ -852,7 +852,7 @@ while i < 50 and i < 25:
 	 
 	 	 
 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 for i in range(n):
 	print(str(i))
 	 		
@@ -870,7 +870,7 @@ for i in range(n):
 	 برای دسترسی به اعضای یک لیست، تاپل، دیکشنری، یا هر شیء \textbf{قابل بازتکرار}\footnote{Iterable} دیگری، از for استفاده میکنیم. مثال برای لیست اینگونه است:
 	 
 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 one_dim_list = [1, 2, 3]
 two_dim_list = [[1, 2, 3], [4, 5, 6]]
 	 		
@@ -900,7 +900,7 @@ for list in two_dim_list:
 	 
 
 		 	 \begin{latin}
-			\mono{	\begin{lstlisting}
+			\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 n = 0
 while True:
 	n += 1
@@ -922,7 +922,7 @@ while True:
 	 
 	 
 	 \begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 def first_functions():
 	pi = 3.14
 	r = 10
@@ -953,7 +953,7 @@ def first_functions():
 	 
 	 
 	 \begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 def factorial(n):
 	if n == 1:
 	 return n
@@ -977,7 +977,7 @@ def factorial(n):
 	 
 	 
 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 f = open(filename,mode)
 	 		\end{lstlisting}}	 
 	 	
@@ -1003,7 +1003,7 @@ f = open(filename,mode)
 	 برای بستن فایل از اسلوب \lr{\mono\lstinline|file.close()|} استفاده کنید. نوشتن روی فایلها به صورت زیر انجام میپذیرد:
 	 
 	 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 with open("test.txt",'w',encoding = 'utf-8') as f:
 	f.write("my first file\n")
 	f.write("This file\n\n")
@@ -1020,7 +1020,7 @@ with open("test.txt",'w',encoding = 'utf-8') as f:
 	 
 
 	 	 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 class Rectangle:
  	def __int__(self, color, filled, width, length):
 		self.__color = color
@@ -1076,7 +1076,7 @@ class Rectangle:
 	 
 	 
 	 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 import numpy
 from numpy import class
 import numpy as math
@@ -1119,7 +1119,7 @@ import numpy as math
 	 یک برنامه ی \lr{C++} به صورت زیر نوشته میشود:
 	 
 	 	 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 #include "pch.h"
 #include <iostream>
 	 	
@@ -1147,7 +1147,7 @@ int main()
 	 تابع معکوسِ سی-اوت، \lr{\mono\lstinline|std::cin|} $ \text{(سی-این)} $ میباشد. سی-این یک متغیر را گرفته، و به از کیبورد ارزش گرفته و به آن مقداردهی میکند.
 	 
 	 	 	 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 int main()
 {
 	int variable = 0;
@@ -1163,7 +1163,7 @@ int main()
 	 کدِ بالا، توسط سی-این، یک عدد به متغیر میدهد و بعد آنرا به نمایش میگذارد. \lr{\mono\lstinline|std::endl|} که حرف آخرش L کوچک است، خط جدید ایجاد میکند.
 	 همانطور که توجه کرده اید، متغیرها در \lr{C++}، نوع دارند چون \lr{C++} زبان تایپ امن است. زیر زیر چند گونه از انواع دیتا در این زبان را مشاهده میکنید.
 	 	 	 	 \begin{latin}
-	\mono{	\begin{lstlisting}
+	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 //integer
 unsigned int;
 signed int;
@@ -1202,13 +1202,13 @@ void;
 	 
 	 \begin{tip}
 	 	شاید برایتان سوال باشد که از فلوت استفاده کنید یا از دابل. جواب، در احتیاجات شماست. مثلا اگر $ \pi $ را حساب کنیم، و آنرا یک بار در فلوت قرار بدهیم، یکی بار در دابل، یک بار در لانگ دابل:	 		 	 	 	 \begin{latin}
-	 		\mono{	\begin{lstlisting}
+	 		\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 //float:
 3.1415927410125732421875 
 //double:
 3.141592653589793115997963468544185161590576171875 
 //long double:
-3.14159265358979323851280895940618620443274267017841339111328125 
+3.1415926535897932385128089594061862044327426701784133911132812
 	 			\end{lstlisting}}	 
 	 		
 	 	\end{latin}
@@ -1223,7 +1223,7 @@ void;
 	 
 	 
 	 	 		 	 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 #include <iostream>
 #include <string>
 
@@ -1244,7 +1244,7 @@ int main()
 	 هرنوع تایپ را میشود ترکیب کرد و \textbf{ثابته}\footnote{Constant} ساخت. ثابته ها، برعکس متغیرها، هرگز تغییر نمیکنند. برای ساخت ثابته از نوع فلوت به صورت زیر عمل میکنیم:
 	 
 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 const float pi = 3.1415
 	 		\end{lstlisting}}	 
 	 	
@@ -1273,7 +1273,7 @@ const float pi = 3.1415
 	 
 	 
 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 #include "pch.h"
 #include <iostream>
 
@@ -1338,7 +1338,7 @@ And by adding * to ip we 'dereference' it like so: 41
 	 
 	 
 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 int i = rand();
 if (i > 20)
 {
@@ -1377,7 +1377,7 @@ while و for یک کار را انجام میدهند، فقط، اینگونه 
 	 
 	 	 
 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 do
 {
 	i %= 10;
@@ -1403,7 +1403,7 @@ while (i > 0)
 	 
 	 	 	 
 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 int integerArray[3];
 int integerArray[] = { 1, 2, 3 };
 int integerArray[3] = { 0 };
@@ -1434,7 +1434,7 @@ for (int i = 0; i < 20; i++)
  
  
 	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 #include "pch.h"
 #include <iostream>
 #include <vector>
@@ -1468,7 +1468,7 @@ int main()
  
  در پایتان دیدیم که اگر بخواهیم یک لیست داشته باشیم که همتا به همتاست، باید از دیکشنری استفاده کنیم. اما در \lr{C++} از یک \textbf{نقشه ی آمیزشی}\footnote{Hashmap} به نام \textbf{نقشه}\footnote{Map} استفاده میکنیم. دو نوع نقشه داریم، \textbf{ترتیبی} و \textbf{غیرترتیبی}. ما از نقشه ی غیرترتیبی استفاده میکنیم.
  	 	 \begin{latin}
- 	\mono{	\begin{lstlisting}
+ 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 #include "pch.h"
 #include <iostream>
 #include <map>
@@ -1515,7 +1515,7 @@ int main()
 	 
 	 
 	  	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 int numberOfDigits(int num)
 {
 	std::vector<int> digits;
@@ -1544,7 +1544,7 @@ int numberOfDigits(int num)
 	 
 	 
 		  	 	 \begin{latin}
-		\mono{	\begin{lstlisting}
+		\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 int division(int a, int b)
 {
 	if (b == 0)
@@ -1588,7 +1588,7 @@ int main()
 	 
 	 
 	 		  	 	 \begin{latin}
-	 	\mono{	\begin{lstlisting}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray}]
 class Ancestor
 {
 public:
@@ -1799,7 +1799,7 @@ class Descendent : Ancestor
 	 
 	 یک پراسسور گرافیکی، دارای چندصد \textbf{هسته}\footnote{Core} بوده که هرکدامشان چندده \textbf{رشته نخ}\footnote{Thread} کد دارند. اینگونه، پراسسور گرافیکی هزاران برنامه را در یک آن اجرا میکند.
 	 
-	 به این برنامه هایی که در هسته های پراسسور گرافیکی اجرا میشوند، \textbf{سایه زن}\footnote{Shader} میگویند. 
+	 به این برنامه هایی که در هسته های پراسسور گرافیکی اجرا میشوند، \textbf{سایه زن}\footnote{Shader} یا شِیدر میگویند. 
 	 
 	 
 	 
@@ -1837,7 +1837,7 @@ class Descendent : Ancestor
 	 \end{figure}
 	 
 	 
-	 گروه Kronos همچنین یک رابط نرم افزاری دیگر اعلام میدارد که \textbf{OpenCL}  (با C) نام دارد. این رابط نرم افزاری به کاربر اجازه میدهد سایه زنها را روی پراسسور مرکزی اجرا کند. به این سایه زنها \textbf{مغزک}\footnote{Kernel} میگویند. شرکتهای زیادی با استفاده ازین رابط نرم افزاری، خط لوله ها وابسته به پراسسور مرکزی خود را میسازند و به عنوان رندرر برای پکیجهای سه بعدی عرضه میدارند. همچنین گاهی میتوان با غیرفعال کردن بخشی از خط لوله، به اثراتی خاص دست یافت. مثلا اثر \lr{\textbf{Cel Shading}} که با دستکاری بخش اختلاط به دست می آید.
+	 گروه Kronos همچنین یک رابط نرم افزاری دیگر اعلام میدارد که \textbf{OpenCL} --- با C --- نام دارد. این رابط نرم افزاری به کاربر اجازه میدهد سایه زنها را روی پراسسور مرکزی اجرا کند. به این سایه زنها \textbf{مغزک}\footnote{Kernel} میگویند. شرکتهای زیادی با استفاده ازین رابط نرم افزاری، خط لوله ها وابسته به پراسسور مرکزی خود را میسازند و به عنوان رندرر برای پکیجهای سه بعدی عرضه میدارند. همچنین گاهی میتوان با غیرفعال کردن بخشی از خط لوله، به اثراتی خاص دست یافت. مثلا اثر \lr{\textbf{Cel Shading}} که با دستکاری بخش اختلاط به دست می آید.
 	 
 	\begin{figure}[H]
 		\centering
