@@ -44,4 +44,6 @@
 \contentsline {section}{\numberline {4.5}رابطهای گرافیکی}{68}{section.4.5}
 \contentsline {section}{\numberline {4.6}فریم بافر و وی رم}{70}{section.4.6}
 \contentsline {section}{\numberline {4.7} پایان فصل مفهومات گرافیکی}{71}{section.4.7}
-\contentsline {chapter}{\chapternumberline {5}الگوریتمهای رسم و منحنیها}{73}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}الگوریتمهای رنگ، رسم و منحنیها}{73}{chapter.5}
+\contentsline {section}{\numberline {5.1}رنگ در کامپیوتر}{73}{section.5.1}
+\contentsline {section}{\numberline {5.2}کتابخانه ی تصویری پایتان}{77}{section.5.2}
