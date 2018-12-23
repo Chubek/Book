@@ -44,3 +44,4 @@
 \contentsline {section}{\numberline {4.5}رابطهای گرافیکی}{68}{section.4.5}
 \contentsline {section}{\numberline {4.6}فریم بافر و وی رم}{70}{section.4.6}
 \contentsline {section}{\numberline {4.7} پایان فصل مفهومات گرافیکی}{71}{section.4.7}
+\contentsline {chapter}{\chapternumberline {5}الگوریتمهای رسم و منحنیها}{73}{chapter.5}
