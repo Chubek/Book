@@ -42,3 +42,5 @@
 \contentsline {section}{\numberline {4.3}رسترسازی}{64}{section.4.3}
 \contentsline {section}{\numberline {4.4}سایه زنهای ترکشی}{66}{section.4.4}
 \contentsline {section}{\numberline {4.5}رابطهای گرافیکی}{68}{section.4.5}
+\contentsline {section}{\numberline {4.6}فریم بافر و وی رم}{70}{section.4.6}
+\contentsline {section}{\numberline {4.7} پایان فصل مفهومات گرافیکی}{71}{section.4.7}
