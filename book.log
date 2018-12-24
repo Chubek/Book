@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  24 DEC 2018 02:30
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  24 DEC 2018 04:27
 entering extended mode
 **./book.tex
 (book.tex
@@ -2639,6 +2639,9 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [78]
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+ [79]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -2648,11 +2651,11 @@ Package catoptions Warning: Undefined options
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2035.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2035.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2057.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2057.
 (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2035.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2035.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2057.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2057.
 
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: 55C088C2C27236747F48D723E96605CA.
@@ -2668,6 +2671,6 @@ Here is how much of TeX's memory you used:
  46201 multiletter control sequences out of 15000+200000
  548912 words of font info for 130 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 73i,13n,84p,1231b,1776s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,13n,84p,1231b,1777s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.pdf (88 pages).
+Output written on book.pdf (89 pages).

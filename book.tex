@@ -1986,23 +1986,44 @@ img.save('pil_color.png')
 	
 	\end{figure}
 
-اینگونه یک تصویر 32 در 32 ایجاد میکنیم میتوانید سایز، و رنگ را تغییر بدهیم.
+اینگونه یک تصویر 32 در 32 ایجاد میکنیم. میتوانید سایز، و رنگ را تغییر بدهیم.
 	
 	
 	
+			 	 	 	 \begin{latin}
+		\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray},caption={PIL-ChangeColor.py},captionpos=b]
+			
+img = Image.new('RGB', (64, 64), color= (23, 11, 24))
+img.save('pil_ChangedColor.png'))
+			
+			\end{lstlisting}}	 
+		
+	\end{latin}
+	
+	فایل جدید را باز کرده، و متوجه خواهید شد که یک تصویر 64 در 64 خواهید دید. 
+	میتوان اطلاعات پیکسل خاص را تعیین کرد، و یا اطلاعت پیکسل خاص را ااز رستر گرفت.
 	
 	
 	
+				 	 	 	 \begin{latin}
+		
+		\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray},caption={PIL-GetSet.py},captionpos=b]
+pixels = img.load()
+print(pixels[32, 32]) #get
+pixels[32, 32] = (255, 255, 255) #set
+print(pixels[32, 32]) #get again
+			
+			
+img.save('pil_GetSet.png')
+			\end{lstlisting}}	 
+		
+	\end{latin}
 	
 	
+	این یک تصویر مشکی با یک نقطه ی سفید در وسطش تولید میکند. همانطور که میبینید کافیست نقطه ای که میخواهیم را بین آکولاد قرار داده و رنگی که میخواهیم به صورت تاپل سه تایی به پیکسل میدهیم.
 	
-	
-	
-	
-	
-	
-	
-	
+	 
+همچنین میتوانیم یک یک \textbf{گرادیان}\footnote{Gradient} 
 	
 	
 	
