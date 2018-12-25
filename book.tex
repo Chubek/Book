@@ -2216,7 +2216,91 @@ img.save('Line-Bresenham.png')
 	 
 
 	 
+	 \section{ترسیم دایره}\label{circle}
+	 در فضای رستر، نمیتوانیم یک دایره ی صحیح و پر از انحناء داشته باشیم. اما میتوانیم با حقه هایی خاص، یک دایره در فضای رستر رسم نماییم. دو الگوریتم برای اینکار وجود دارد، الگوریتم دایره ی برسنهم، و الگوریتم دایره ی میان نقطه ای. ابتدا به الگوریتم برسنهم میپردازیم.
 	 
+	 \subsection{الگوریتم دایره ی برسنهم}\label{bresenhamcircle}
+	 
+	 در بخش قبل در مورد برسنهم و اینکه چگونع میتوان از الگوریتم رسم خط وی استفاده کردف صحبت کردیم. اما درین بخش میخواهیم در مورد الگوریتم رسم دایره ی وی صحبت کنیم. 
+	 
+	 
+	ابتدا با استفاده از یک دایره ی کامل، مفهومش را توضیح داد. اما \textit{یک دایره ی کامل در مانیتور} یک \textbf{پادآمیزه}\footnote{Oxymoron} میباشد. در عین حال، چون الگوریتم رسترایزشن نرم افزار ایلستریور از همه ی الگوریتمها قویتر است، از ایلتستریتر برای نمایش یک دایره ی کامل در برابر یک دایره که قرار است رسم کنیم، استفاده خواهیم کرد. 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.3]{RasterizedCircle}
+		\caption{یک دایره ی برداری در برابر یک دایره رسترایز شده}
+	\end{figure}
+
+همانطور که مشاهده میکنید، لبه های یک دایره ی رسترایز شده پله پله ای میباشد. همانطور که گفتیم، الگوریتمهای برای ضد پلگب وجود دارند که بعدا در موردش بحث خواهیم کرد.
+
+در دایره ی برسنهم، ما احتیاج به هشت نقطه اصلی داریمو و ازین هشت نقطه ی اصلی، تا شزایطمان برقرار است، یک بار به سمت شرق، و یک بار به سمت جنوب شرق، رفته و آنقدر اینکار را تکرار میکنیم تا دایره کشیده شود. هشت نقطه ی اولیه بدین قرارند:
+ 
+	 \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[scale=1]{Bresenham_Cricle}
+	 	\caption{هشت نقطه ی لازمه}
+	 \end{figure}
+	 
+	 وقتی هشت نقطه ی اصلی، رنگ شد، با استفاده از چند شرط، به صورت زیر، نقاط کناری نقاط اصلی را رنگ میکنیم.
+	  \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[scale=0.7]{Bresenham_Cricle_2}
+	 	\caption{نقاط بالا و پایین}
+	 \end{figure}
+ 
+ کد زیر، نشاگر همه چیز است:
+ 
+ 	 		 \begin{latin}
+ 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray},caption={Circle-Bresenham.py},captionpos=b]
+from PIL import Image
+
+img = Image.new('RGB', (64, 64), color= (0, 0, 0))
+pixels = img.load()
+
+
+def draw_circle(xc, yc, x, y, color):
+pixels[xc + x, yc + y] = color
+pixels[xc - x, yc + y] = color
+pixels[xc + x, yc - y] = color
+pixels[xc - x, yc - y] = color
+pixels[xc + y, yc + x] = color	#I
+pixels[xc - y, yc + x] = color
+pixels[xc + y, yc - x] = color
+pixels[xc - y, yc - x] = color
+
+radius = 20 #II
+x_center = 32
+y_center = 32	#III
+
+
+x = 0
+y = radius
+d = 3 - 2 * radius #IV
+
+draw_circle(x_center, y_center, x, y, (255, 255, 255)) #V
+
+while y >= x:
+	x += 1 #VI
+
+
+	if d > 0:
+		y -= 1 #VII
+
+		d = d + 4 * (x - y) + 10 #VIII
+
+	else:
+		d = d + 4 * x + 6 #IX
+
+
+	draw_circle(x_center, y_center, x, y, (255, 255, 255)) #X
+
+
+img.save('Circle-Bresenham.png')
+ 		\end{lstlisting}}	 
+ 	
+ \end{latin}
+ 
 	 
 	 
 \end{document}

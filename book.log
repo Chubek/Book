@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  25 DEC 2018 05:07
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  26 DEC 2018 01:33
 entering extended mode
 **./book.tex
 (book.tex
@@ -1995,6 +1995,8 @@ Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;ma
 ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
 ) [9] [10
 
 ] [1
@@ -2700,7 +2702,24 @@ Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;ma
 ping=persiandigits;!
  [85]
 Package mdframed Info: mdframed works in twoside mode on input line 2211.
+Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
+T;mapping=persiandigits;!
+File: ./images/RasterizedCircle.png Graphic file (type bmp)
+<./images/RasterizedCircle.png>
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
  [86]
+File: ./images/Bresenham_Cricle.png Graphic file (type bmp)
+<./images/Bresenham_Cricle.png>
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+ [87]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -2710,26 +2729,26 @@ Package catoptions Warning: Undefined options
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2246.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2246.
 (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2222.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2246.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2246.
 
 Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: A696557123F10E933291384F38FF9EFE.
+(rerunfilecheck)             Checksum: BA882029C558218E8902A35048BDDEC8.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 43235 strings out of 427796
- 802591 string characters out of 3151768
+ 43247 strings out of 427796
+ 802886 string characters out of 3151768
  1030355 words of memory out of 3000000
- 46561 multiletter control sequences out of 15000+200000
+ 46571 multiletter control sequences out of 15000+200000
  548912 words of font info for 130 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,13n,84p,1231b,1779s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.pdf (96 pages).
+Output written on book.pdf (97 pages).

@@ -50,3 +50,5 @@
 \contentsline {section}{\numberline {5.3}خط راست}{79}{section.5.3}
 \contentsline {subsection}{الگوریتم آنالیزگر دیجیتال تفاضلی}{80}{section*.24}
 \contentsline {subsection}{الگوریتم تحصیل خط برسنهم}{83}{section*.25}
+\contentsline {section}{\numberline {5.4}ترسیم دایره}{86}{section.5.4}
+\contentsline {subsection}{الگوریتم دایره ی برسنهم}{86}{section*.26}
