@@ -48,4 +48,5 @@
 \contentsline {section}{\numberline {5.1}رنگ در کامپیوتر}{73}{section.5.1}
 \contentsline {section}{\numberline {5.2}کتابخانه ی تصویری پایتان}{77}{section.5.2}
 \contentsline {section}{\numberline {5.3}خط راست}{79}{section.5.3}
-\contentsline {subsection}{الگوریتم آنالیزگر دیجیتال دیفرانسیل}{80}{section*.24}
+\contentsline {subsection}{الگوریتم آنالیزگر دیجیتال تفاضلی}{80}{section*.24}
+\contentsline {subsection}{الگوریتم تحصیل خط برسنهم}{83}{section*.25}

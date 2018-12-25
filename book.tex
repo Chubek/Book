@@ -8,6 +8,7 @@
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{enumitem}
 \usepackage[version=4]{mhchem}
 \usepackage{amssymb}
 \usepackage{xcolor}
@@ -2029,7 +2030,7 @@ img.save('pil_GetSet.png')
 	
 	 در بخش بردارها آموختیم که یک دو نقطه در فضای مختصات دکارتی، وقتی به هم وصل میشوند، یک بردار تشکل میدهند:
 	 
-	 \[ \vec{V} = \left(x_1, y_2\right) - \left(x_2. y_2\right) \]
+	 \[ \vec{V} = \left(x_2, y_2\right) - \left(x_1. y_1\right) \]
 	این فرمول را میتوان به صورت تابع خط راست به حساب دیفرانسیل آورد:
 	\[ y = mx+b \]
 	که در آن، $ y $ خط، $ m $ شیب خط، $ x $ متغیر ما، و $ b $   \textbf{عرض از مبدا}\footnote{y-intercept} میباشد.
@@ -2042,35 +2043,173 @@ img.save('pil_GetSet.png')
 	
 	
 	
-	\subsection{الگوریتم آنالیزگر دیجیتال دیفرانسیل}\label{dda}
-	الگوریم \textbf{آنالیزگر دیجیتال دیفرانسیل}\footnote{\lr{Digital Differenial Analyzer}}  یک الگوریتم \textbf{ساده لوحانه}\footnote{Naive} برای بدست آوردن خط در فضای دیجیتال میباشد. چرا به این الگوریتم، ساده لوحانه میگوییم؟ چون کند بوده، و ساده لوحانه ست که فکر کنیم، با اولین نتیجه ای که به به ذهنمان میرسد، بهترین نتیجه است!
+	\subsection{الگوریتم آنالیزگر دیجیتال تفاضلی}\label{dda}
+	الگوریم \textbf{آنالیزگر دیجیتال تفاضلی}\footnote{\lr{Digital Differenial Analyzer}}  یک الگوریتم \textbf{ساده لوحانه}\footnote{Naive} برای بدست آوردن خط در فضای دیجیتال میباشد. چرا به این الگوریتم، ساده لوحانه میگوییم؟ چون کند بوده، و ساده لوحانه ست که فکر کنیم، با اولین نتیجه ای که به به ذهنمان میرسد، بهترین نتیجه است!
 	
 	این الگوریتم اینگونه تعریف میشود:
 	
 	\begin{enumerate}
-		\item دو نقطه ی ش $ \left(X_0, Y_0\right) $ و $ \left(X_1, Y_1\right) $ را در مظر بیرید/
+		\item دو نقطه ی ش $ \left(X_0, Y_0\right) $ و $ \left(X_1, Y_1\right) $ را در نظر بیرید.
 		\item تفاضل بین دو نقططه را حساب کنید.
 		\[ dx = X_1 - X_0 \]
 		\[ dy = Y_1 - Y_0 \]
+		\item  اگر $ dx $ از $ dy $ بزرگتر بود، آنگاه \textbf{گام}\footnote{Step} بیشتری در محور افقی لازم دارید. در صورت  هکس این ماجرا، ما گاهای بیشتری در محور عمودی لازم داریم.
+		
+		ازینجا ببعد، وارد بخشی میشویم که به آن \textit{الگوریتم ساده لوحانه} میگویند. اول بگذارید ادامه بدهیم.
+		
+		\item \textbf{افزایشگر}\footnote{Increment} برای هم $ X $ و هم $ Y $ را حساب کنید.
+		\item پیکسل را در صفحه رسم کنید.
 		
 	\end{enumerate}
 	
+	متوجه نشدید؟ عیب ندارد. قصدم این بود که با مثال، این را آموزش دهم. پس بگذارید مثال را بیاورم. این اولین کد پیچیده ی کتاب است، نگران نباشید، ازین ببعد کدهای ما ازین پیچیده تر خواهند شد!
+	
+		 \begin{latin}
+			\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray},caption={Line-DDA.py},captionpos=b]
+from PIL import Image
+
+img = Image.new('RGB', (64, 64), color= (0, 0, 0)) #I
+pixels = img.load()
+
+coord_1 = (2, 5) #II
+coord_2 = (56, 32) #III
+
+dx = coord_2[0] - coord_1[0] #IV
+dy = coord_2[1] - coord_1[1] #V
+
+Steps = 0 
+
+abs_dx = abs(dx) #VI
+abs_dy = abs(dy)
+
+if abs_dx > abs_dy:
+	Steps = abs_dx	#VII
+else:
+	Steps = abs_dy
+
+Xincrement = dx / float(Steps) #VIII
+Yincrement = dy / float(Steps)
+
+
+
+x, y = coord_1[0], coord_1[1]
+
+for i in range(Steps):
+	x = x + Xincrement
+	y = y + Yincrement
+
+	pixels[int(x), int(y)] = (255, 255, 255) #IX
+
+
+
+
+img.save('Line-DDA.png')
+		\end{lstlisting}}	 
+	
+\end{latin}
+	
+	
+	\begin{enumerate}[label=(\Roman*)]
+	\item ساخت عکس و رستر
+	\item  مختصات نقطه ی یک
+	\item مختصات نقطه ی دو
+	\item تفاضل افقی
+	\item تفاضل عمودی
+	\item  مثبت سازی (قدر مطلق) تفاضلات
+	\item تعیین گامها
+	\item  تعیین افزایشگر
+	\item  سیاه کردن پیسکل در موقیت
+	\end{enumerate}
+	
+	
+	حاصل ازین کد، این تصویر است:
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1]{DDAline}
+		\caption{خط DDA}
+	\end{figure}
 	
 	
 	
+	مشکل این الگوریتم، اینست که تقسیم اعشاری استفاده میکند. و این باعث میشود سرعت نرم افزار کم شود. برای همین به این الگوریتم، \textit{ساده لوحانه} میگویند. دو الگوریتم بهتر برای احتساب خط وجود دارد که به بررسی آنها میپردازیم.
 	
+	\subsection{الگوریتم تحصیل خط برسنهم}\label{bres}
+
+	\textbf{جک التن برسنهم}\footnote{\lr{Jack Elton Bresenham}} متخصص شرکت IBM در سال 1962، برای رسم خط در رستر، یک الگوریتم ساخت که تا به امروز استفاده میشود. 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.7]{JEB}
+		\caption{یک عکس قدیمی از برسنهم}
+	\end{figure}
+
+برتری این الگوریتم نسبت به الگوریتم DDA اینست که، این الگوریتم، کاملا بر پایه ی اعداد صحیح مثبت برپاست. و نه اعداد حقیقی  که اعشار دارند. 
 	 
+	 \begin{enumerate}
+	 	\item به ما ابتدا و انتهای خط را میدهند. بگذارید به ابتدای خط $ \left(x_k, y_k\right) $ و به انتهای خط $ \left(x_m, y_m\right) $ بگوییم.
+	 	\item به ازای هر پیکسلی که بین را ماست، باید تصمیم بگیریم که به سمت  $ \left(x_k + 1, y_k\right) $ رفته، یا به سمت $ \left(x_k + 1, y_k + 1\right) $.
+	 \end{enumerate}
+	 
+	 
+	 \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[scale=0.8]{B_Line}
+	 	\caption{خط با الگوریتم برسنهم}
+	 \end{figure}
+	 
+	 این الگوریتم را اینگونه در پایتان مینویسیم:
+	 
+	 		 \begin{latin}
+	 	\mono{	\begin{lstlisting}[backgroundcolor = \color{lightgray},caption={Line-Bresenham.py},captionpos=b]
+from PIL import Image
+
+img = Image.new('RGB', (64, 64), color= (0, 0, 0)) 
+pixels = img.load()
+
+coord_1 = (2, 5) 
+coord_2 = (56, 32)
+
+dx = coord_2[0] - coord_1[0]
+dy = coord_2[1] - coord_1[1]
+
+m = 2 * dy #I
+
+Slope_error = m - dx #II
+
+
+y = coord_1[1]
+for x in range(coord_1[0], coord_2[0] + 1):
+
+pixels[x, y] = (255, 255, 255) #III
+
+Slope_error = Slope_error + m #IV
+
+if (Slope_error >= 0):
+y += 1 #V
+Slope_error = Slope_error - (2 * dx) #VI
+
+img.save('Line-Bresenham.png')
+	 		\end{lstlisting}}	 
+	 	
+	 \end{latin}
+	 
+	 
+	 بخشی از کد که با کد قبلی مشترک است را مورد بررسی قرار نخواهیم داد.
+	 
+	\begin{enumerate}[label=(\Roman*)]
+	\item  به دست آوردن شیب
+	\item به دست آوردن ضریب خطای شیب
+	\item سیاه کردن پیکسل.
+	\item به دست آوردن ضریب خطای جدید.
+	\item  اضافه کردن 1 به y، \textbf{به شرط اینکه} ضریب خطای شیب بیشتر از 0 باشد.
+	\item  حساب کردن دوباره ی ضریب خطا و از بین بردن اعشار آن.
+\end{enumerate}
+	 
+	 
+	 گفتیم روش برسنهم هنوز کاربرد دارد. اما کاربرد آن بیشتر در پلاترها و صنعت چاپ است. در هنر گرافیک، احتیاج به \textbf{ضد پلگی}\footnote{Antialiasing} داریم. که در بخش بعد توضیح خواهیم داد.
+	 
+	 \subsection{خط ضد پلگی}\footnote{aaline}
 	 
 	 
 	 

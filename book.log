@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  25 DEC 2018 00:20
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6840 64-bit) (preloaded format=xelatex 2018.11.24)  25 DEC 2018 03:54
 entering extended mode
 **./book.tex
 (book.tex
@@ -980,6 +980,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks37
 \@floatcapt=\box63
 )
+("D:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2018/11/30 v3.6 Customized lists
+\labelindent=\skip319
+\enit@outerparindent=\dimen292
+\enit@toks=\toks38
+\enit@inbox=\box64
+\enitdp@description=\count332
+)
 ("D:\Program Files\MiKTeX 2.9\tex\latex\mhchem\mhchem.sty"
 Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 
@@ -988,20 +996,20 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count332
-\calc@Bcount=\count333
-\calc@Adimen=\dimen292
-\calc@Bdimen=\dimen293
-\calc@Askip=\skip319
-\calc@Bskip=\skip320
+\calc@Acount=\count333
+\calc@Bcount=\count334
+\calc@Adimen=\dimen293
+\calc@Bdimen=\dimen294
+\calc@Askip=\skip320
+\calc@Bskip=\skip321
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count334
-\calc@Cskip=\skip321
+\calc@Ccount=\count335
+\calc@Cskip=\skip322
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip322
+\@mathmargin=\skip323
 
 For additional information on amsmath, use the `?' option.
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -1009,76 +1017,76 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks38
-\ex@=\dimen294
+\@emptytoks=\toks39
+\ex@=\dimen295
 ))
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen295
+\pmbraise@=\dimen296
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count335
+\inf@bad=\count336
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count336
-\leftroot@=\count337
+\uproot@=\count337
+\leftroot@=\count338
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count338
-\DOTSCASE@=\count339
+\classnum@=\count339
+\DOTSCASE@=\count340
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box64
-\strutbox@=\box65
-\big@size=\dimen296
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+\big@size=\dimen297
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count340
-\c@MaxMatrixCols=\count341
+\macc@depth=\count341
+\c@MaxMatrixCols=\count342
 \dotsspace@=\muskip16
-\c@parentequation=\count342
-\dspbrk@lvl=\count343
-\tag@help=\toks39
-\row@=\count344
-\column@=\count345
-\maxfields@=\count346
-\andhelp@=\toks40
-\eqnshift@=\dimen297
-\alignsep@=\dimen298
-\tagshift@=\dimen299
-\tagwidth@=\dimen300
-\totwidth@=\dimen301
-\lineht@=\dimen302
-\@envbody=\toks41
-\multlinegap=\skip323
-\multlinetaggap=\skip324
-\mathdisplay@stack=\toks42
+\c@parentequation=\count343
+\dspbrk@lvl=\count344
+\tag@help=\toks40
+\row@=\count345
+\column@=\count346
+\maxfields@=\count347
+\andhelp@=\toks41
+\eqnshift@=\dimen298
+\alignsep@=\dimen299
+\tagshift@=\dimen300
+\tagwidth@=\dimen301
+\totwidth@=\dimen302
+\lineht@=\dimen303
+\@envbody=\toks42
+\multlinegap=\skip324
+\multlinetaggap=\skip325
+\mathdisplay@stack=\toks43
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\chemgreek\chemgreek.sty"
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count347
-\g__chemgreek_tmpa_int=\count348
+\l__chemgreek_tmpa_int=\count348
+\g__chemgreek_tmpa_int=\count349
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count349
-\__mhchem_arrow_extPgfLength_skip=\skip325
-\mhchem@minispace@tmp=\skip326
-\mhchem@minibackspace@tmp=\skip327
-\mhchem@bondwidth=\skip328
-\mhchem@bondheight=\skip329
-\mhchem@smallbondwidth@tmpA=\skip330
-\mhchem@smallbondwidth@tmpB=\skip331
-\mhchem@smallbondwidth=\skip332
-\mhchem@bondtmp@minussidebearingleft=\skip333
-\mhchem@bondtmp@minussidebearingright=\skip334
-\l__mhchem_option_version_int=\count350
-\mhchem@option@minusmathsidebearingleft=\dimen303
-\mhchem@option@minusmathsidebearingright=\dimen304
-\mhchem@option@minustextsidebearingleft=\dimen305
-\mhchem@option@minustextsidebearingright=\dimen306
+\l__mhchem_ce_distanceFromLastComma_int=\count350
+\__mhchem_arrow_extPgfLength_skip=\skip326
+\mhchem@minispace@tmp=\skip327
+\mhchem@minibackspace@tmp=\skip328
+\mhchem@bondwidth=\skip329
+\mhchem@bondheight=\skip330
+\mhchem@smallbondwidth@tmpA=\skip331
+\mhchem@smallbondwidth@tmpB=\skip332
+\mhchem@smallbondwidth=\skip333
+\mhchem@bondtmp@minussidebearingleft=\skip334
+\mhchem@bondtmp@minussidebearingright=\skip335
+\l__mhchem_option_version_int=\count351
+\mhchem@option@minusmathsidebearingleft=\dimen304
+\mhchem@option@minusmathsidebearingright=\dimen305
+\mhchem@option@minustextsidebearingleft=\dimen306
+\mhchem@option@minustextsidebearingright=\dimen307
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1179,8 +1187,8 @@ cuts
 ("D:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
 ("D:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
 \@xs@message=\write5
-\integerpart=\count351
-\decimalpart=\count352
+\integerpart=\count352
+\decimalpart=\count353
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
@@ -1215,10 +1223,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("D:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("D:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks43
-\XKV@tempa@toks=\toks44
+\XKV@toks=\toks44
+\XKV@tempa@toks=\toks45
 )
-\XKV@depth=\count353
+\XKV@depth=\count354
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
@@ -1230,54 +1238,54 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box66
+\collectedbox=\box67
 )
-\tc@llx=\dimen307
-\tc@lly=\dimen308
-\tc@urx=\dimen309
-\tc@ury=\dimen310
+\tc@llx=\dimen308
+\tc@lly=\dimen309
+\tc@urx=\dimen310
+\tc@ury=\dimen311
 Package trimclip Info: Using driver 'tc-xetex.def'.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-xetex.def"
 File: tc-xetex.def 2018/04/08 v2.1 Clipping driver for xetex
 ))
-\adjbox@Width=\dimen311
-\adjbox@Height=\dimen312
-\adjbox@Depth=\dimen313
-\adjbox@Totalheight=\dimen314
-\adjbox@pwidth=\dimen315
-\adjbox@pheight=\dimen316
-\adjbox@pdepth=\dimen317
-\adjbox@ptotalheight=\dimen318
+\adjbox@Width=\dimen312
+\adjbox@Height=\dimen313
+\adjbox@Depth=\dimen314
+\adjbox@Totalheight=\dimen315
+\adjbox@pwidth=\dimen316
+\adjbox@pheight=\dimen317
+\adjbox@pdepth=\dimen318
+\adjbox@ptotalheight=\dimen319
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count354
+\c@checkoddpage=\count355
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box67
-\sift@deathcycles=\count355
-\@vwid@loff=\dimen319
-\@vwid@roff=\dimen320
+\@vwid@box=\box68
+\sift@deathcycles=\count356
+\@vwid@loff=\dimen320
+\@vwid@roff=\dimen321
 ))
 ("D:\Program Files\MiKTeX 2.9\tex\latex\relsize\relsize.sty"
 Package: relsize 2013/03/29 ver 4.1
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\catoptions\catoptions.sty"
-\m@one=\count356
-\z@pt=\dimen321
+\m@one=\count357
+\z@pt=\dimen322
 Package: catoptions 2014/08/29 v0.2.7h Securing catcodes and parsing options (A
 M)
-\cpt@csvdepth=\count357
-\cpt@optdepth=\count358
-\cpt@cnta=\count359
-\indrisdepth=\count360
-\cpt@foreachdepth=\count361
-\cpt@exprcnt=\count362
+\cpt@csvdepth=\count358
+\cpt@optdepth=\count359
+\cpt@cnta=\count360
+\indrisdepth=\count361
+\cpt@foreachdepth=\count362
+\cpt@exprcnt=\count363
 )
-\c@tw@hyphen@char@num=\count363
+\c@tw@hyphen@char@num=\count364
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -1318,14 +1326,14 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-\@linkdim=\dimen322
-\Hy@linkcounter=\count364
-\Hy@pagecounter=\count365
+\@linkdim=\dimen323
+\Hy@linkcounter=\count365
+\Hy@pagecounter=\count366
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count366
+\Hy@SavedSpaceFactor=\count367
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1337,17 +1345,17 @@ Package hyperref Info: Plain pages OFF on input line 4550.
 Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count367
+\c@Hy@tempcnt=\count368
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5141.
-\XeTeXLinkMargin=\dimen323
-\Fld@menulength=\count368
-\Field@Width=\dimen324
-\Fld@charsize=\dimen325
+\XeTeXLinkMargin=\dimen324
+\Fld@menulength=\count369
+\Field@Width=\dimen325
+\Fld@charsize=\dimen326
 Package hyperref Info: Hyper figures OFF on input line 6396.
 Package hyperref Info: Link nesting OFF on input line 6401.
 Package hyperref Info: Hyper index ON on input line 6404.
@@ -1357,15 +1365,15 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6421.
 Package hyperref Info: PDF/A mode OFF on input line 6426.
 LaTeX Info: Redefining \ref on input line 6466.
 LaTeX Info: Redefining \pageref on input line 6470.
-\Hy@abspage=\count369
-\c@Item=\count370
-\c@Hfootnote=\count371
+\Hy@abspage=\count370
+\c@Item=\count371
+\c@Hfootnote=\count372
 )
 ("D:\Program Files\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty"
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count372
-\c@Hpagenote=\count373
+\c@memhycontfloat=\count373
+\c@Hpagenote=\count374
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -1379,18 +1387,18 @@ File: puenc.def 2018/09/30 v6.88a Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box68
-\c@Hy@AnnotLevel=\count374
-\HyField@AnnotCount=\count375
-\Fld@listcount=\count376
-\c@bookmark@seq@number=\count377
+\pdfm@box=\box69
+\c@Hy@AnnotLevel=\count375
+\HyField@AnnotCount=\count376
+\Fld@listcount=\count377
+\c@bookmark@seq@number=\count378
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip335
+\Hy@SectionHShift=\skip336
 )
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\xepersian.sty"
 Package: xepersian 2018/11/23 v21.8 Persian typesetting in XeLaTeX
@@ -1401,17 +1409,17 @@ Package: fontspec 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaTeX
 ("D:\Program Files\MiKTeX 2.9\tex\latex\fontspec\fontspec-xetex.sty"
 Package: fontspec-xetex 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count378
-\l__fontspec_language_int=\count379
-\l__fontspec_strnum_int=\count380
-\l__fontspec_tmp_int=\count381
-\l__fontspec_em_int=\count382
-\l__fontspec_emdef_int=\count383
-\l__fontspec_strong_int=\count384
-\l__fontspec_strongdef_int=\count385
-\l__fontspec_tmpa_dim=\dimen326
-\l__fontspec_tmpb_dim=\dimen327
-\l__fontspec_tmpc_dim=\dimen328
+\l__fontspec_script_int=\count379
+\l__fontspec_language_int=\count380
+\l__fontspec_strnum_int=\count381
+\l__fontspec_tmp_int=\count382
+\l__fontspec_em_int=\count383
+\l__fontspec_emdef_int=\count384
+\l__fontspec_strong_int=\count385
+\l__fontspec_strongdef_int=\count386
+\l__fontspec_tmpa_dim=\dimen327
+\l__fontspec_tmpb_dim=\dimen328
+\l__fontspec_tmpc_dim=\dimen329
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
@@ -1431,43 +1439,43 @@ LaTeX Info: Redefining \- on input line 4034.
 ))
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\xepersian-persiancal.sty"
 Package: xepersian-persiancal 2012/07/25 v0.2 provides Persian calendar
-\XePersian@i=\count386
-\XePersian@y=\count387
-\XePersian@m=\count388
-\XePersian@d=\count389
-\XePersian@latini=\count390
-\XePersian@persiani=\count391
-\XePersian@latinii=\count392
-\XePersian@persianii=\count393
-\XePersian@latiniii=\count394
-\XePersian@persianiii=\count395
-\XePersian@latiniv=\count396
-\XePersian@persianiv=\count397
-\XePersian@latinv=\count398
-\XePersian@persianv=\count399
-\XePersian@latinvi=\count400
-\XePersian@persianvi=\count401
-\XePersian@latinvii=\count402
-\XePersian@persianvii=\count403
-\XePersian@latinviii=\count404
-\XePersian@persianviii=\count405
-\XePersian@latinix=\count406
-\XePersian@persianix=\count407
-\XePersian@latinx=\count408
-\XePersian@persianx=\count409
-\XePersian@latinxi=\count410
-\XePersian@persianxi=\count411
-\XePersian@latinxii=\count412
-\XePersian@persianxii=\count413
-\XePersian@persianxiii=\count414
-\XePersian@temp=\count415
-\XePersian@temptwo=\count416
-\XePersian@tempthree=\count417
-\XePersian@yModHundred=\count418
-\XePersian@thirtytwo=\count419
-\XePersian@dn=\count420
-\XePersian@sn=\count421
-\XePersian@mminusone=\count422
+\XePersian@i=\count387
+\XePersian@y=\count388
+\XePersian@m=\count389
+\XePersian@d=\count390
+\XePersian@latini=\count391
+\XePersian@persiani=\count392
+\XePersian@latinii=\count393
+\XePersian@persianii=\count394
+\XePersian@latiniii=\count395
+\XePersian@persianiii=\count396
+\XePersian@latiniv=\count397
+\XePersian@persianiv=\count398
+\XePersian@latinv=\count399
+\XePersian@persianv=\count400
+\XePersian@latinvi=\count401
+\XePersian@persianvi=\count402
+\XePersian@latinvii=\count403
+\XePersian@persianvii=\count404
+\XePersian@latinviii=\count405
+\XePersian@persianviii=\count406
+\XePersian@latinix=\count407
+\XePersian@persianix=\count408
+\XePersian@latinx=\count409
+\XePersian@persianx=\count410
+\XePersian@latinxi=\count411
+\XePersian@persianxi=\count412
+\XePersian@latinxii=\count413
+\XePersian@persianxii=\count414
+\XePersian@persianxiii=\count415
+\XePersian@temp=\count416
+\XePersian@temptwo=\count417
+\XePersian@tempthree=\count418
+\XePersian@yModHundred=\count419
+\XePersian@thirtytwo=\count420
+\XePersian@dn=\count421
+\XePersian@sn=\count422
+\XePersian@mminusone=\count423
 )
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\xepersian-mathsdigitspec.st
 y"
@@ -1507,18 +1515,18 @@ and LuaTeX
 )
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\biditools.sty"
 Package: biditools 2018/02/22 v1.4 Programming tools for bidi package
-\@bidi@envbody=\toks45
-\@bidi@emptytoks=\toks46
-\bidi@tempcountb=\count423
-\bidi@temptoksa=\toks47
-\bidi@temptoksb=\toks48
-\bidi@dummies=\count424
-\bidi@are@these@correct=\toks49
-\bidi@toks@lista=\toks50
-\bidi@toks@listb=\toks51
-\bidi@stack@length=\count425
-\bidi@empty@stack=\toks52
-\bidi@looprepeat@depth=\count426
+\@bidi@envbody=\toks46
+\@bidi@emptytoks=\toks47
+\bidi@tempcountb=\count424
+\bidi@temptoksa=\toks48
+\bidi@temptoksb=\toks49
+\bidi@dummies=\count425
+\bidi@are@these@correct=\toks50
+\bidi@toks@lista=\toks51
+\bidi@toks@listb=\toks52
+\bidi@stack@length=\count426
+\bidi@empty@stack=\toks53
+\bidi@looprepeat@depth=\count427
 
 
 LaTeX Warning: Command \InputIfFileExists  has changed.
@@ -1529,14 +1537,14 @@ LaTeX Warning: Command \InputIfFileExists  has changed.
  ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\latex-xetex-bidi.def"
 File: latex-xetex-bidi.def 2018/09/23 v1.3.5 bidi adaptations for `latex.ltx' f
 or XeTeX engine
-\bidi@n@everypar=\toks53
-\bidi@column@check@number=\count427
+\bidi@n@everypar=\toks54
+\bidi@column@check@number=\count428
 
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\footnote-xetex-bidi.def"
 File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count428
-\footdir@toks=\toks54
+\c@footdir@label=\count429
+\footdir@toks=\toks55
 )
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\bidi\memoir-xetex-bidi.def"
 File: memoir-xetex-bidi.def 2017/06/09 v0.6 bidi adaptations for memoir class f
@@ -1601,7 +1609,7 @@ r XeTeX engine
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count429
+\bidi@digits=\count430
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
@@ -1627,9 +1635,9 @@ File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
 * Support: http://tug.org/mailman/listinfo/persiantex
 * 
 ****************************************************
-\xepersian@tcl=\count430
-\xepersian@ilg=\dimen329
-\xepersian@strutilg=\dimen330
+\xepersian@tcl=\count431
+\xepersian@ilg=\dimen330
+\xepersian@strutilg=\dimen331
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\loadingorder-xepersian.def"
 File: loadingorder-xepersian.def 2018/09/29 v0.5 making sure that xepersian is 
 the last package loaded
@@ -1647,6 +1655,9 @@ ckage
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\enumerate-xepersian.def"
 File: enumerate-xepersian.def 2010/07/25 v0.1 adaptations for enumerate package
 
+)
+("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\enumitem-xepersian.def"
+File: enumitem-xepersian.def 2017/09/06 v0.1 adaptations for enumitem package
 )
 ("D:\Program Files\MiKTeX 2.9\tex\xelatex\xepersian\hyperref-xepersian.def"
 File: hyperref-xepersian.def 2015/02/02 v0.6 bilingual captions for hyperref pa
@@ -1763,7 +1774,7 @@ text;"
 (fontspec)             <->"Calibri/BI/OT:script=latn;language=DFLT;+smcp;mappin
 g=tex-text;"
 
-LaTeX Info: Redefining \latinfont on input line 24.
+LaTeX Info: Redefining \latinfont on input line 25.
 
 Package fontspec Info: Could not resolve font "Inconsolata Regular/BI" (it
 (fontspec)             probably doesn't exist).
@@ -1820,50 +1831,50 @@ Package fontspec Info: Font family 'Digital-7(0)' created for font 'Digital-7'
 (book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-\c@lstlisting=\count431
-\AtBeginShipoutBox=\box69
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+\c@lstlisting=\count432
+\AtBeginShipoutBox=\box70
 
 ABD: EveryShipout initializing macros
 
-Package chemgreek Info: Activating mapping `fontspec' on line 43.
+Package chemgreek Info: Activating mapping `fontspec' on line 44.
 
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/Sahel(0)/m/n --> TS1/Sahel(0)/bx/n on input line 43
+(Font)                  TS1/Sahel(0)/m/n --> TS1/Sahel(0)/bx/n on input line 44
 .
-Package gensymb Info: Math companion symbols declared on input line 43.
-LaTeX Info: Redefining \degree on input line 43.
-LaTeX Info: Redefining \celsius on input line 43.
+Package gensymb Info: Math companion symbols declared on input line 44.
+LaTeX Info: Redefining \degree on input line 44.
+LaTeX Info: Redefining \celsius on input line 44.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 43.
-LaTeX Info: Redefining \ohm on input line 43.
-Package gensymb Info: Using \textohm for \ohm on input line 43.
-Package gensymb Info: Using \textmu for \micro on input line 43.
-Package hyperref Info: Link coloring OFF on input line 43.
+erthousand on input line 44.
+LaTeX Info: Redefining \ohm on input line 44.
+Package gensymb Info: Using \textohm for \ohm on input line 44.
+Package gensymb Info: Using \textmu for \micro on input line 44.
+Package hyperref Info: Link coloring OFF on input line 44.
 
 ("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1871,31 +1882,31 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count432
+\c@section@level=\count433
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
 
 (book.out) (book.out)
 \@outlinefile=\write6
 \openout6 = `book.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
  ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for TS1+Sahel(0) on input line
- 53.
-LaTeX Font Info:    No file TS1Sahel(0).fd. on input line 53.
+ 54.
+LaTeX Font Info:    No file TS1Sahel(0).fd. on input line 54.
 
 
 LaTeX Font Warning: Font shape `TS1/Sahel(0)/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead on input line 53.
+(Font)              using `TS1/cmr/m/n' instead on input line 54.
 
 File: ./images/Cover.png Graphic file (type bmp)
 <./images/Cover.png>
@@ -1914,26 +1925,26 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 ]
 
 LaTeX Font Warning: Font shape `TU/Sahel(0)/m/sl' undefined
-(Font)              using `TU/Sahel(0)/m/n' instead on input line 55.
+(Font)              using `TU/Sahel(0)/m/n' instead on input line 56.
 
 [2]
-Package mdframed Info: mdframed works in twoside mode on input line 61.
-Package mdframed Info: Not enough space on this page on input line 72.
+Package mdframed Info: mdframed works in twoside mode on input line 62.
+Package mdframed Info: Not enough space on this page on input line 73.
  [3] [4
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 99.
+Package mdframed Info: mdframed works in twoside mode on input line 100.
 LaTeX Font Info:    Font shape `TU/InconsolataRegular(0)/m/n' will be
-(Font)              scaled to size 11.52003pt on input line 110.
+(Font)              scaled to size 11.52003pt on input line 111.
 
 
-Package Listings Warning: Text dropped after begin of listing on input line 110
+Package Listings Warning: Text dropped after begin of listing on input line 111
 .
 
 [5] [6
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 129.
+Package mdframed Info: mdframed works in twoside mode on input line 130.
  [7] (book.toc
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
@@ -2044,13 +2055,13 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (1.59279pt too wide) in paragraph at lines 346--347
+Overfull \hbox (1.59279pt too wide) in paragraph at lines 347--348
 [][]\TU/Sahel(0)/m/sl/14.4 در ساخت بازیهای کامپیوتری و برنامه نویسی گرافیکی ما 
 بیشتر نیاز به ماتریسهای[]
  []
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 354.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 355.
 
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
@@ -2080,7 +2091,7 @@ T;mapping=persiandigits;!
 
 
 LaTeX Font Warning: Font shape `TU/Sahel(0)/m/it' undefined
-(Font)              using `TU/Sahel(0)/m/n' instead on input line 466.
+(Font)              using `TU/Sahel(0)/m/n' instead on input line 467.
 
 [17]
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
@@ -2112,7 +2123,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [19]
-Overfull \hbox (0.51938pt too wide) in paragraph at lines 518--519
+Overfull \hbox (0.51938pt too wide) in paragraph at lines 519--520
 [][]\TU/Sahel(0)/m/it/14.4 کتابخانه ها میتوانند به صورت فایل متنی، یا فایل \TU/
 Sahel(0)/bx/n/14.4 باینری[][][][][][] \TU/Sahel(0)/m/it/14.4 عرضه شوند. کتابخان
 ه[]
@@ -2137,7 +2148,7 @@ File: ./images/InstallPython_3.png Graphic file (type bmp)
 File: ./images/InstallPython_4.png Graphic file (type bmp)
 <./images/InstallPython_4.png>
 
-Overfull \hbox (27.9989pt too wide) in paragraph at lines 546--547
+Overfull \hbox (27.9989pt too wide) in paragraph at lines 547--548
  [][][][][] 
  []
 
@@ -2148,12 +2159,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./images/InstallPython_5.png Graphic file (type bmp)
 <./images/InstallPython_5.png>
 
-Overfull \hbox (1.99896pt too wide) in paragraph at lines 550--551
+Overfull \hbox (1.99896pt too wide) in paragraph at lines 551--552
  [][][][][] 
  []
 
 
-Overfull \hbox (9.43628pt too wide) in paragraph at lines 554--556
+Overfull \hbox (9.43628pt too wide) in paragraph at lines 555--557
 [][][]$[] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][]
 [][][][][] [] [][][][][][][][] [] [][][][][][][]$[][][] \TU/Sahel(0)/m/it/14.4 
 دانلود کنید.[]
@@ -2164,9 +2175,9 @@ ping=persiandigits;!
 [23]
 File: ./images/CreateNewPythonFile.png Graphic file (type bmp)
 <./images/CreateNewPythonFile.png>
-Package mdframed Info: mdframed works in twoside mode on input line 573.
+Package mdframed Info: mdframed works in twoside mode on input line 574.
  [24]
-Overfull \hbox (7.37798pt too wide) in paragraph at lines 596--597
+Overfull \hbox (7.37798pt too wide) in paragraph at lines 597--598
 [][]\TU/Sahel(0)/m/it/14.4 همانطور که میبینید، متغیرهای پایتان هر \TU/Sahel(0)/
 bx/n/14.4 نوع دیتایی [][][][][][] \TU/Sahel(0)/m/it/14.4 را قبول میکنند، استرین
 گ،[]
@@ -2231,13 +2242,13 @@ Missing character: There is no ه in font cmmi12!
 Missing character: There is no ک in font cmmi12!
 Missing character: There is no ر in font cmmi12!
 Missing character: There is no د in font cmmi12!
-Package mdframed Info: mdframed works in twoside mode on input line 702.
-Package mdframed Info: Not enough space on this page on input line 703.
+Package mdframed Info: mdframed works in twoside mode on input line 703.
+Package mdframed Info: Not enough space on this page on input line 704.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [27]
-Package mdframed Info: Not enough space on this page on input line 703.
-Package mdframed Info: mdframed works in twoside mode on input line 734.
+Package mdframed Info: Not enough space on this page on input line 704.
+Package mdframed Info: mdframed works in twoside mode on input line 735.
  [28]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
@@ -2246,31 +2257,31 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [29]
-Package mdframed Info: mdframed works in twoside mode on input line 796.
+Package mdframed Info: mdframed works in twoside mode on input line 797.
  [30]
-Package mdframed Info: mdframed works in twoside mode on input line 825.
+Package mdframed Info: mdframed works in twoside mode on input line 826.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [31]
-Package mdframed Info: mdframed works in twoside mode on input line 894.
+Package mdframed Info: mdframed works in twoside mode on input line 895.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [32]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [33]
-Overfull \hbox (0.65532pt too wide) in paragraph at lines 967--968
+Overfull \hbox (0.65532pt too wide) in paragraph at lines 968--969
 [][]\TU/Sahel(0)/m/it/14.4 اگر شرایط بازگشت در تابع محیا نباشد همانطور که در بخ
 ش قبل گفتیم، سرریزی[]
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 970.
+Package mdframed Info: mdframed works in twoside mode on input line 971.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 [34]
-Overfull \hbox (18.84193pt too wide) in paragraph at lines 1001--1002
+Overfull \hbox (18.84193pt too wide) in paragraph at lines 1002--1003
 [][]\TU/Sahel(0)/m/it/14.4 میتوانید با علامت بعلاوه، حالتها را با هم ترکیب کنید
  مثلا [][][][][][][][][][][][][][][][]. []
  []
@@ -2278,7 +2289,7 @@ Overfull \hbox (18.84193pt too wide) in paragraph at lines 1001--1002
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 [35]
-Overfull \hbox (59.37563pt too wide) in paragraph at lines 1052--1053
+Overfull \hbox (59.37563pt too wide) in paragraph at lines 1053--1054
 [][]\TU/Sahel(0)/m/it/14.4 برای درست کردن یک فرزند از کلاس مستطیل، کافیست به صو
 رت [][][][][][][][][][][]
  []
@@ -2292,7 +2303,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (7.1944pt too wide) in paragraph at lines 1099--1100
+Overfull \hbox (7.1944pt too wide) in paragraph at lines 1100--1101
 []\TU/Sahel(0)/m/it/14.4 زبان []\TU/Calibri(0)/m/n/14.4 C++[] \TU/Sahel(0)/m/it
 /14.4 در اوایل دهه ی هشتاد توسط دکتر بی ‌یارنه استراستروپ، مهندس دانمارکی،[]
  []
@@ -2308,7 +2319,7 @@ ping=persiandigits;!
 LaTeX Font Info:    Font shape `TU/Calibri(0)/m/sl' in size <14.4> not availabl
 e
 (Font)              Font shape `TU/Calibri(0)/m/it' tried instead on input line
- 1139.
+ 1140.
 
 [39]
 File: ./images/HelloWorld.png Graphic file (type bmp)
@@ -2321,12 +2332,12 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [41]
-Package mdframed Info: mdframed works in twoside mode on input line 1204.
+Package mdframed Info: mdframed works in twoside mode on input line 1205.
  [42]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [43]
-Overfull \hbox (24.93344pt too wide) in paragraph at lines 1287--1288
+Overfull \hbox (24.93344pt too wide) in paragraph at lines 1288--1289
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
 
  []
@@ -2341,26 +2352,26 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [45]
-Overfull \hbox (2.31818pt too wide) in paragraph at lines 1376--1377
+Overfull \hbox (2.31818pt too wide) in paragraph at lines 1377--1378
 [][]\TU/Sahel(0)/m/it/14.4 while و for یک کار را انجام میدهند، فقط، اینگونه است
  که ابتدا \TU/Sahel(0)/bx/n/14.4 بازتکرارکننده[][][][][][][]
  []
 
 [46]
-Package mdframed Info: mdframed works in twoside mode on input line 1379.
+Package mdframed Info: mdframed works in twoside mode on input line 1380.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [47] [48]
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [49]
-Overfull \hbox (38.7576pt too wide) in paragraph at lines 1493--1494
+Overfull \hbox (38.7576pt too wide) in paragraph at lines 1494--1495
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 1513.
+Package mdframed Info: mdframed works in twoside mode on input line 1514.
 [50]
-Package mdframed Info: mdframed works in twoside mode on input line 1543.
+Package mdframed Info: mdframed works in twoside mode on input line 1544.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [51] [52]
@@ -2370,7 +2381,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (1.79749pt too wide) in paragraph at lines 1646--1647
+Overfull \hbox (1.79749pt too wide) in paragraph at lines 1647--1648
 []\TU/Sahel(0)/bx/n/14.4 سیستمهای کنترل نسخه[][][][][][] \TU/Sahel(0)/m/it/14.4
  سیستمهایی هستند که با استفاده از آنها میتوانید کدهای[]
  []
@@ -2386,13 +2397,13 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (7.22914pt too wide) in paragraph at lines 1667--1668
+Overfull \hbox (7.22914pt too wide) in paragraph at lines 1668--1669
 []\TU/Sahel(0)/m/it/14.4 درینست که، \TU/Sahel(0)/bx/n/14.4 آسیلیتور[][][][][][]
  \TU/Sahel(0)/m/it/14.4 مانیتور، از \TU/Sahel(0)/bx/n/14.4 آرایه ی ویدئوگرافیکی
 [][][][][][] \TU/Sahel(0)/m/it/14.4 دستور میگیرد، اما آسیلیتور[]
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 1671.
+Package mdframed Info: mdframed works in twoside mode on input line 1672.
 [57]
 File: ./images/CRT.jpg Graphic file (type bmp)
 <./images/CRT.jpg>
@@ -2404,8 +2415,8 @@ ping=persiandigits;!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-Package mdframed Info: mdframed works in twoside mode on input line 1691.
-Package mdframed Info: mdframed works in twoside mode on input line 1695.
+Package mdframed Info: mdframed works in twoside mode on input line 1692.
+Package mdframed Info: mdframed works in twoside mode on input line 1696.
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
@@ -2419,7 +2430,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 LaTeX Font Info:    Font shape `TU/Digital-7(0)/m/n' will be
-(Font)              scaled to size 17.27994pt on input line 1711.
+(Font)              scaled to size 17.27994pt on input line 1712.
  [60]
 File: ./images/Polar_Without.png Graphic file (type bmp)
 <./images/Polar_Without.png>
@@ -2445,7 +2456,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [62]
-Overfull \hbox (2.94183pt too wide) in paragraph at lines 1758--1759
+Overfull \hbox (2.94183pt too wide) in paragraph at lines 1759--1760
 []\TU/Sahel(0)/m/it/14.4 میگویند، امواج الکترومغناطیسی که توسط \TU/Sahel(0)/bx/
 n/14.4 آنتن[][][][][][] \TU/Sahel(0)/m/it/14.4 دریافت میشود را تبدیل به پیکسل[]
 
@@ -2459,7 +2470,7 @@ File: ./images/RasterScan.png Graphic file (type bmp)
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (3.00998pt too wide) in paragraph at lines 1772--1773
+Overfull \hbox (3.00998pt too wide) in paragraph at lines 1773--1774
 []\TU/Sahel(0)/m/it/14.4 عرض تصویر است، رستر میگوییم. و همچنین گفتیم این پیکسها
 ، به صورت زیگزاگی،[]
  []
@@ -2468,7 +2479,7 @@ Overfull \hbox (3.00998pt too wide) in paragraph at lines 1772--1773
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 
-Overfull \hbox (2.76704pt too wide) in paragraph at lines 1776--1777
+Overfull \hbox (2.76704pt too wide) in paragraph at lines 1777--1778
 [][]\TU/Sahel(0)/m/it/14.4 مثلا، نرم افزار []\TU/Calibri(0)/m/n/14.4 Adobe Illu
 strator[]\TU/Sahel(0)/m/it/14.4 ، یا آلتیرنیتو مجانی آن، []\TU/Calibri(0)/bx/n/
 14.4 Ink Escape[] \TU/Sahel(0)/m/it/14.4 — فرمولهایی[]
@@ -2486,7 +2497,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
  [65]
-Overfull \hbox (3.45296pt too wide) in paragraph at lines 1789--1790
+Overfull \hbox (3.45296pt too wide) in paragraph at lines 1790--1791
 [][]\TU/Sahel(0)/m/it/14.4 اما میتوان سرنوشت یک پیکسل را مستقیما به دست گرفت. ب
 رای اینکار کافیست[]
  []
@@ -2494,7 +2505,7 @@ Overfull \hbox (3.45296pt too wide) in paragraph at lines 1789--1790
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 
-Overfull \hbox (24.22795pt too wide) in paragraph at lines 1802--1803
+Overfull \hbox (24.22795pt too wide) in paragraph at lines 1803--1804
 []\TU/Sahel(0)/m/it/14.4 کامپیوترهای امروزی همگی از کامپیوترهای \TU/Sahel(0)/bx
 /n/14.4 IBM/۲ \TU/Sahel(0)/m/it/14.4 نشئت میگیرند. و اینگونه کامپیوترها،[]
  []
@@ -2503,7 +2514,7 @@ Overfull \hbox (24.22795pt too wide) in paragraph at lines 1802--1803
 File: ./images/Shaders.png Graphic file (type bmp)
 <./images/Shaders.png>
 
-Overfull \hbox (0.9989pt too wide) in paragraph at lines 1813--1814
+Overfull \hbox (0.9989pt too wide) in paragraph at lines 1814--1815
  [][][][][][] 
  []
 
@@ -2520,7 +2531,7 @@ Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;ma
 ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
-Package mdframed Info: mdframed works in twoside mode on input line 1829.
+Package mdframed Info: mdframed works in twoside mode on input line 1830.
  [68]
 File: ./images/Pipeline.png Graphic file (type bmp)
 <./images/Pipeline.png>
@@ -2539,7 +2550,7 @@ T;mapping=persiandigits;!
 File: ./images/5200.jpg Graphic file (type bmp)
 <./images/5200.jpg>
 
-Overfull \hbox (10.90358pt too wide) in paragraph at lines 1859--1860
+Overfull \hbox (10.90358pt too wide) in paragraph at lines 1860--1861
  [][][][][][] 
  []
 
@@ -2571,7 +2582,7 @@ ping=persiandigits;!
 [71] [72
 
 ]
-Package mdframed Info: mdframed works in twoside mode on input line 1892.
+Package mdframed Info: mdframed works in twoside mode on input line 1893.
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
 File: ./images/GreekColor.png Graphic file (type bmp)
@@ -2601,7 +2612,7 @@ ping=persiandigits;!
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 
-Overfull \hbox (3.7928pt too wide) in paragraph at lines 1927--1928
+Overfull \hbox (3.7928pt too wide) in paragraph at lines 1928--1929
 []\TU/Sahel(0)/m/it/14.4 امروزی، این سه رنگ، قرمز، سبز، و آبی میباشد. از زمان خ
 روجی آرائه ی ویدئوگرافیکی[]
  []
@@ -2643,18 +2654,51 @@ ping=persiandigits;!
  [78]
 Missing character: There is no ‏ in font Sahel Bold/OT:script=arab;language=DFL
 T;mapping=persiandigits;!
-Package mdframed Info: mdframed works in twoside mode on input line 2040.
+Package mdframed Info: mdframed works in twoside mode on input line 2041.
 
 
 Package mdframed Warning: You got a bad break
 (mdframed)                because the last box will be empty
 (mdframed)                you have to change it manually
 (mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 2041.
+(mdframed)                or something else on input line 2042.
 
 Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
 ping=persiandigits;!
 [79] [80]
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+ [81]
+File: ./images/DDAline.png Graphic file (type bmp)
+<./images/DDAline.png>
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+File: ./images/JEB.jpg Graphic file (type bmp)
+<./images/JEB.jpg>
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+ [82]
+Overfull \hbox (21.46898pt too wide) in paragraph at lines 2151--2152
+[][]\TU/Sahel(0)/m/it/14.4 به ازای هر پیکسلی که بین را ماست، باید تصمیم بگیریم 
+که به سمت $[]$[]
+ []
+
+File: ./images/B_Line.png Graphic file (type bmp)
+<./images/B_Line.png>
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+[83] [84]
+Missing character: There is no ‏ in font Sahel/OT:script=arab;language=DFLT;map
+ping=persiandigits;!
+ [85] [86]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -2664,11 +2708,11 @@ Package catoptions Warning: Undefined options
 \tf@toc=\write7
 \openout7 = `book.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2078.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2078.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2211.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2211.
 (book.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2078.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2078.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2211.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2211.
 
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: A696557123F10E933291384F38FF9EFE.
@@ -2678,12 +2722,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 42884 strings out of 427796
- 796631 string characters out of 3151768
- 1019114 words of memory out of 3000000
- 46219 multiletter control sequences out of 15000+200000
+ 43228 strings out of 427796
+ 802473 string characters out of 3151768
+ 1030355 words of memory out of 3000000
+ 46554 multiletter control sequences out of 15000+200000
  548912 words of font info for 130 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 73i,13n,84p,1231b,1777s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 73i,13n,84p,1231b,1779s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on book.pdf (90 pages).
+Output written on book.pdf (96 pages).
